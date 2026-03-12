@@ -452,24 +452,8 @@ EXCEPTION
 END $$`, typeName, enumValues)
 	})
 
-	// Make ALTER TABLE ADD CONSTRAINT idempotent
-	// Wrap in DO block with exception handling
-	// Use WHEN OTHERS to catch all error types (duplicate_object, index already associated, etc.)
-	addConstraintPattern := regexp.MustCompile(`(?i)alter\s+table\s+(?:only\s+)?(["']?[^"'\s]+["']?)\s+add\s+constraint\s+(["']?[^"'\s]+["']?)\s+(.+?);`)
-	cleaned = addConstraintPattern.ReplaceAllStringFunc(cleaned, func(match string) string {
-		matches := addConstraintPattern.FindStringSubmatch(match)
-		if len(matches) < 4 {
-			return match
-		}
-		tableName := matches[1]
-		constraintName := matches[2]
-		constraintDef := strings.TrimSuffix(matches[3], ";")
-		return fmt.Sprintf(`DO $$ BEGIN
-    ALTER TABLE %s ADD CONSTRAINT %s %s;
-EXCEPTION
-    WHEN OTHERS THEN null;
-END $$`, tableName, constraintName, constraintDef)
-	})
+	// Keep ALTER TABLE ADD CONSTRAINT statements unchanged.
+// The previous DO $$ wrapper caused migration execution issues.
 
 	log.Debugf("[Migrations] SQL cleaning: Applied idempotency transformations")
 

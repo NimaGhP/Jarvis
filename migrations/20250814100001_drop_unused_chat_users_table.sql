@@ -74,24 +74,7 @@ BEGIN
     END IF;
 END $$;
 
--- =====================================================
--- Step 3: Drop all indexes on chat_users table
--- =====================================================
-DO $$
-DECLARE
-    index_record RECORD;
-BEGIN
-    -- Drop all indexes on chat_users table
-    FOR index_record IN
-        SELECT indexname
-        FROM pg_indexes
-        WHERE tablename = 'chat_users'
-        AND schemaname = 'public'
-    LOOP
-        EXECUTE 'DROP INDEX IF EXISTS ' || index_record.indexname;
-        RAISE NOTICE 'Dropped index: %', index_record.indexname;
-    END LOOP;
-END $$;
+
 
 -- =====================================================
 -- Step 4: Drop the chat_users table
