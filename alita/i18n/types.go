@@ -74,7 +74,7 @@ func DefaultManagerConfig() ManagerConfig {
 			InvalidateOnError: false,
 		},
 		Loader: LoaderConfig{
-			DefaultLanguage: "en",
+			DefaultLanguage: "fa",
 			ValidateYAML:    true,
 			StrictMode:      false,
 		},
