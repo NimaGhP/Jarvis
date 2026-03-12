@@ -51,7 +51,8 @@ services:
       TELEGRAM_API_HASH: ${TELEGRAM_API_HASH}
     volumes:
       - telegram-bot-api-data:/var/lib/telegram-bot-api
-    # no ports published; internal use
+    ports:
+      - "8081:8081"
 
 volumes:
   postgres_debug_data:
