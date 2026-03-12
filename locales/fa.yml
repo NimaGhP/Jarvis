@@ -36,423 +36,411 @@ admin_help_msg: "با ماژول مدیریت ادمین، ارتقا و تنز�
   × /demote `<reply/username/mention/userid>`: تنزل کاربر.
 
   × /title `<reply/username/mention/userid>` `<custom title>`: تنظیم عنوان سفارشی برای کاربر"
-admin_promote_admin_title_truncated: Admin title truncated to 16 characters from %d
-admin_promote_is_admin: This person is already an admin, and how am I supposed
-  to promote them?
-admin_promote_is_bot_itself: If only I could do this to myself ;_;
-admin_promote_is_owner: This person created this chat, and how am I supposed
-  to promote them?
-admin_promote_success_promote: Successfully promoted %s!
+admin_promote_admin_title_truncated: عنوان ادمین از %d کاراکتر به 16 کاراکتر کوتاه شد
+admin_promote_is_admin: این شخص از قبل ادمین است؛ چطور باید دوباره او را ارتقا بدهم؟
+admin_promote_is_bot_itself: کاش می‌توانستم این کار را روی خودم انجام بدهم ;_;
+admin_promote_is_owner: این شخص سازنده این چت است؛ چطور باید او را ارتقا بدهم؟
+admin_promote_success_promote: %s با موفقیت ارتقا داده شد!
 admin_title_is_admin:
-  This person is already an admin, how can I set a custom admin
-  title for them?
-admin_title_is_bot_itself: If only I could do this to myself ;_;
-admin_title_is_owner: This person created this chat, and how am I supposed to
-  set an admin title for them?
-admin_title_success_set: Successfully set %s's admin title to <b>%s</b>
-admin_title_truncated: "\nNote: Admin title truncated to 16 characters from %d"
-admin_cache_cleared: Successfully cleared admin cache.
-admin_no_visible_admins: "\nNo visible admins (all are bots or anonymous)."
-admin_anon_admin_db_error: Failed to update anonymous admin setting. Please try again.
+  این شخص از قبل ادمین است؛ چطور باید برای او عنوان
+  سفارشی ادمین تنظیم کنم؟
+admin_title_is_bot_itself: کاش می‌توانستم این کار را روی خودم انجام بدهم ;_;
+admin_title_is_owner: این شخص سازنده این چت است؛ چطور باید برای او عنوان ادمین تنظیم کنم؟
+admin_title_success_set: عنوان ادمینی %s با موفقیت روی <b>%s</b> تنظیم شد
+admin_title_truncated: "\nنکته: عنوان ادمین از %d کاراکتر به 16 کاراکتر کوتاه شد"
+admin_cache_cleared: کش ادمین‌ها با موفقیت پاک شد.
+admin_no_visible_admins: "\nادمین قابل مشاهده‌ای وجود ندارد (همه ربات یا ناشناس هستند)."
+admin_anon_admin_db_error: به‌روزرسانی تنظیم ادمین ناشناس انجام نشد. لطفاً دوباره تلاش کنید.
 antiflood_checkflood_perform_action:
-  Yeah, I don't like your flooding. %s has been
-  %s!
+  آره، من از اسپم‌کردن خوشم نمیاد. %s
+  %s شد!
 antiflood_errors_expected_args:
-  "I expected some arguments! Either off, or an integer.
-  eg: `/setflood 5`, or `/setflood off`"
+  "انتظار داشتم آرگومان بدی! یا `off`، یا یک عدد صحیح.
+  مثال: `/setflood 5` یا `/setflood off`"
 antiflood_errors_invalid_int:
-  That's not a valid integer. Please give me a valid integer,
-  or `off`.
-antiflood_errors_set_in_limit: The antiflood limit has to be set between 3 and 100.
+  این عدد معتبر نیست. لطفاً یک عدد صحیح معتبر بده،
+  یا `off`.
+antiflood_errors_set_in_limit: حد آنتی‌فلود باید بین 3 تا 100 تنظیم شود.
 antiflood_flood_deleter_already_disabled:
-  Antiflood Message deleting is currently
-  *disabled* in this chat, Messages causing antiflood will be ignored!
+  حذف پیام‌های آنتی‌فلود در حال حاضر
+  در این چت *غیرفعال* است؛ پیام‌های فلود نادیده گرفته می‌شوند!
 antiflood_flood_deleter_already_enabled:
-  Antiflood Message deleting is currently *enabled*
-  in this chat, Messages causing antiflood will be deleted!
+  حذف پیام‌های آنتی‌فلود در حال حاضر *فعال*
+  است؛ پیام‌های فلود حذف خواهند شد!
 antiflood_flood_deleter_disabled:
-  Turned off Antiflood Message Deleting. Messages
-  causing antiflood will be ignored!
+  حذف پیام‌های آنتی‌فلود خاموش شد. پیام‌هایی که باعث
+  فلود شوند نادیده گرفته می‌شوند!
 antiflood_flood_deleter_enabled:
-  Turned on Antiflood Message Deleting. Messages causing
-  antiflood will be deleted!
-antiflood_flood_deleter_invalid_option: "I only understand an option from: `yes`/`no`/`on`/`off`"
-antiflood_flood_disabled: This chat is not currently enforcing flood control.
+  حذف پیام‌های آنتی‌فلود روشن شد. پیام‌هایی که باعث
+  فلود شوند حذف خواهند شد!
+antiflood_flood_deleter_invalid_option: "فقط این گزینه‌ها را می‌فهمم: `yes`/`no`/`on`/`off`"
+antiflood_flood_disabled: کنترل فلود در این چت در حال حاضر فعال نیست.
 antiflood_flood_show_settings:
-  This chat is currently enforcing flood control after
-  %d messages. Any users sending more than that amount of messages will be %s.
+  کنترل فلود در این چت بعد از
+  %d پیام اعمال می‌شود. کاربری که بیشتر از این مقدار پیام بفرستد %s خواهد شد.
 antiflood_help_msg:
-  "You know how sometimes, people join, send 100 messages, and ruin
-  your chat? With antiflood, that happens no more!
+  "می‌دونی بعضی وقت‌ها بعضیا میان تو گروه، 100 تا پیام می‌فرستن و چت رو خراب می‌کنن؟
+  با آنتی‌فلود دیگه این اتفاق نمی‌افته!
 
 
-  Antiflood allows you to take action on users that send more than x messages in a
-  row. Actions are: ban/kick/mute
+  آنتی‌فلود بهت اجازه می‌ده روی کاربرانی که پشت‌سرهم بیشتر از x پیام می‌فرستن اقدام کنی.
+  اقدام‌ها: ban/kick/mute
 
 
-  *Admin commands*:
+  *دستورات ادمین‌ها*:
 
-  × /flood: Get the current antiflood settings.
+  × /flood: نمایش تنظیمات فعلی آنتی‌فلود.
 
-  × /setflood `<number/off/no>`: Set the number of messages after which to take action
-  on a user. Set to '0', 'off', or 'no' to disable.
+  × /setflood `<number/off/no>`: تعداد پیام‌هایی که بعد از آن روی کاربر اقدام شود را تنظیم می‌کند.
+  برای غیرفعال‌سازی از '0'، 'off' یا 'no' استفاده کن.
 
-  × /setfloodmode `<action type>`: Choose which action to take on a user who has been
-  flooding. Options: ban/kick/mute
+  × /setfloodmode `<action type>`: نوع اقدام روی کاربر فلودکننده را مشخص می‌کند.
+  گزینه‌ها: ban/kick/mute
 
-  × /delflood `<yes/no/on/off>`: If you want bot to delete messages flooded by user."
-antiflood_setflood_disabled: "Okay.
+  × /delflood `<yes/no/on/off>`: اگر می‌خواهی ربات پیام‌های فلود را حذف کند."
+antiflood_setflood_disabled: "باشه.
 
-  I won't warn users for flooding."
-antiflood_setflood_success: Flood Limit has been set to <b>%d</b> messages.
+  دیگر بابت فلود به کاربران هشدار نمی‌دهم."
+antiflood_setflood_success: حد فلود روی <b>%d</b> پیام تنظیم شد.
 antiflood_setfloodmode_specify_action:
-  "You need to specify an action to take upon
-  flooding. Current modes are: `ban`/`kick`/`mute`"
-antiflood_setfloodmode_success: Flood mode has been set to %s.
-antiflood_setfloodmode_unknown_type: "Unknown type '%s'. Please use one of: ban/kick/mute"
-bans_ban_ban_reason: <b>Reason:</b> %s
-bans_ban_dban_no_reply: You need to reply to a message to delete it and ban the user!
-bans_ban_is_admin: Why would I ban an admin? That sounds like a pretty dumb idea.
-bans_ban_is_bot_itself: Do you really think I will ban myself?
-bans_ban_normal_ban: "Another one bites the dust...!
+  "باید مشخص کنی هنگام فلود چه اقدامی انجام شود.
+  حالت‌های فعلی: `ban`/`kick`/`mute`"
+antiflood_setfloodmode_success: حالت فلود روی %s تنظیم شد.
+antiflood_setfloodmode_unknown_type: "نوع '%s' ناشناخته است. لطفاً یکی از این‌ها را استفاده کن: ban/kick/mute"
+bans_ban_ban_reason: <b>دلیل:</b> %s
+bans_ban_dban_no_reply: باید روی یک پیام ریپلای کنی تا آن را حذف کنم و کاربر را بن کنم!
+bans_ban_is_admin: چرا باید یک ادمین را بن کنم؟ ایده خیلی عجیبیه.
+bans_ban_is_bot_itself: واقعاً فکر می‌کنی خودم را بن می‌کنم؟
+bans_ban_normal_ban: "یکی دیگه هم رفت...!
 
-  Banned %s."
-bans_ban_tban: Banned %s for %s
+  %s بن شد."
+bans_ban_tban: %s برای %s بن شد
 bans_help_msg:
-  "Sometimes users can be annoying and you might want to remove them
-  from your chat, this module exactly helps you to deal with that!.
+  "گاهی بعضی کاربران آزاردهنده می‌شوند و می‌خواهی آن‌ها را از چت حذف کنی؛
+  این ماژول دقیقاً برای همین ساخته شده است.
 
-  Ban/kick users from your chat, and unban them later on if they're behaving themselves.
-
-
-  *User Commands:*
-
-  × /kickme: kicks the user who issued the command.
+  می‌توانی کاربران را بن/کیک کنی و اگر بعداً رفتارشان بهتر شد آن‌بن‌شان کنی.
 
 
-  *Ban Commands* (Admin only):
+  *دستورات کاربران:*
 
-  × /ban <userhandle>: bans a user. (via handle, or reply)
-
-  × /sban <userhandle>: bans a user silently, does not send message to group and also
-  deletes your command. (via handle, or reply)
-
-  × /dban <userhandle>: bans a user and delete the replied message. (via handle, or
-  reply)
-
-  × /tban <userhandle> x(m/h/d): bans a user for `x` time. (via handle, or reply).
-  m = minutes, h = hours, d = days.
-
-  × /unban <userhandle>: unbans a user. (via handle, or reply)
+  × /kickme: کاربری که دستور را زده کیک می‌شود.
 
 
-  *Restrict Commands:* (Admin only)
+  *دستورات بن* (فقط ادمین):
 
-  × /restrict: Shows an InlineKeyboard to choose options from kick, ban and mute
+  × /ban <userhandle>: کاربر را بن می‌کند (با هندل یا ریپلای).
 
-  × /unrestrict: Shows an InlineKeyboard to choose options from unmute and unban."
+  × /sban <userhandle>: کاربر را بی‌صدا بن می‌کند؛ پیامی در گروه نمی‌فرستد و دستور شما را هم حذف می‌کند (با هندل یا ریپلای).
+
+  × /dban <userhandle>: کاربر را بن می‌کند و پیام ریپلای‌شده را حذف می‌کند (با هندل یا ریپلای).
+
+  × /tban <userhandle> x(m/h/d): کاربر را برای مدت `x` بن می‌کند (با هندل یا ریپلای).
+  m = دقیقه، h = ساعت، d = روز.
+
+  × /unban <userhandle>: کاربر را آن‌بن می‌کند (با هندل یا ریپلای).
+
+
+  *دستورات محدودسازی:* (فقط ادمین)
+
+  × /restrict: یک کیبورد شیشه‌ای برای انتخاب kick/ban/mute نشان می‌دهد.
+
+  × /unrestrict: یک کیبورد شیشه‌ای برای انتخاب unmute/unban نشان می‌دهد."
 bans_kick_cannot_kick_admin:
-  Why would I kick an admin? That sounds like a pretty
-  dumb idea.
-bans_kick_is_bot_itself: Why would I kick myself?
-bans_kick_kicked_reason: <b>Reason:</b> %s
-bans_kick_kicked_user: Successfully Kicked %s.
+  چرا باید یک ادمین را کیک کنم؟ این کار خیلی
+  عجیب است.
+bans_kick_is_bot_itself: چرا باید خودم را کیک کنم؟
+bans_kick_kicked_reason: <b>دلیل:</b> %s
+bans_kick_kicked_user: %s با موفقیت کیک شد.
 bans_kick_user_not_in_chat:
-  This user is not in this chat, and how am I supposed to
-  restrict them?
-bans_kickme_is_admin: You are an admin, and you are stuck here with everyone else!
-bans_kickme_ok_out: As per your wish, Get out!
-bans_unban_is_admin: Why would I unban an admin?
-bans_unban_is_bot_itself: Why would I un-restrict myself when I'm already here?
-bans_unban_unbanned_user: "Let's give him another chance.
+  این کاربر در این چت نیست؛ چطور باید او را
+  محدود کنم؟
+bans_kickme_is_admin: تو ادمین هستی و باید همین‌جا کنار بقیه بمانی!
+bans_kickme_ok_out: طبق خواسته‌ات، برو بیرون!
+bans_unban_is_admin: چرا باید یک ادمین را آن‌بن کنم؟
+bans_unban_is_bot_itself: وقتی همین‌جا هستم چرا باید محدودیت خودم را بردارم؟
+bans_unban_unbanned_user: "یک شانس دیگه بهش می‌دیم.
 
-  Unbanned %s!"
-blacklists_bl_watcher_banned_user: Banned %s due to %s
-blacklists_bl_watcher_kicked_user: Kicked %s due to %s
-blacklists_bl_watcher_muted_user: Muted %s due to %s
-blacklists_blacklist_added_bl: "Added these words as blacklists:"
-blacklists_blacklist_already_blacklisted: "These words are already blacklisted:"
-blacklists_blacklist_give_bl_word: Please give me a word to add to the blacklist!
-blacklists_blacklist_word_too_long: "These words are too long (max 100 characters): %s"
-blacklists_help_msg: "*User Commands:*
+  %s آن‌بن شد!"
+blacklists_bl_watcher_banned_user: %s به دلیل %s بن شد
+blacklists_bl_watcher_kicked_user: %s به دلیل %s کیک شد
+blacklists_bl_watcher_muted_user: %s به دلیل %s بی‌صدا شد
+blacklists_blacklist_added_bl: "این کلمات به بلک‌لیست اضافه شدند:"
+blacklists_blacklist_already_blacklisted: "این کلمات از قبل در بلک‌لیست هستند:"
+blacklists_blacklist_give_bl_word: لطفاً کلمه‌ای بده تا به بلک‌لیست اضافه کنم!
+blacklists_blacklist_word_too_long: "این کلمات خیلی طولانی هستند (حداکثر 100 کاراکتر): %s"
+blacklists_help_msg: "*دستورات کاربر:*
 
-  × /blacklists: Check all the blacklists in chat.
-
-
-  *Admin Commands:*
-
-  × /addblacklist `<trigger>`: Blacklists the word in the current chat.
-
-  × /rmblacklist `<trigger>`: Removes the word from current Blacklisted Words in Chat.
-
-  × /blaction `<mute/kick/ban/warn/none>`: Sets the action to be performed by bot
-  when a blacklist word is detected.
-
-  × /blacklistaction: Same as above
+  × /blacklists: همه کلمات بلک‌لیست این چت را نمایش می‌دهد.
 
 
-  *Owner Only:*
+  *دستورات ادمین:*
 
-  × /remallbl: Removes all the blacklisted words from chat
+  × /addblacklist `<trigger>`: کلمه را در چت فعلی بلک‌لیست می‌کند.
+
+  × /rmblacklist `<trigger>`: کلمه را از بلک‌لیست فعلی چت حذف می‌کند.
+
+  × /blaction `<mute/kick/ban/warn/none>`: اقدامی که ربات هنگام تشخیص کلمه بلک‌لیست انجام می‌دهد را تنظیم می‌کند.
+
+  × /blacklistaction: همان دستور بالا.
 
 
-  *Note:*
+  *فقط مالک:*
 
-  The Default mode for Blacklist is *none*, which will just delete the messages from
-  the chat."
-blacklists_ls_bl_list_bl: "These words are blacklisted in this chat:"
-blacklists_ls_bl_no_blacklisted: There are no blacklisted words in this chat.
+  × /remallbl: همه کلمات بلک‌لیست را از چت حذف می‌کند.
+
+
+  *نکته:*
+
+  حالت پیش‌فرض بلک‌لیست *none* است که فقط پیام را از چت حذف می‌کند."
+blacklists_ls_bl_list_bl: "این کلمات در این چت بلک‌لیست شده‌اند:"
+blacklists_ls_bl_no_blacklisted: در این چت هیچ کلمه‌ای در بلک‌لیست نیست.
 blacklists_rm_all_bl_ask:
-  Are you sure you want to remove all blacklisted words from
-  this chat?
+  مطمئنی می‌خواهی تمام کلمات بلک‌لیست را از
+  این چت حذف کنی؟
 blacklists_rm_all_bl_button_handler_no:
-  Canceled removing all Blacklists of this Chat
+  حذف همه بلک‌لیست‌های این چت لغو شد
   ❌
-blacklists_rm_all_bl_button_handler_yes: Removed all Blacklists from this Chat ✅
-blacklists_set_bl_action_changed_mode: "Successfully Changed blacklist mode to: *%s*"
-blacklists_set_bl_action_choose_correct_option: Please choose an option out of <mute/kick/ban/warn/none>
+blacklists_rm_all_bl_button_handler_yes: همه بلک‌لیست‌ها از این چت حذف شدند ✅
+blacklists_set_bl_action_changed_mode: "حالت بلک‌لیست با موفقیت به *%s* تغییر کرد"
+blacklists_set_bl_action_choose_correct_option: لطفاً یکی از گزینه‌های <mute/kick/ban/warn/none> را انتخاب کن
 blacklists_set_bl_action_current_mode:
-  "The current blacklist mode for this chat is:
+  "حالت فعلی بلک‌لیست برای این چت:
   %s"
-blacklists_unblacklist_give_bl_word: Please give me a word to remove it from the blacklist!
+blacklists_unblacklist_give_bl_word: لطفاً کلمه‌ای بده تا از بلک‌لیست حذفش کنم!
 blacklists_unblacklist_no_removed_bl:
-  None of the given words were on the blacklist
-  which can be removed!
+  هیچ‌کدام از کلمات داده‌شده در بلک‌لیست نبودند
+  که بشه حذفشان کرد!
 blacklists_unblacklist_removed_bl:
-  Successfully removed '%s' from the blacklisted
-  words!
+  '%s' با موفقیت از کلمات
+  بلک‌لیست حذف شد!
 captcha_help_msg:
-  "Protect your group from bots and spammers with CAPTCHA verification!
+  "با تایید کپچا، گروهت را از ربات‌ها و اسپمرها محافظت کن!
 
 
-  Force new members to prove they're human by solving a simple challenge before they
-  can send messages.
+  اعضای جدید باید قبل از ارسال پیام با حل یک چالش ساده ثابت کنند انسان هستند.
 
 
-  *Captcha Types:*
+  *انواع کپچا:*
 
-  × Math: Solve simple arithmetic problems
+  × Math: حل مسائل ساده ریاضی
 
-  × Text: Identify text shown in an image
-
-
-  *Admin Commands:*
-
-  × /captcha `<on/off>`: Enable or disable captcha verification
-
-  × /captchamode `<math/text>`: Set captcha type (math problems or text recognition)
-
-  × /captchatime `<1-10>`: Set timeout in minutes (default: 2)
-
-  × /captchaaction `<kick/ban/mute>`: Set action for failed verification (default:
-  kick)
-
-  × /captchaattempts `<1-10>`: Set maximum verification attempts (default: 3)
+  × Text: تشخیص متن داخل تصویر
 
 
-  When enabled, new members are automatically muted until they complete the captcha.
+  *دستورات ادمین:*
 
-  If they fail or timeout, the configured action is taken."
-commonstrings_admin_cache_cache_reloaded: Successfully reloaded admin cache.
+  × /captcha `<on/off>`: فعال یا غیرفعال کردن تایید کپچا
+
+  × /captchamode `<math/text>`: تنظیم نوع کپچا (ریاضی یا تشخیص متن)
+
+  × /captchatime `<1-10>`: تنظیم زمان انتظار بر حسب دقیقه (پیش‌فرض: 2)
+
+  × /captchaaction `<kick/ban/mute>`: تنظیم اقدام در صورت شکست تایید (پیش‌فرض:
+  کیک)
+
+  × /captchaattempts `<1-10>`: تنظیم حداکثر تعداد تلاش تایید (پیش‌فرض: 3)
+
+
+  وقتی فعال باشد، اعضای جدید تا تکمیل کپچا به‌صورت خودکار بی‌صدا می‌شوند.
+
+  اگر شکست بخورند یا زمانشان تمام شود، اقدام تنظیم‌شده اعمال می‌شود."
+commonstrings_admin_cache_cache_reloaded: کش ادمین‌ها با موفقیت دوباره بارگذاری شد.
 commonstrings_admin_cache_not_found:
-  Admincache not found. Ask an admin to use /admincache
-  to reload the admin cache.
+  کش ادمین پیدا نشد. از یک ادمین بخواهید با /admincache
+  کش ادمین‌ها را دوباره بارگذاری کند.
 connections_allow_connect_currently_off:
-  "User connections are currently turned <b>off</b>.
+  "اتصال کاربران در حال حاضر <b>خاموش</b> است.
 
-  Users can't connect this chat to their PMs!"
+  کاربران نمی‌توانند این چت را به پیام خصوصی خود وصل کنند!"
 connections_allow_connect_currently_on:
-  "User connections are currently turned <b>on</b>.
+  "اتصال کاربران در حال حاضر <b>روشن</b> است.
 
-  Users can connect this chat to their PMs!"
+  کاربران می‌توانند این چت را به پیام خصوصی خود وصل کنند!"
 connections_allow_connect_turned_off:
-  "Turned <b>off</b> User connections to this
-  chat!
+  "اتصال کاربران به این چت
+  <b>خاموش</b> شد!
 
-  Users can't connect chat to their PM's!"
+  کاربران نمی‌توانند چت را به پیام خصوصی‌شان وصل کنند!"
 connections_allow_connect_turned_on:
-  "Turned <b>on</b> User connections to this chat!
+  "اتصال کاربران به این چت
+  <b>روشن</b> شد!
 
-  Users can now connect chat to their PMs!"
-connections_connect_connected: You are now connected to <b>%s</b>!
+  کاربران اکنون می‌توانند چت را به پیام خصوصی‌شان وصل کنند!"
+connections_connect_connected: اکنون به <b>%s</b> متصل شدی!
 connections_connect_connection_disabled:
-  "User connections are currently <b>disabled</b>
-  to this chat.
+  "اتصال کاربران به این چت در حال حاضر <b>غیرفعال</b>
+  است.
 
-  Please ask admins to allow if you want to connect!"
+  اگر می‌خواهی وصل شوی، از ادمین‌ها بخواه آن را فعال کنند!"
 connections_connect_tap_btn_connect:
-  Please press the button below to connect this
-  chat to your PM.
-connections_connected: You are currently connected to <b>%s</b>!
-connections_connections_btns_admin_conn_cmds: Available Admin commands:%s
-connections_connections_btns_user_conn_cmds: Available User commands:%s
+  لطفاً برای اتصال این
+  چت به پیام خصوصی‌ات روی دکمه زیر بزن.
+connections_connected: در حال حاضر به <b>%s</b> متصل هستی!
+connections_connections_btns_admin_conn_cmds: دستورات ادمین‌های در دسترس:%s
+connections_connections_btns_user_conn_cmds: دستورات کاربرهای در دسترس:%s
 connections_disconnect_disconnected:
-  Successfully disconnected from the connected
-  chat.
+  اتصال از چت متصل‌شده با موفقیت
+  قطع شد.
 connections_disconnect_need_pm:
-  You need to send this in PM to me to disconnect from
-  the chat!
+  برای قطع اتصال از چت باید این را در پیام خصوصی
+  برای من بفرستی!
 connections_help_msg:
-  "This module allows you to connect to a chat's database, and
-  add things to it without the chat knowing about it! For obvious reasons, you need
-  to be an admin to add things; but any member can view your data. (banned/kicked
-  users can't!)
+  "این ماژول اجازه می‌دهد به دیتابیس یک چت وصل شوی و بدون اینکه گروه متوجه شود،
+  مواردی را به آن اضافه کنی! واضح است که برای اضافه‌کردن موارد باید ادمین باشی؛
+  اما هر عضو می‌تواند داده‌هایش را ببیند (کاربران بن/کیک‌شده نمی‌توانند!).
 
 
-  *Commands*:
+  *دستورات*:
 
-  × /connect `<chatid>`: Connect to the specified chat, allowing you to view/edit
-  contents.
+  × /connect `<chatid>`: به چت مشخص‌شده وصل می‌شود و امکان مشاهده/ویرایش محتوا را می‌دهد.
 
-  × /disconnect: Disconnect from the current chat.
+  × /disconnect: اتصال را از چت فعلی قطع می‌کند.
 
-  × /reconnect: Reconnect to the previously connect chat
+  × /reconnect: به چت متصل قبلی دوباره وصل می‌شود.
 
-  × /connection: See information about the currently connected chat.
-
-
-  *Admin Commands:*
-
-  × /allowconnect <yes/no>: Allow users to connect to chats or not.
+  × /connection: اطلاعات چتی که الان به آن وصل هستی را نشان می‌دهد.
 
 
-  You can retrieve the chat id by using the /id command in your chat. Don't be surprised
-  if the id is negative; all super groups have negative ids."
-connections_is_user_connected_bot_not_admin: I'm not an admin in this chat!
+  *دستورات ادمین:*
+
+  × /allowconnect <yes/no>: مشخص می‌کند کاربران بتوانند به چت وصل شوند یا نه.
+
+
+  می‌توانی شناسه چت را با دستور /id در چت بگیری. اگر شناسه منفی بود تعجب نکن؛
+  همه سوپرگروه‌ها شناسه منفی دارند."
+connections_is_user_connected_bot_not_admin: من در این چت ادمین نیستم!
 connections_is_user_connected_need_group:
-  This command is made to be used in group
-  chats, not in PM!
-connections_is_user_connected_user_not_admin: You need to be an admin to do this.
-connections_not_connected: You aren't connected to any chats.
-connections_stale_connection: "Your connection is stale - I can no longer access this chat. Please use /connect to reconnect to a valid chat."
-connections_reconnect_need_pm: You need to be in a PM with me to reconnect to a chat!
-connections_reconnect_no_last_chat: You have no last chat to reconnect!
-connections_reconnect_reconnected: You are now reconnected to <b>%s</b>!!
+  این دستور برای استفاده در چت‌های
+  گروهی ساخته شده، نه پیام خصوصی!
+connections_is_user_connected_user_not_admin: برای انجام این کار باید ادمین باشی.
+connections_not_connected: به هیچ چتی متصل نیستی.
+connections_stale_connection: "اتصال شما منقضی شده است - دیگر به این چت دسترسی ندارم. لطفاً برای اتصال مجدد به یک چت معتبر از /connect استفاده کنید."
+connections_reconnect_need_pm: برای اتصال مجدد به چت باید در پیام خصوصی با من باشید!
+connections_reconnect_no_last_chat: چت قبلی برای اتصال مجدد ندارید!
+connections_reconnect_reconnected: اکنون دوباره به <b>%s</b> متصل شدی!!
 disabling_help_msg:
-  "This module allows you to disable some commonly used commands,
-  So, no one can use them. It'll also allow you to autodelete them, stopping people
-  from blue texting.
+  "این ماژول بهت اجازه می‌دهد بعضی دستورهای پرکاربرد را غیرفعال کنی
+  تا کسی نتواند از آن‌ها استفاده کند. همچنین می‌تواند آن‌ها را خودکار حذف کند تا
+  پیام‌های دستور آبی در چت کمتر شود.
 
 
-  *Admin commands*:
+  *دستورات ادمین:*
 
-  × /disable `<commandname>`: Stop users from using commandname in this group.
+  × /disable `<commandname>`: استفاده از یک دستور را برای کاربران در این گروه غیرفعال می‌کند.
 
-  × /enable `<item name>`: Allow users from using commandname in this group.
+  × /enable `<item name>`: استفاده از دستور غیرفعال‌شده را دوباره فعال می‌کند.
 
-  × /disableable: List all disableable commands.
+  × /disableable: لیست همه دستورهای قابل‌غیرفعال‌سازی را نشان می‌دهد.
 
-  × /disabledel `<yes/no/on/off>`: Delete disabled commands when used by non-admins.
+  × /disabledel `<yes/no/on/off>`: دستورهای غیرفعال را هنگام استفاده توسط غیرادمین حذف می‌کند.
 
-  × /disabled: List the disabled commands in this chat.
+  × /disabled: لیست دستورهای غیرفعال این چت را نشان می‌دهد.
 
 
-  Note:
+  نکته:
 
-  When disabling a command, the command only gets disabled for non-admins. All admins
-  can still use those commands.
+  وقتی یک دستور غیرفعال می‌شود، فقط برای غیرادمین‌ها غیرفعال است.
+  همه ادمین‌ها همچنان می‌توانند از آن دستور استفاده کنند.
 
-  Disabled commands are still accessible through the /connect feature. If you would
-  be interested to see this disabled too, let me know in the support chat."
+  دستورهای غیرفعال همچنان از طریق قابلیت /connect قابل‌دسترس هستند.
+  اگر می‌خواهی این مورد هم محدود شود، در چت پشتیبانی اطلاع بده."
 filters_help_msg:
-  "Filters are case insensitive; every time someone says your trigger
-  words, Alita will reply something else! This can be used to create your commands,
-  if desired.
+  "فیلترها به حروف بزرگ/کوچک حساس نیستند؛ هر بار کسی کلمات محرک را بگوید
+  Jarvis پاسخ تنظیم‌شده را می‌فرستد! می‌توانی از این قابلیت برای ساخت دستورهای سفارشی استفاده کنی.
 
 
-  Commands:
+  دستورات:
 
-  - /filter <trigger> <reply>: Every time someone says trigger, the bot will reply
-  with sentence. For multiple word filters, quote the trigger.
+  - /filter <trigger> <reply>: هر بار کسی trigger را بگوید، ربات پاسخ می‌دهد.
+  برای trigger چندکلمه‌ای، آن را داخل کوتیشن بگذار.
 
-  - /filters: List all chat filters.
+  - /filters: لیست همه فیلترهای چت.
 
-  - /stop <trigger>: Stop the bot from replying to trigger.
+  - /stop <trigger>: پاسخ‌دادن ربات به trigger را متوقف می‌کند.
 
-  - /stopall: Stop ALL filters in the current chat. This action cannot be undone.
+  - /stopall: همه فیلترها را در چت فعلی متوقف می‌کند. این عمل قابل بازگشت نیست.
 
 
-  Examples:
+  مثال‌ها:
 
-  - Set a filter:
+  - تنظیم یک فیلتر:
 
-  -> /filter hello Hello there! How are you?
+  -> /filter hello سلام! حالت چطوره؟
 
-  - Set a multiword filter:
+  - تنظیم فیلتر چندکلمه‌ای:
 
-  -> /filter hello friend Hello back! Long time no see!
+  -> /filter hello friend سلام رفیق! خیلی وقته ندیدمت!
 
-  - Set a filter that can only be used by admins:
+  - تنظیم فیلتری که فقط ادمین‌ها بتوانند از آن استفاده کنند:
 
-  -> /filter example This filter won't  happen if a normal user says it {admin}
+  -> /filter example این فیلتر اگر کاربر عادی بگوید اجرا نمی‌شود {admin}
 
-  - To save a file, image, gif, or any other attachment, simply reply to the file
-  with:
+  - برای ذخیره فایل، عکس، گیف یا هر پیوست دیگر، کافی است روی فایل ریپلای کنی و بنویسی:
 
   -> /filter trigger"
-formatting_fillings: "<b>Fillings</b>
+formatting_fillings: "<b>جایگزین‌ها</b>
 
 
-  You can also customise the contents of your message with contextual data. For example,
-  you could mention a user by name in the welcome message, or mention them in a filter!
+  می‌توانی محتوای پیام را با داده‌های پویا شخصی‌سازی کنی. مثلاً
+  در پیام خوش‌آمد نام کاربر را بیاوری یا در یک فیلتر از منشن استفاده کنی.
 
-  You can use these to mention a user in notes too!
+  از این‌ها در یادداشت‌ها هم می‌توانی استفاده کنی.
 
 
-  <b>Supported fillings:</b>
+  <b>جایگزین‌های پشتیبانی‌شده:</b>
 
-  - <code>{first}</code>: The user's first name.
+  - <code>{first}</code>: نام کوچک کاربر.
 
-  - <code>{last}</code>: The user's last name.
+  - <code>{last}</code>: نام خانوادگی کاربر.
 
-  - <code>{fullname}</code>: The user's full name.
+  - <code>{fullname}</code>: نام کامل کاربر.
 
-  - <code>{username}</code>: The user's username. If they don't have one, mentions
-  the user instead.
+  - <code>{username}</code>: نام کاربری کاربر؛ اگر نداشته باشد، به‌جایش منشن می‌شود.
 
-  - <code>{mention}</code>: Mentions the user with their firstname.
+  - <code>{mention}</code>: کاربر را با نام کوچک منشن می‌کند.
 
-  - <code>{id}</code>: The user's ID.
+  - <code>{id}</code>: شناسه کاربر.
 
-  - <code>{chatname}</code>: The chat's name.
+  - <code>{chatname}</code>: نام چت.
 
-  - <code>{rules}</code>: Adds Rules Button to Message.
+  - <code>{rules}</code>: دکمه قوانین را به پیام اضافه می‌کند.
 
-  - <code>{protect}</code>: Protects the content from being shared.
+  - <code>{protect}</code>: از اشتراک‌گذاری محتوا جلوگیری می‌کند.
 
-  - <code>{preview}</code>: Enables previews in the messages.
+  - <code>{preview}</code>: پیش‌نمایش لینک در پیام را فعال می‌کند.
 
-  - <code>{nonotif}</code>: Disables the notification for that message."
-formatting_help_msg: "Alita supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!"
+  - <code>{nonotif}</code>: اعلان این پیام را غیرفعال می‌کند."
+formatting_help_msg: "Jarvis از گزینه‌های قالب‌بندی زیادی پشتیبانی می‌کند تا پیام‌هایت حرفه‌ای‌تر شوند. با دکمه‌های زیر ببین!"
 formatting_markdown: |
-  <b>Markdown Formatting</b>
+  <b>قالب‌بندی Markdown</b>
 
-  You can format your message using <b>bold</b>, <i>italics</i>, <u>underline</u>,
-  and much more. Go ahead and experiment!
+  می‌توانی پیام را با <b>bold</b>، <i>italics</i>، <u>underline</u>
+  و گزینه‌های بیشتر قالب‌بندی کنی. امتحانش کن!
 
-  <b>Supported markdown</b>:
+  <b>Markdownهای پشتیبانی‌شده</b>:
 
-  - <code>`code words`</code>: Backticks are used for monospace fonts. Shows as: <code>code words</code>.
+  - <code>`code words`</code>: از بک‌تیک برای فونت تک‌عرض استفاده می‌شود. نمایش: <code>code words</code>.
 
-  - <code>_italic words_</code>: Underscores are used for italic fonts. Shows as: <i>italic words</i>.
+  - <code>_italic words_</code>: از آندرلاین برای نوشتار مورب استفاده می‌شود. نمایش: <i>italic words</i>.
 
-  - <code>*bold words*</code>: Asterisks are used for bold fonts. Shows as: <b>bold words</b>.
+  - <code>*bold words*</code>: از ستاره برای نوشتار ضخیم استفاده می‌شود. نمایش: <b>bold words</b>.
 
-  - <code>~strikethrough~</code>: Tildes are used for strikethrough. Shows as: <strike>strikethrough</strike>.
+  - <code>~strikethrough~</code>: از تیلدا برای خط‌خورده استفاده می‌شود. نمایش: <strike>strikethrough</strike>.
 
-  - <code>||spoiler||</code>: Double vertical bars are used for spoilers. Shows as: <tg-spoiler>Spoiler</tg-spoiler>.
+  - <code>||spoiler||</code>: از دو خط عمودی برای متن اسپویلر استفاده می‌شود. نمایش: <tg-spoiler>Spoiler</tg-spoiler>.
 
-  - <code>```pre```</code>: To make the formatter ignore other formatting characters inside the text formatted with '```', will be like: <code>**bold** | *bold*</code>.
+  - <code>```pre```</code>: برای اینکه قالب‌بندی‌کننده کاراکترهای دیگر را نادیده بگیرد، متن را داخل '```' بگذار؛ نتیجه مثل این می‌شود: <code>**bold** | *bold*</code>.
 
-  - <code>__underline__</code>: Double underscores are used for underlines. Shows as: underline. NOTE: Some clients try to be smart and interpret it as italic. In that case, try to use your app's built-in formatting.
+  - <code>__underline__</code>: از دو آندرلاین برای زیرخط استفاده می‌شود. نمایش: underline. نکته: بعضی کلاینت‌ها آن را مورب تفسیر می‌کنند؛ در این حالت از قالب‌بندی داخلی برنامه‌ات استفاده کن.
 
-  - <code>[hyperlink](example.com)</code>: This is the formatting used for hyperlinks. Shows as: <a href='https://example.com/'>hyperlink</a>.
+  - <code>[hyperlink](example.com)</code>: این قالب برای لینک استفاده می‌شود. نمایش: <a href='https://example.com/'>hyperlink</a>.
 
-  - <code>[My Button](buttonurl://example.com)</code>: This is the formatting used for creating buttons. This example will create a button named "My button" which opens <code>example.com</code> when clicked.
+  - <code>[My Button](buttonurl://example.com)</code>: این قالب برای ساخت دکمه است. این مثال دکمه‌ای با نام "My button" می‌سازد که با کلیک، <code>example.com</code> را باز می‌کند.
 
-  If you would like to send buttons on the same row, use the <code>:same</code> formatting.
+  اگر می‌خواهی دکمه‌ها در یک ردیف باشند، از قالب <code>:same</code> استفاده کن.
 
-  <b>Example:</b>
+  <b>مثال:</b>
 
   <code>[button 1](buttonurl:example.com)</code>
 
@@ -460,1095 +448,1063 @@ formatting_markdown: |
 
   <code>[button 3](buttonurl://example.com)</code>
 
-  This will show button 1 and 2 on the same line, with 3 underneath.
+  در این حالت دکمه 1 و 2 در یک خط می‌آیند و 3 در خط بعدی قرار می‌گیرد.
 formatting_random: |
-  <b>Random Content</b>
+  <b>محتوای تصادفی</b>
 
-  Another thing that can be fun, is to randomise the contents of a message. Make things
-  a little more personal by changing welcome messages, or changing notes!
+  یکی از قابلیت‌های جذاب این است که محتوای پیام را تصادفی کنی.
+  با تغییر پیام خوش‌آمد یا یادداشت‌ها، فضا را شخصی‌تر کن!
 
-  How to use random contents:
+  روش استفاده از محتوای تصادفی:
 
-  - %%%: This separator can be used to add random replies to the bot.
+  - %%%: از این جداکننده برای افزودن پاسخ‌های تصادفی استفاده می‌شود.
 
-  For example:
+  مثال:
 
-  <code>hello
+  <code>سلام
 
   %%%
 
-  how are you</code>
+  حالت چطوره</code>
 
-  This will randomly choose between sending the first message, "hello", or the second
-  message, "how are you".
+  ربات به‌صورت تصادفی یکی از دو پیام "سلام" یا "حالت چطوره" را می‌فرستد.
 
-  Use this to make Alita feel a bit more customised! (only works in filters/notes)
+  از این روش برای شخصی‌سازی بیشتر Jarvis استفاده کن! (فقط در filters/notes کار می‌کند)
 
-  Example welcome message:
+  مثال پیام خوش‌آمد:
 
-  - Every time a new user joins, they'll be presented with one of the three messages
-  shown here.
+  - هر بار کاربر جدیدی وارد شود، یکی از این سه پیام را دریافت می‌کند.
 
   -> /filter "hey"
 
-  hello there <code>{first}</code>!
+  سلام <code>{first}</code>!
 
   %%%
 
-  Ooooh, <code>{first}</code> how are you?
+  اوه، <code>{first}</code> حالت چطوره؟
 
   %%%
 
-  Sup? <code>{first}</code>
+  چه خبر <code>{first}</code>
 greetings_help_msg:
-  "Welcome new members to your groups or say Goodbye after they
-  leave!
+  "به اعضای جدید گروه خوش‌آمد بگو یا بعد از خروجشان خداحافظی کن!
 
 
-  *Admin Commands:*
+  *دستورات ادمین:*
 
-  × /setwelcome `<reply/text>`: Sets welcome text for group.
+  × /setwelcome `<reply/text>`: متن خوش‌آمدگویی گروه را تنظیم می‌کند.
 
-  × /welcome `<yes/no/on/off>`: Enables or Disables welcome setting for group.
+  × /welcome `<yes/no/on/off>`: خوش‌آمدگویی گروه را فعال/غیرفعال می‌کند.
 
-  × /resetwelcome: Resets the welcome message to default.
+  × /resetwelcome: پیام خوش‌آمدگویی را به حالت پیش‌فرض برمی‌گرداند.
 
-  × /setgoodbye `<reply/text>`: Sets goodbye text for group.
+  × /setgoodbye `<reply/text>`: متن خداحافظی گروه را تنظیم می‌کند.
 
-  × /goodbye `<yes/no/on/off>`: Enables or Disables goodbye setting for group.
+  × /goodbye `<yes/no/on/off>`: خداحافظی گروه را فعال/غیرفعال می‌کند.
 
-  × /resetgoodbye: Resets the goodbye message to default.
+  × /resetgoodbye: پیام خداحافظی را به حالت پیش‌فرض برمی‌گرداند.
 
-  × /cleanservice `<yes/no/on/off>`: Delete all service messages such as 'x joined
-  the group' notification.
+  × /cleanservice `<yes/no/on/off>`: پیام‌های سیستمی مثل اعلان 'x به گروه پیوست' را حذف می‌کند.
 
-  × /cleanwelcome `<yes/no/on/off>`: Delete the old welcome message, whenever a new
-  member joins.
+  × /cleanwelcome `<yes/no/on/off>`: با ورود عضو جدید، پیام خوش‌آمد قبلی را حذف می‌کند.
 
-  × /autoapprove `<yes/no/on/off>`: Automatically approve all new members."
-help_about: "@%s  is one of the fastest and most feature-filled group managers.
+  × /autoapprove `<yes/no/on/off>`: اعضای جدید را خودکار تایید می‌کند."
+help_about: "@%s یکی از سریع‌ترین و کامل‌ترین مدیرهای گروه است.
 
 
-  Alita ✨ is developed and actively maintained by @DivideProjects!
+  Jarvis ✨ توسط @DivideProjects توسعه داده می‌شود و به‌صورت فعال نگهداری می‌شود!
 
 
-  Alita has been online since 2020 and has served thousands of groups with hundreds
-  of thousands of users!
+  Jarvis از سال 2020 آنلاین بوده و به هزاران گروه با صدها هزار کاربر خدمت داده است!
 
 
-  <b>Why Alita:</b>
+  <b>چرا Jarvis:</b>
 
-  - Simple: Easy usage and compatible with many bot commands.
+  - ساده: استفاده راحت و سازگار با خیلی از دستورات ربات.
 
-  - Featured: Many features which other group management bots don't have.
+  - کامل: قابلیت‌های زیادی دارد که خیلی از ربات‌های مدیریت گروه ندارند.
 
-  - Fast: Guess what? It's not made using Python, we use <a href='https://go.dev/'>Go</a>
-  as our core programming language.
-
-
-  <b>Current Version:</b> %s"
-help_configuration_step-1: "Welcome to the Alita Configuration
+  - سریع: حدس بزن چی؟ با Python ساخته نشده؛ زبان اصلی ما <a href='https://go.dev/'>Go</a> است.
 
 
-  The first thing to do is to add Alita ✨ to your group! For doing that, press the
-  under button and select your group, then press Done to continue the tutorial."
-help_configuration_step-2: "Ok, well done!
+  <b>نسخه فعلی:</b> %s"
+help_configuration_step-1: "به پیکربندی Jarvis خوش آمدی
 
 
-  Now to let me work correctly, you need to make me Admin of your Group!
-
-  To do that, follow these easy steps:
-
-  ▫️ Go to your group
-
-  ▫️ Press the Group's name
-
-  ▫️ Press Modify
-
-  ▫️ Press on Administrator
-
-  ▫️ Press Add Administrator
-
-  ▫️ Press the Magnifying Glass
-
-  ▫️ Search @%s
-
-  ▫️ Confirm"
-help_configuration_step-3: "Excellent!
+  اولین قدم این است که Jarvis ✨ را به گروهت اضافه کنی! برای این کار روی
+  دکمه زیر بزن و گروهت را انتخاب کن، سپس برای ادامه آموزش روی «انجام شد» بزن."
+help_configuration_step-2: "خیلی خوب، آفرین!
 
 
-  Now the Bot is ready to use!
+  حالا برای اینکه درست کار کنم باید من را ادمین گروه کنی!
 
-  All commands can be used with / or !
+  برای این کار این مراحل ساده را انجام بده:
 
+  ▫️ وارد گروهت شو
 
-  If you're facing any difficulties in setting up me in your group, so don't hesitate
-  to come in @DivideSupport.
+  ▫️ روی نام گروه بزن
 
-  We would love to help you."
-help_donatetext: "So you want to donate? Amazing!
+  ▫️ گزینه ویرایش را بزن
 
-  When you donate, all the fund goes towards my development which makes on fast and
-  responsive.
+  ▫️ وارد بخش ادمین‌ها شو
 
-  Your donation might also get me a new feature or two, which I wasn't able to get
-  due to server limitations.
+  ▫️ افزودن ادمین را بزن
 
-  All the funds would be put into my services such as database, storage, and hosting!
+  ▫️ روی آیکون جستجو بزن
 
-  You can donate by contacting my owner here: @DivideProjectsBot"
-lang_sample: US English
-language_flag: 🇺🇸
-language_name: English
-languages_help_msg: "Not able to change language of the bot?
+  ▫️ @%s را جستجو کن
 
-  Easily change by using this module!
+  ▫️ تایید کن"
+help_configuration_step-3: "عالی!
 
 
-  Just type /lang and use inline keyboard to choose a language for yourself or your
-  group.
+  حالا ربات آماده استفاده است!
+
+  همه دستورات با / یا ! قابل استفاده هستند.
 
 
-  You can help us bring bot to more languages by helping on [Crowdin](https://crowdin.com/project/alita_robot)"
-locks_help_msg: "*Admin only*:
+  اگر برای راه‌اندازی من در گروه مشکلی داشتی، بدون تردید به @DivideSupport بیا.
 
-  × /lock `<permission>`: Lock Chat permission..
+  با خوشحالی کمکت می‌کنیم."
+help_donatetext: "پس می‌خواهی حمایت مالی کنی؟ فوق‌العاده است!
 
-  × /unlock `<permission>`: Unlock Chat permission.
+  وقتی حمایت می‌کنی، همه مبلغ صرف توسعه من می‌شود تا سریع‌تر و پاسخ‌گوتر شوم.
 
-  × /locks: View Chat permission.
+  حمایت تو ممکن است باعث اضافه‌شدن یک یا چند قابلیت جدید هم بشود که به‌خاطر محدودیت سرور فعلاً ممکن نبوده‌اند.
 
-  × /locktypes: Check available lock types!
+  همه مبالغ صرف سرویس‌هایی مثل دیتابیس، ذخیره‌سازی و هاست می‌شود!
+
+  برای حمایت، با صاحبم از اینجا در ارتباط باش: @DivideProjectsBot"
+lang_sample: فارسی
+language_flag: 🇮🇷
+language_name: فارسی
+languages_help_msg: "نمی‌توانی زبان ربات را تغییر بدهی؟
+
+  با این ماژول به‌راحتی زبان را عوض کن!
 
 
-  Locks can be used to restrict a group's users.
-
-  Locking URLs will auto-delete all messages with URLs, locking stickers will delete
-  all stickers, etc.
-
-  Locking bots will stop non-admins from adding bots to the chat.
+  کافی است /lang را بفرستی و از کیبورد شیشه‌ای، زبان خودت یا گروه را انتخاب کنی.
 
 
-  **Example:**
+  برای افزودن زبان‌های بیشتر هم می‌توانی در [Crowdin](https://crowdin.com/project/alita_robot) کمک کنی."
+locks_help_msg: "*فقط ادمین‌ها*:
 
-  `/lock media`: this locks all the media messages in the chat."
+  × /lock `<permission>`: یک دسترسی در چت را قفل می‌کند.
+
+  × /unlock `<permission>`: قفل یک دسترسی در چت را باز می‌کند.
+
+  × /locks: وضعیت دسترسی‌های قفل‌شده را نشان می‌دهد.
+
+  × /locktypes: انواع قفل‌های قابل استفاده را نشان می‌دهد!
+
+
+  با قفل‌ها می‌توانی کاربران گروه را محدود کنی.
+
+  مثلاً با قفل URL، همه پیام‌های دارای لینک خودکار حذف می‌شوند؛ با قفل استیکر هم همه استیکرها حذف می‌شوند و ...
+
+  قفل bots هم جلوی اضافه‌کردن ربات توسط غیرادمین‌ها را می‌گیرد.
+
+
+  **مثال:**
+
+  `/lock media`: این دستور همه پیام‌های رسانه‌ای چت را قفل می‌کند."
 misc_help_msg:
-  "× /info: Get your user info, which can be used as a reply or by passing
-  a User Id or Username.
+  "× /info: اطلاعات کاربر را می‌دهد؛ با ریپلای یا با دادن شناسه/نام‌کاربری.
 
-  × /id: Get the current group id. If used by replying to a message, get that user's
-  id.
+  × /id: شناسه گروه فعلی را می‌دهد. اگر روی پیام ریپلای شود، شناسه همان کاربر را می‌دهد.
 
-  × /ping: Ping the Telegram Server!
+  × /ping: پینگ سرور تلگرام!
 
-  × /tr <lang code> <msg/reply to message>: Translate the message.
+  × /tr <lang code> <msg/reply to message>: پیام را ترجمه می‌کند.
 
-  × /removebotkeyboard: Removes the stuck bot keyboard from your chat.
+  × /removebotkeyboard: کیبورد گیرکرده ربات را از چت حذف می‌کند.
 
-  × /stat: Gets the count of the total number of messages in the chat."
+  × /stat: تعداد کل پیام‌های چت را نشان می‌دهد."
 mutes_help_msg:
-  "Sometimes users can be annoying and you might want to restrict them
-  from sending a message to chat, this module is here to help, you can use this module
-  to mute members in your group.
+  "گاهی بعضی کاربران آزاردهنده می‌شوند و بخواهی جلوی ارسال پیامشان را بگیری.
+  این ماژول برای همین ساخته شده و می‌توانی با آن اعضای گروه را بی‌صدا کنی.
 
 
-  *Mute Commands:* (Admin only)
+  *دستورات بی‌صداکردن:* (فقط ادمین‌ها)
 
-  × /mute <userhandle>: mutes a user, (via a handle, or reply)
+  × /mute <userhandle>: کاربر را بی‌صدا می‌کند (با هندل یا ریپلای)
 
-  × /smute <userhandle>: mutes a user silently, does not send a message to the group,
-  and also deletes your command. (via a handle, or reply)
+  × /smute <userhandle>: کاربر را بی‌صدا می‌کند بدون ارسال پیام در گروه و دستور شما را هم حذف می‌کند (با هندل یا ریپلای)
 
-  × /dmute <userhandle>: mutes a user and deletes the replied message. (via a handle,
-  or reply)
+  × /dmute <userhandle>: کاربر را بی‌صدا می‌کند و پیام ریپلای‌شده را حذف می‌کند (با هندل یا ریپلای)
 
-  × /tmute <userhandle> x(m/h/d): mutes a user for `x` time. (via a handle, or reply).
-  m = minutes, h = hours, d = days.
+  × /tmute <userhandle> x(m/h/d): کاربر را برای مدت `x` بی‌صدا می‌کند (با هندل یا ریپلای).
+  m = دقیقه، h = ساعت، d = روز.
 
-  × /unmute <userhandle>: unmutes a user. (via a handle, or reply)"
-notes_help_msg: 'Save data for future users with notes!
+  × /unmute <userhandle>: کاربر را از حالت بی‌صدا خارج می‌کند (با هندل یا ریپلای)"
+notes_help_msg: 'اطلاعات را با یادداشت‌ها برای کاربران آینده ذخیره کن!
 
-  Notes are great to save random tidbits of information; a phone number, a nice gif,
-  a funny picture - anything!
+  یادداشت‌ها برای ذخیره چیزهای مفید عالی هستند؛ شماره تلفن، گیف، عکس بامزه یا هر چیز دیگر!
 
-  *User commands:*
+  *دستورات کاربر:*
 
-  - /get <notename>: Get a note.
+  - /get <notename>: یک یادداشت را نمایش می‌دهد.
 
-  - #notename: Same as /get.
+  - #notename: همان /get است.
 
-  Admin commands:
+  دستورات ادمین:
 
-  - /save <notename> <note text>: Save a new note called "word". Replying to a message
-  will save that message. Even works on media!
+  - /save <notename> <note text>: یک یادداشت جدید با نام دلخواه ذخیره می‌کند. با ریپلای روی پیام هم همان پیام ذخیره می‌شود؛ حتی برای رسانه!
 
-  - /clear <notename>: Delete the associated note.
+  - /clear <notename>: یادداشت مربوطه را حذف می‌کند.
 
-  - /notes: List all notes in the current chat.
+  - /notes: همه یادداشت‌های چت فعلی را لیست می‌کند.
 
-  - /saved: Same as /notes.
+  - /saved: همان /notes است.
 
-  - /clearall: Delete ALL notes in a chat. This cannot be undone.
+  - /clearall: همه یادداشت‌های چت را حذف می‌کند. این عمل قابل بازگشت نیست.
 
-  - /privatenotes: Whether or not to send notes in PM. Will send a message with a
-  button which users can click to get the note in PM.'
+  - /privatenotes: تعیین می‌کند یادداشت‌ها در پیام خصوصی ارسال شوند یا نه. در این حالت پیامی با دکمه فرستاده می‌شود تا کاربر با زدن آن یادداشت را در PM بگیرد.'
 pins_help_msg:
-  "All the pin-related commands can be found here; keep your chat up
-  to date on the latest news with a simple pinned message!
+  "همه دستورات مربوط به پین اینجاست؛ با یک پیام پین‌شده ساده، گروه را همیشه به‌روز نگه‌دار!
 
 
-  *User commands:*
+  *دستورات کاربر:*
 
-  × /pinned: Get the current pinned message.
-
-
-  *Admin commands:*
-
-  × /pin: Pin the message you replied to. Add 'loud' or 'notify' to send a notification
-  to group members.
-
-  × /pinned: Gets the latest pinned message in the current Chat.
-
-  × /permapin <text>: Pin a custom message through the bot. This message can contain
-  markdown, buttons, and all the other cool features.
-
-  × /unpin: Unpin the current pinned message. If used as a reply, unpins the replied-to
-  message.
-
-  × /unpinall: Unpins all pinned messages.
-
-  × /antichannelpin <yes/no/on/off>: Don't let telegram auto-pin linked channels.
-  If no arguments are given, show the current setting.
-
-  × /cleanlinked <yes/no/on/off>: Delete messages sent by the linked channel.
-
-  Note: When using anti channel pins, make sure to use the /unpin command, instead
-  of doing it manually. Otherwise, the old message will get re-pinned when the channel
-  sends any messages."
-purges_help_msg: "*Admin only:*
-
-  - /purge: deletes all messages between this and the replied-to message.
-
-  - /del: deletes the message you replied to.
+  × /pinned: پیام پین‌شده فعلی را نشان می‌دهد.
 
 
-  *Examples*:
+  *دستورات ادمین:*
 
-  - Delete all messages from the replied message, until now.
+  × /pin: پیامی که روی آن ریپلای کرده‌ای را پین می‌کند. با افزودن 'loud' یا 'notify' برای اعضا اعلان می‌فرستد.
+
+  × /pinned: آخرین پیام پین‌شده چت فعلی را نشان می‌دهد.
+
+  × /permapin <text>: یک پیام سفارشی را با ربات پین می‌کند. این پیام می‌تواند شامل markdown، دکمه و امکانات دیگر باشد.
+
+  × /unpin: پیام پین‌شده فعلی را آن‌پین می‌کند. اگر روی پیام ریپلای شود، همان پیام آن‌پین می‌شود.
+
+  × /unpinall: همه پیام‌های پین‌شده را آن‌پین می‌کند.
+
+  × /antichannelpin <yes/no/on/off>: اجازه ندهد تلگرام پیام‌های کانال لینک‌شده را خودکار پین کند.
+  اگر آرگومان ندهی، تنظیم فعلی را نشان می‌دهد.
+
+  × /cleanlinked <yes/no/on/off>: پیام‌های ارسالی کانال لینک‌شده را حذف می‌کند.
+
+  نکته: هنگام استفاده از ضد پین کانال، برای برداشتن پین حتماً از /unpin استفاده کن، نه به‌صورت دستی. وگرنه با ارسال پیام جدید از کانال، پیام قبلی دوباره پین می‌شود."
+purges_help_msg: "*فقط ادمین‌ها:*
+
+  - /purge: همه پیام‌ها بین این پیام و پیام ریپلای‌شده را حذف می‌کند.
+
+  - /del: پیامی که روی آن ریپلای کرده‌ای را حذف می‌کند.
+
+
+  *مثال‌ها*:
+
+  - همه پیام‌ها را از پیام ریپلای‌شده تا الان حذف کن.
 
   -> `/purge`"
 reports_help_msg:
-  "We're all busy people who don't have time to monitor our groups
-  24/7. But how do you react if someone in your group is spamming?
+  "همه‌مان مشغولیم و همیشه وقت نظارت 24/7 روی گروه را نداریم.
+  اما اگر کسی در گروه اسپم کند چه باید کرد؟
 
 
-  × /report `<reason>`: reply to a message to report it to admins.
+  × /report `<reason>`: روی پیام ریپلای کن تا برای ادمین‌ها گزارش شود.
 
-  - @admin: same as /report but not a command.
-
-
-  *Admins Only:*
-
-  × /reports `<on/off/yes/no>`: change report setting, or view current status.
-
-  - If done in PM, toggles your status.
-
-  - If in a group, toggles that group's status.
-
-  × /reports `block` (via reply only): Block a user from using /report or @admin.
-
-  × /reports `unblock` (via reply only): Unblock a user from using /report or @admin.
-
-  × /reports `showblocklist`: Check all the blocked users who cannot use /report or
-  @admin.
+  - @admin: مثل /report است اما به‌صورت دستور نیست.
 
 
-  To report a user, simply reply to his message with @admin or /report; Natalie will
-  then reply with a message stating that admins have been notified.
+  *فقط ادمین‌ها:*
 
-  You MUST reply to a message to report a user; you can't just use @admin to tag
-  admins for no reason!
+  × /reports `<on/off/yes/no>`: تنظیم گزارش را تغییر می‌دهد یا وضعیت فعلی را نشان می‌دهد.
+
+  - اگر در PM انجام شود، وضعیت خودت را تغییر می‌دهد.
+
+  - اگر در گروه انجام شود، وضعیت همان گروه را تغییر می‌دهد.
+
+  × /reports `block` (فقط با ریپلای): کاربر را از استفاده /report یا @admin منع می‌کند.
+
+  × /reports `unblock` (فقط با ریپلای): کاربر را از حالت منع استفاده /report یا @admin خارج می‌کند.
+
+  × /reports `showblocklist`: همه کاربران بلاک‌شده‌ای که نمی‌توانند /report یا @admin استفاده کنند را نشان می‌دهد.
 
 
-  *NOTE:* Neither of these will get triggered if used by admins."
+  برای گزارش کاربر کافی است روی پیامش @admin یا /report بفرستی؛ سپس پیام تایید اطلاع‌رسانی به ادمین‌ها ارسال می‌شود.
+
+  برای گزارش کاربر حتماً باید روی یک پیام ریپلای کنی؛ نمی‌توانی بی‌دلیل با @admin ادمین‌ها را تگ کنی!
+
+
+  *نکته:* اگر ادمین این موارد را بفرستد، فعال نمی‌شوند."
 rules_help_msg:
-  "Every chat works with different rules; this module will help make
-  those rules clearer!
+  "هر چت قوانین خودش را دارد؛ این ماژول کمک می‌کند قوانین واضح‌تر باشند!
 
-  *User commands*:
+  *دستورات کاربر*:
 
-  × /rules: Check the current chat rules.
+  × /rules: قوانین فعلی چت را نشان می‌دهد.
 
-  *Admin commands*:
+  *دستورات ادمین*:
 
-  × /setrules `<text>`: Set the rules for this chat.
+  × /setrules `<text>`: قوانین این چت را تنظیم می‌کند.
 
-  × /privaterules `<yes/no/on/off>`: Enable/disable whether the rules should be sent
-  in private.
+  × /privaterules `<yes/no/on/off>`: تعیین می‌کند قوانین در پیام خصوصی ارسال شوند یا نه.
 
-  × /resetrules: Reset the chat rules to default
+  × /resetrules: قوانین چت را به حالت پیش‌فرض برمی‌گرداند
 
-  × /rulesbtn `<custom text>`: Sets the text of the rules button.
+  × /rulesbtn `<custom text>`: متن دکمه قوانین را تنظیم می‌کند.
 
-  × /resetrulesbutton: Reset the text of the rules button to default.
+  × /resetrulesbutton: متن دکمه قوانین را به حالت پیش‌فرض برمی‌گرداند.
 
-  × /resetrulesbtn: Same as above."
-utils_chat_status_anon_admin_btn: Confirm your Identity
+  × /resetrulesbtn: همان دستور بالاست."
+utils_chat_status_anon_admin_btn: هویت خود را تایید کن
 utils_chat_status_anon_admin_string:
-  It looks like you're anonymous. Tap this button
-  to confirm your identity.
-utils_chat_status_bot_no_permission_delete: I don't have Permission to Delete Messages!
+  به نظر می‌رسد ناشناس هستی. روی این دکمه بزن
+  تا هویتت را تایید کنی.
+utils_chat_status_bot_no_permission_delete: من اجازه حذف پیام‌ها را ندارم!
 utils_chat_status_bot_no_permission_pin:
-  I can't pin messages here! Make sure I'm
-  admin and can pin messages.
+  من اینجا اجازه پین‌کردن پیام ندارم!
+  مطمئن شو ادمین هستم و مجوز پین پیام دارم.
 utils_chat_status_bot_no_permission_promote:
-  I can't promote/demote people here! Make
-  sure I'm an admin and can appoint new admins.
+  من اینجا اجازه ارتقا/تنزل کاربران را ندارم!
+  مطمئن شو ادمین هستم و مجوز تعیین ادمین جدید دارم.
 utils_chat_status_bot_no_permission_restrict:
-  I don't have permission to restrict
-  members!
+  من اجازه محدودکردن
+  اعضا را ندارم!
 utils_chat_status_bot_no_permission_restrict_group:
-  I can't restrict people here!
-  Make sure I'm admin and can restrict other members.
+  من اینجا نمی‌توانم کاربران را محدود کنم!
+  مطمئن شو ادمین هستم و مجوز محدودکردن اعضای دیگر را دارم.
 utils_chat_status_bot_require_admin:
-  I'm not an admin! Make sure I'm an admin and
-  have appropriate permissions.
+  من ادمین نیستم! مطمئن شو ادمین هستم و
+  مجوزهای لازم را دارم.
 utils_chat_status_require_group:
-  This command is made to be used in group chats, not
-  in PM!
-utils_chat_status_require_private: This command is made for PM, not group chat!
+  این دستور برای استفاده در چت‌های گروهی است، نه
+  در PM!
+utils_chat_status_require_private: این دستور برای پیام خصوصی است، نه چت گروهی!
 utils_chat_status_user_no_permission_change_info_btn:
-  You don't have permission to
-  change info!!
+  شما اجازه
+  تغییر اطلاعات را ندارید!!
 utils_chat_status_user_no_permission_change_info_cmd:
-  You don't have permission to
-  change info in this group!
-utils_chat_status_user_no_permission_delete: You don't have Permission to Delete Messages!
+  شما اجازه
+  تغییر اطلاعات در این گروه را ندارید!
+utils_chat_status_user_no_permission_delete: شما اجازه حذف پیام‌ها را ندارید!
 utils_chat_status_user_no_permission_pin:
-  You can't pin messages here! Make sure you're
-  an admin and can pin messages.
+  شما اینجا نمی‌توانید پیام پین کنید! مطمئن شوید
+  ادمین هستید و مجوز پین پیام دارید.
 utils_chat_status_user_no_permission_promote_btn:
-  You don't have permission to promote/demote
-  members!!
+  شما اجازه ارتقا/تنزل
+  اعضا را ندارید!!
 utils_chat_status_user_no_permission_promote_cmd:
-  You can't promote/demote people
-  here! Make sure you have appropriate rights!
+  شما اینجا نمی‌توانید کاربران را ارتقا/تنزل دهید!
+  مطمئن شوید مجوزهای لازم را دارید!
 utils_chat_status_user_no_permission_restrict_btn:
-  You don't have permission to restrict
-  members!
+  شما اجازه محدودکردن
+  اعضا را ندارید!
 utils_chat_status_user_no_permission_restrict_cmd:
-  You don't have permission to restrict
-  members in this group!
-utils_chat_status_user_require_admin_btn: You need to be an admin to do this!
-utils_chat_status_user_require_admin_cmd: Only admins can execute this command!
-utils_chat_status_user_require_owner_btn: You need to be the group creator to do this!
-utils_chat_status_user_require_owner_cmd: Only group creator to do this!
+  شما اجازه محدودکردن
+  اعضا در این گروه را ندارید!
+utils_chat_status_user_require_admin_btn: برای انجام این کار باید ادمین باشید!
+utils_chat_status_user_require_admin_cmd: فقط ادمین‌ها می‌توانند این دستور را اجرا کنند!
+utils_chat_status_user_require_owner_btn: برای انجام این کار باید سازنده گروه باشید!
+utils_chat_status_user_require_owner_cmd: فقط سازنده گروه می‌تواند این کار را انجام دهد!
 utils_extraction_extract_chat_badrequest_failed_getchat:
-  "failed to connect to chat:
-  failed to get chat: unable to getChat: Bad Request: chat not found"
-utils_extraction_extract_chat_fail_need_chat: I need a Chat ID to connect!
+  "اتصال به چت انجام نشد:
+  دریافت چت انجام نشد: خطای Bad Request: chat not found"
+utils_extraction_extract_chat_fail_need_chat: برای اتصال به شناسه چت نیاز دارم!
 utils_extraction_extract_chat_fail_need_chat_id:
-  I expected a Chat ID, but this isn't
-  a valid integer.
+  انتظار یک شناسه چت داشتم، اما این مقدار
+  یک عدد صحیح معتبر نیست.
 utils_extraction_extract_user_badrequest_failed_getchatmember:
-  "failed to get user:
-  unable to getChatMember: Bad Request: chat not found"
-bot_updates_creators_plug: "\nFollow @DivideProjects for more useful bots from my creators."
+  "دریافت کاربر انجام نشد:
+  خطای Bad Request: chat not found"
+bot_updates_creators_plug: "\nبرای دیدن ربات‌های مفید بیشتر از سازندگان من، @DivideProjects را دنبال کنید."
 utils_extraction_extract_user_no_user_found:
-  Could not find a user by this name; are
-  you sure I've seen them before?
-utils_string_handling_extract_time_invalid_time_amount: Invalid time amount specified.
+  کاربری با این نام پیدا نشد؛ مطمئنی
+  قبلاً این کاربر را دیده‌ام؟
+utils_string_handling_extract_time_invalid_time_amount: مقدار زمان نامعتبر مشخص شده است.
 utils_string_handling_extract_time_invalid_time_type:
-  "Invalid time type specified.
-  Expected m, h, or d got: %s"
+  "نوع زمان نامعتبر است.
+  انتظار m، h یا d داشتم، دریافت شد: %s"
 warns_help_msg:
-  "Keep your members in check with warnings; stop them getting out of
-  control!
+  "با اخطارها اعضا را تحت کنترل نگه‌دار؛ نگذار اوضاع از دست خارج شود!
 
-  If you're looking for automated warnings, read about the blacklist module!
-
-
-  *Admin Commands:*
-
-  - /warn <reason>: Warn a user.
-
-  - /dwarn <reason>: Warn a user by reply, and delete their message.
-
-  - /swarn <reason>: Silently warn a user, and delete your message.
-
-  - /warns: See a user's warnings.
-
-  - /rmwarn: Remove a user's latest warning.
-
-  - /resetwarn: Reset all of a user's warnings to 0.
-
-  - /resetallwarns: Delete all the warnings in a chat. All users return to 0 warns.
-
-  - /warnings: Get the chat's warning settings.
-
-  - /setwarnmode <ban/kick/mute>: Set the chat's warn mode.
-
-  - /setwarnlimit <number>: Set the number of warnings before users are punished.
+  اگر دنبال اخطار خودکار هستی، راهنمای ماژول بلک‌لیست را ببین!
 
 
-  *Examples*
+  *دستورات ادمین:*
 
-  - Warn a user.
+  - /warn <reason>: به یک کاربر اخطار می‌دهد.
 
-  -> `/warn @user For disobeying the rules`"
+  - /dwarn <reason>: با ریپلای به کاربر اخطار می‌دهد و پیامش را حذف می‌کند.
+
+  - /swarn <reason>: بی‌صدا به کاربر اخطار می‌دهد و پیام شما را حذف می‌کند.
+
+  - /warns: اخطارهای یک کاربر را نشان می‌دهد.
+
+  - /rmwarn: آخرین اخطار یک کاربر را حذف می‌کند.
+
+  - /resetwarn: همه اخطارهای یک کاربر را به 0 برمی‌گرداند.
+
+  - /resetallwarns: همه اخطارهای چت را حذف می‌کند. اخطار همه کاربران به 0 می‌رسد.
+
+  - /warnings: تنظیمات اخطار چت را نشان می‌دهد.
+
+  - /setwarnmode <ban/kick/mute>: حالت اخطار چت را تنظیم می‌کند.
+
+  - /setwarnlimit <number>: تعداد اخطار قبل از مجازات کاربر را تنظیم می‌کند.
+
+
+  *مثال‌ها*
+
+  - به یک کاربر اخطار بده.
+
+  -> `/warn @user به‌خاطر رعایت‌نکردن قوانین`"
 
 # Captcha module strings
-captcha_enable_failed: Failed to enable captcha. Please try again.
-captcha_disable_failed: Failed to disable captcha. Please try again.
-captcha_usage: Please use <code>/captcha on</code> or <code>/captcha off</code>
-captcha_mode_specify: "Please specify a mode: <code>math</code> or <code>text</code>"
-captcha_mode_invalid: Invalid mode. Use <code>math</code> or <code>text</code>
-captcha_mode_failed: Failed to set captcha mode. Please try again.
-captcha_timeout_specify: Please specify timeout in minutes (1-10)
-captcha_timeout_invalid: Invalid timeout. Please use a number between 1 and 10.
-captcha_timeout_failed: Failed to set timeout. Please try again.
-captcha_action_specify: "Please specify an action: <code>kick</code>, <code>ban</code>, or <code>mute</code>"
-captcha_action_invalid: Invalid action. Use <code>kick</code>, <code>ban</code>, or <code>mute</code>
-captcha_action_failed: Failed to set failure action. Please try again.
+captcha_enable_failed: فعال‌سازی کپچا انجام نشد. لطفاً دوباره تلاش کنید.
+captcha_disable_failed: غیرفعال‌سازی کپچا انجام نشد. لطفاً دوباره تلاش کنید.
+captcha_usage: لطفاً از <code>/captcha on</code> یا <code>/captcha off</code> استفاده کنید
+captcha_mode_specify: "لطفاً یک حالت مشخص کنید: <code>math</code> یا <code>text</code>"
+captcha_mode_invalid: حالت نامعتبر است. از <code>math</code> یا <code>text</code> استفاده کنید
+captcha_mode_failed: تنظیم حالت کپچا انجام نشد. لطفاً دوباره تلاش کنید.
+captcha_timeout_specify: لطفاً زمان انتظار را به دقیقه مشخص کنید (1-10)
+captcha_timeout_invalid: زمان انتظار نامعتبر است. لطفاً عددی بین 1 تا 10 وارد کنید.
+captcha_timeout_failed: تنظیم زمان انتظار انجام نشد. لطفاً دوباره تلاش کنید.
+captcha_action_specify: "لطفاً یک اقدام مشخص کنید: <code>kick</code>، <code>ban</code> یا <code>mute</code>"
+captcha_action_invalid: اقدام نامعتبر است. از <code>kick</code>، <code>ban</code> یا <code>mute</code> استفاده کنید
+captcha_action_failed: تنظیم اقدام در صورت شکست انجام نشد. لطفاً دوباره تلاش کنید.
 captcha_welcome_math_image: |
-  👋 Welcome %s!
+  👋 %s خوش آمدی!
 
-  Please solve the problem shown in the image and select the correct answer:
+  مسئله‌ای که در تصویر می‌بینی را حل کن و پاسخ درست را انتخاب کن:
 
-  ⏱ You have <b>%d minutes</b> to answer.
+  ⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری.
 captcha_welcome_text_image: |
-  👋 Welcome %s!
+  👋 %s خوش آمدی!
 
-  Please select the text shown in the image to verify you're human:
+  برای تایید انسان‌بودن، متنی که در تصویر می‌بینی را انتخاب کن:
 
-  ⏱ You have <b>%d minutes</b> to answer.
+  ⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری.
 captcha_welcome_math_text: |
-  👋 Welcome %s!
+  👋 %s خوش آمدی!
 
-  Please solve this math problem to verify you're human:
+  برای تایید انسان‌بودن این مسئله ریاضی را حل کن:
 
   <b>%s = ?</b>
 
-  ⏱ You have <b>%d minutes</b> to answer.
-captcha_failed_verify: Failed to verify. Please contact an admin.
-captcha_wait_refresh: Please wait a few seconds before requesting a new image.
-captcha_failed_generate: Failed to generate new image, try again.
-captcha_failed_send: Failed to send new captcha image.
-captcha_invalid_data: Invalid captcha data
-captcha_invalid_attempt: Invalid attempt ID
-captcha_invalid_user: Invalid user ID
-captcha_error_processing: Error processing answer
-captcha_invalid_refresh: Invalid refresh data
+  ⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری.
+captcha_failed_verify: تایید انجام نشد. لطفاً با یک ادمین تماس بگیرید.
+captcha_wait_refresh: لطفاً چند ثانیه صبر کنید و بعد تصویر جدید درخواست دهید.
+captcha_failed_generate: تولید تصویر جدید انجام نشد، دوباره تلاش کنید.
+captcha_failed_send: ارسال تصویر جدید کپچا انجام نشد.
+captcha_invalid_data: داده کپچا نامعتبر است
+captcha_invalid_attempt: شناسه تلاش نامعتبر است
+captcha_invalid_user: شناسه کاربر نامعتبر است
+captcha_error_processing: خطا در پردازش پاسخ
+captcha_invalid_refresh: داده بازنشانی نامعتبر است
 
 # Captcha max attempts
-captcha_max_attempts_current: "Current maximum verification attempts: <b>%d</b>"
-captcha_max_attempts_invalid: "Invalid value. Please specify a number between 1 and 10."
-captcha_max_attempts_set: "Maximum verification attempts set to <b>%d</b>"
+captcha_max_attempts_current: "حداکثر تلاش فعلی برای تایید: <b>%d</b>"
+captcha_max_attempts_invalid: "مقدار نامعتبر است. لطفاً عددی بین 1 تا 10 مشخص کنید."
+captcha_max_attempts_set: "حداکثر تلاش تایید روی <b>%d</b> تنظیم شد"
 
 # Captcha auto-unmute
-captcha_user_auto_unmute: "User %s will be automatically unmuted in 24 hours."
+captcha_user_auto_unmute: "کاربر %s به‌صورت خودکار در 24 ساعت آینده از حالت بی‌صدا خارج می‌شود."
 
 # Help module strings
-help_pm_questions: "Hey :) PM me if you have any questions on how to use me!"
-help_config_private_only: Configuration only works in private
+help_pm_questions: "سلام :) اگر درباره استفاده از من سوالی داری، در پیام خصوصی بپرس!"
+help_config_private_only: پیکربندی فقط در پیام خصوصی کار می‌کند
 
 # Rules/helpers module strings
-rules_not_set: This chat does not have any rules!
-rules_for_chat: "Rules for <b>%s</b>:\n\n%s"
+rules_not_set: این چت هیچ قانونی ندارد!
+rules_for_chat: "قوانین <b>%s</b>:\n\n%s"
 
 # Filters module strings
-filters_invalid: Invalid Filter!
+filters_invalid: فیلتر نامعتبر است!
 
 # Warnings module strings
-warns_specify_action: "You need to specify an action to take upon too many warns. Current modes are: ban/kick/mute"
+warns_specify_action: "باید مشخص کنید هنگام زیاد شدن اخطارها چه اقدامی انجام شود. حالت‌های فعلی: ban/kick/mute"
 
 # Admin module strings
-admin_need_admin: You need to be admin to do this!
+admin_need_admin: برای انجام این کار باید ادمین باشید!
 
 # Reports module strings
-reports_reply_to_report: You need to reply to a message to report it.
-reports_expose_yourself: You need to expose yourself first!
-reports_reply_to_block: You must reply to a user to block them.
-reports_reply_to_unblock: You must reply to a user to unblock them.
+reports_reply_to_report: برای گزارش باید روی یک پیام ریپلای کنید.
+reports_expose_yourself: اول باید هویت خودتان را آشکار کنید!
+reports_reply_to_block: برای بلاک کردن کاربر باید روی پیام او ریپلای کنید.
+reports_reply_to_unblock: برای آن‌بلاک کردن کاربر باید روی پیام او ریپلای کنید.
 
 # Mute module strings
-mute_reply_to_dmute: You need to reply to a message to delete it and mute the user!
+mute_reply_to_dmute: باید روی یک پیام ریپلای کنید تا آن را حذف کنم و کاربر را بی‌صدا کنم!
 
 # Bot updates module strings
-bot_updates_need_admin: You need to be an admin to do this!
+bot_updates_need_admin: برای انجام این کار باید ادمین باشید!
 
 # Rules module strings
-rules_need_text: "You need to give me rules to set!\nEither reply to a message to provide them with command."
+rules_need_text: "باید قوانین را به من بدهی تا تنظیم کنم!\nیا روی یک پیام ریپلای کن و دستور را بفرست."
 
 # Notes module strings
-notes_invalid: Invalid Note!
+notes_invalid: یادداشت نامعتبر است!
 
 # Misc module strings
-misc_translation_error: Error making a translation request!
+misc_translation_error: در ارسال درخواست ترجمه خطا رخ داد!
 
 # Devs module strings
-devs_specify_user: You must specify a user to get info on
+devs_specify_user: باید یک کاربر مشخص کنید تا اطلاعاتش دریافت شود
 
 # Common error messages used across modules
-error_generic: "An error occurred. Please try again later."
-common_anonymous_user_error: This command cannot be used on anonymous user.
-common_anonymous_ban_error: This command cannot be used on anonymous user, these user can only be banned/unbanned.
-common_cannot_identify_user: Cannot identify user. This command cannot be used by channels.
-common_no_user_specified: I don't know who you're talking about, you're going to need to specify a user...!
-common_user_not_in_chat: This user is not in this chat, how can I restrict them?
+error_generic: "خطایی رخ داد. لطفاً بعداً دوباره تلاش کنید."
+common_anonymous_user_error: این دستور برای کاربر ناشناس قابل استفاده نیست.
+common_anonymous_ban_error: این دستور برای کاربر ناشناس قابل استفاده نیست؛ این نوع کاربر فقط می‌تواند بن/آن‌بن شود.
+common_cannot_identify_user: شناسایی کاربر ممکن نیست. این دستور توسط کانال‌ها قابل استفاده نیست.
+common_no_user_specified: معلوم نیست درباره چه کسی صحبت می‌کنی؛ باید یک کاربر مشخص کنی...!
+common_user_not_in_chat: این کاربر در این چت نیست؛ چطور باید او را محدود کنم؟
 
 # Common action verbs (for dynamic error messages)
-common_action_ban: "ban"
-common_action_kick: "kick"
-common_action_mute: "mute"
-common_action_warn: "warn"
-common_action_promote: "promote"
-common_action_demote: "demote"
-common_action_restrict: "restrict"
+common_action_ban: "بن"
+common_action_kick: "کیک"
+common_action_mute: "بی‌صدا"
+common_action_warn: "اخطار"
+common_action_promote: "ارتقا"
+common_action_demote: "تنزل"
+common_action_restrict: "محدود"
 
 # Time units for duration formatting
-common_time_minute: "minute"
-common_time_minutes: "minutes"
-common_time_hour: "hour"
-common_time_hours: "hours"
-common_time_day: "day"
-common_time_days: "days"
-common_time_week: "week"
-common_time_weeks: "weeks"
+common_time_minute: "دقیقه"
+common_time_minutes: "دقیقه"
+common_time_hour: "ساعت"
+common_time_hours: "ساعت"
+common_time_day: "روز"
+common_time_days: "روز"
+common_time_week: "هفته"
+common_time_weeks: "هفته"
 
 # Status indicators (for replacing %t boolean formatters)
-common_status_enabled: "Enabled"
-common_status_disabled: "Disabled"
-common_status_on: "On"
-common_status_off: "Off"
+common_status_enabled: "فعال"
+common_status_disabled: "غیرفعال"
+common_status_on: "روشن"
+common_status_off: "خاموش"
 
 # Admin module missing strings
-admin_adminlist_note_cached: "\n\nNote: These values are cached and may not be up-to-date"
-admin_adminlist_note_fresh: "\n\nNote: These are up-to-date values"
-admin_invitelink_public: "Here is the invite link of this chat: %s"
-admin_invitelink_private: "Here is the invite link of this chat: %s"
+admin_adminlist_note_cached: "\n\nنکته: این مقادیر کش شده‌اند و ممکن است به‌روز نباشند"
+admin_adminlist_note_fresh: "\n\nنکته: این مقادیر به‌روز هستند"
+admin_invitelink_public: "لینک دعوت این چت: %s"
+admin_invitelink_private: "لینک دعوت این چت: %s"
 
 # Bans module missing strings
-bans_dkick_no_reply: Reply to a user's message to delete and kick him!
-bans_anonymous_ban_user: "Banned user: %s"
-bans_anonymous_ban_reply_only: You can only ban an anonymous user by replying to their message.
-bans_anonymous_unban_user: "Unbanned user: %s"
-bans_anonymous_unban_reply_only: You can only unban an anonymous user by replying to their message.
-bans_unban_button: Unban (Admin Only)
-bans_restrict_question: How can I restrict this user?
-bans_restrict_admin_error: Why would I restrict an admin? That sounds like a pretty dumb idea.
-bans_restrict_self_error: Why would I restrict myself?
-bans_restrict_kicked: "Admin %s kicked %s from this chat!"
-bans_restrict_muted: "Admin %s muted %s in chat!"
-bans_restrict_banned: "Admin %s banned %s from this chat!"
-bans_unrestrict_question: How can I unrestrict this user?
-bans_unrestrict_admin_error: Why would I kick an admin? That sounds like a pretty dumb idea.
-bans_unrestrict_self_error: No u
-bans_unrestrict_unmuted: "Unmuted by %s!"
-bans_unrestrict_unbanned: "Unbanned by %s !"
-bans_invalid_callback_data: "Invalid callback data."
-bans_invalid_user_id: "Invalid user ID."
-bans_cannot_identify_user: "Cannot identify the user from the replied message."
+bans_dkick_no_reply: برای حذف پیام و کیک‌ کردن کاربر باید روی پیام او ریپلای کنی!
+bans_anonymous_ban_user: "کاربر بن شد: %s"
+bans_anonymous_ban_reply_only: فقط با ریپلای روی پیام کاربر ناشناس می‌توانی او را بن کنی.
+bans_anonymous_unban_user: "کاربر آن‌بن شد: %s"
+bans_anonymous_unban_reply_only: فقط با ریپلای روی پیام کاربر ناشناس می‌توانی او را آن‌بن کنی.
+bans_unban_button: آن‌بن (فقط ادمین)
+bans_restrict_question: چطور این کاربر را محدود کنم؟
+bans_restrict_admin_error: چرا باید یک ادمین را محدود کنم؟ این ایده خوبی نیست.
+bans_restrict_self_error: چرا باید خودم را محدود کنم؟
+bans_restrict_kicked: "ادمین %s، %s را از این چت کیک کرد!"
+bans_restrict_muted: "ادمین %s، %s را در چت بی‌صدا کرد!"
+bans_restrict_banned: "ادمین %s، %s را از این چت بن کرد!"
+bans_unrestrict_question: چطور محدودیت این کاربر را بردارم؟
+bans_unrestrict_admin_error: چرا باید یک ادمین را کیک کنم؟ ایده خیلی عجیبیه.
+bans_unrestrict_self_error: نه خودت
+bans_unrestrict_unmuted: "توسط %s از حالت بی‌صدا خارج شد!"
+bans_unrestrict_unbanned: "توسط %s آن‌بن شد!"
+bans_invalid_callback_data: "داده Callback نامعتبر است."
+bans_invalid_user_id: "شناسه کاربر نامعتبر است."
+bans_cannot_identify_user: "شناسایی کاربر از پیام ریپلای‌شده ممکن نیست."
 
 # Mute module missing strings
-mutes_tmute_message: "Shh...\nMuted %s for %s"
-mutes_mute_message: "Shh...\nMuted %s."
-mutes_reason_suffix: "\n<b>Reason: </b>%s"
-mutes_unmute_button: Unmute (Admin Only)
-mutes_mute_admin_error: Why would I mute an admin? That sounds like a pretty dumb idea.
-mutes_mute_admin_polite_error: I don't think you'd want me to mute an admin.
-mutes_restrict_self_error: Why would I restrict myself?
-mutes_unmute_message: "Alright!\nI'll allow %s to speak again."
+mutes_tmute_message: "هیس...\n%s برای %s بی‌صدا شد"
+mutes_mute_message: "هیس...\n%s بی‌صدا شد."
+mutes_reason_suffix: "\n<b>دلیل: </b>%s"
+mutes_unmute_button: خارج از بی‌صدا (فقط ادمین)
+mutes_mute_admin_error: چرا باید یک ادمین را بی‌صدا کنم؟ این ایده خوبی نیست.
+mutes_mute_admin_polite_error: فکر نمی‌کنم بخواهی یک ادمین را بی‌صدا کنم.
+mutes_restrict_self_error: چرا باید خودم را محدود کنم؟
+mutes_unmute_message: "باشه!\nبه %s دوباره اجازه صحبت می‌دهم."
 
 # Warns module missing strings
-warns_mode_updated_ban: "Updated warn mode to: ban"
-warns_mode_updated_kick: "Updated warn mode to: kick"
-warns_mode_updated_mute: "Updated warn mode to: mute"
-warns_mode_unknown: "Unknown type '%s'. Please use one of: ban/kick/mute"
-warns_admin_warning_error: I'm not going to warn an admin!
-warns_limit_kicked: "That's %d/%d warnings; So %s has been kicked!"
-warns_limit_muted: "That's %d/%d warnings; So %s has been Muted!"
-warns_limit_banned: "That's %d/%d warnings; So %s has been banned!"
-warns_remove_button: ❌ Remove warn
-warns_rules_button: Rules 📝
-warns_user_warning: "User %s has %d/%d warnings; be careful!"
-warns_warning_reason: "\n<b>Reason</b>:\n%s"
-warns_settings_display: "The group has the following settings:\n<b>Warn Limit:</b> <code>%d</code>\n<b>Warn Mode:</b> <code>%s</code>"
-warns_user_warnings_list: "This user has %d/%d warnings, for the following reasons:"
-warns_user_warnings_no_reasons: "User has %d/%d warnings, but no reasons for any of them."
-warns_user_no_warnings: This user hasn't got any warnings!
-warns_removed_by: "Warn removed by %s."
-warns_no_warns_to_remove: User already has no warns!
-warns_limit_set_help: "Please specify how many warns a user should be allowed to receive before being acted upon. Eg. `/setwarnlimit 5`"
-warns_invalid_number: "%s is not a valid integer."
-warns_limit_range_error: The warn limit has to be set between 1 and 100.
-warns_limit_updated: "Warn limit settings for this chat have been updated to %d."
-warns_reset_success: Warnings have been reset!
-warns_no_users_warned: No users are warned in this chat!
-warns_reset_all_confirm: Are you sure you want to remove all the warns of all the users in this chat?
-warns_reset_all_success: Removed all warns of all the users in this chat !
-warns_reset_all_cancelled: Cancelled the removal of all the warns of all the users in this chat !
-warns_reset_all_final: Removed all warns of all users in this chat.
+warns_mode_updated_ban: "حالت اخطار به ban تغییر کرد"
+warns_mode_updated_kick: "حالت اخطار به kick تغییر کرد"
+warns_mode_updated_mute: "حالت اخطار به mute تغییر کرد"
+warns_mode_unknown: "نوع '%s' ناشناخته است. لطفاً یکی از این‌ها را استفاده کنید: ban/kick/mute"
+warns_admin_warning_error: من به ادمین اخطار نمی‌دهم!
+warns_limit_kicked: "این %d/%d اخطار بود؛ بنابراین %s کیک شد!"
+warns_limit_muted: "این %d/%d اخطار بود؛ بنابراین %s بی‌صدا شد!"
+warns_limit_banned: "این %d/%d اخطار بود؛ بنابراین %s بن شد!"
+warns_remove_button: ❌ حذف اخطار
+warns_rules_button: قوانین 📝
+warns_user_warning: "کاربر %s تعداد %d/%d اخطار دارد؛ مراقب باش!"
+warns_warning_reason: "\n<b>دلیل</b>:\n%s"
+warns_settings_display: "این گروه تنظیمات زیر را دارد:\n<b>حد اخطار:</b> <code>%d</code>\n<b>حالت اخطار:</b> <code>%s</code>"
+warns_user_warnings_list: "این کاربر %d/%d اخطار دارد، با دلایل زیر:"
+warns_user_warnings_no_reasons: "کاربر %d/%d اخطار دارد، اما برای هیچ‌کدام دلیلی ثبت نشده است."
+warns_user_no_warnings: این کاربر هیچ اخطاری ندارد!
+warns_removed_by: "اخطار توسط %s حذف شد."
+warns_no_warns_to_remove: کاربر همین حالا هم اخطاری ندارد!
+warns_limit_set_help: "لطفاً مشخص کن کاربر قبل از اعمال اقدام چه تعداد اخطار بتواند دریافت کند. مثال: `/setwarnlimit 5`"
+warns_invalid_number: "%s یک عدد صحیح معتبر نیست."
+warns_limit_range_error: حد اخطار باید بین 1 تا 100 تنظیم شود.
+warns_limit_updated: "تنظیم حد اخطار برای این چت به %d به‌روزرسانی شد."
+warns_reset_success: اخطارها بازنشانی شدند!
+warns_no_users_warned: هیچ کاربری در این چت اخطار ندارد!
+warns_reset_all_confirm: مطمئنی می‌خواهی همه اخطارهای همه کاربران این چت را حذف کنی؟
+warns_reset_all_success: همه اخطارهای همه کاربران این چت حذف شد!
+warns_reset_all_cancelled: حذف همه اخطارهای همه کاربران این چت لغو شد!
+warns_reset_all_final: همه اخطارهای همه کاربران این چت حذف شد.
 
 # Locks module strings
-locks_locktypes_header: "Locks:
+locks_locktypes_header: "قفل‌ها:
   - "
-locks_what_to_lock: What do you want to lock? Check /locktypes for available options.
-locks_invalid_lock_type: "`%s` is not a correct lock type, check /locktypes."
-locks_locked_successfully: "Locked the following in this group:
+locks_what_to_lock: چه چیزی را می‌خواهی قفل کنی؟ گزینه‌های موجود را در /locktypes ببین.
+locks_invalid_lock_type: "`%s` نوع قفل درستی نیست، /locktypes را بررسی کن."
+locks_locked_successfully: "موارد زیر در این گروه قفل شدند:
   - %s"
-locks_unlocked_successfully: "Un-Locked the following in this group:
+locks_unlocked_successfully: "قفل موارد زیر در این گروه باز شد:
   - %s"
-locks_lock_failed: "Failed to lock: %s. Please try again later."
-locks_unlock_failed: "Failed to unlock: %s. Please try again later."
-locks_what_to_unlock: What do you want to unlock? Check /locktypes for available options.
-locks_current_locks_header: "These are the locks in this chat:"
-locks_bot_lock_no_permission: I see a bot, and I've been told to stop them joining... but I'm not admin!
-locks_bot_lock_no_ban_permission: I see a bot, and I've been told to stop them joining... but I don't have permission to ban them!
-locks_bot_only_admins: Only admins are allowed to add bots to this chat!
+locks_lock_failed: "قفل کردن انجام نشد: %s. لطفاً بعداً دوباره تلاش کنید."
+locks_unlock_failed: "باز کردن قفل انجام نشد: %s. لطفاً بعداً دوباره تلاش کنید."
+locks_what_to_unlock: چه چیزی را می‌خواهی باز کنی؟ گزینه‌های موجود را در /locktypes ببین.
+locks_current_locks_header: "قفل‌های فعال این چت:"
+locks_bot_lock_no_permission: یک ربات دیدم و قرار بود جلوی ورودش را بگیرم... اما ادمین نیستم!
+locks_bot_lock_no_ban_permission: یک ربات دیدم و باید جلوی ورودش را بگیرم... اما اجازه بن کردنش را ندارم!
+locks_bot_only_admins: فقط ادمین‌ها اجازه اضافه کردن ربات به این چت را دارند!
 
 # Pins module strings
-pins_unpin_not_pinned: Replied message is not a pinned message.
-pins_unpinned_message: Unpinned this message.
-pins_unpinned_last: Unpinned the last pinned message.
-pins_unpin_all_confirm: Are you sure you want to unpin all pinned messages?
-pins_unpin_all_success: Unpinned all pinned messages in this chat!
-pins_unpin_all_cancelled: Cancelled operation to unpin messages!
-pins_permapin_reply_or_text: Please reply to a message or give some text to pin.
-pins_permapin_unsupported: Permapin not supported for data type!
-pins_pinned_message: I have pinned <a href='%s'>this message</a>
-pins_reply_to_pin: Reply to a message to pin it
-pins_pinned_message_loud: I have pinned <a href='%s'>this message</a> loudly!
-pins_antichannelpin_enabled: <b>Enabled</b> anti channel pins. Automatic pins from a channel will now be replaced with the previous pin.
-pins_antichannelpin_disabled: <b>Disabled</b> anti channel pins. Automatic pins from a channel will not be removed.
-pins_antichannelpin_current_enabled: Anti-Channel pins are currently <b>enabled</b> in %s. All channel posts that get auto-pinned by telegram will be replaced with the previous pin.
-pins_antichannelpin_current_disabled: Anti-Channel pins are currently <b>disabled</b> in %s.
-pins_cleanlinked_enabled: <b>Enabled</b> linked channel post deletion in Logs. Messages sent from the linked channel will be deleted.
-pins_cleanlinked_disabled: <b>Disabled</b> linked channel post deletion in Logs.
-pins_cleanlinked_current_enabled: Linked channel post deletion is currently <b>enabled</b> in %s. Messages sent from the linked channel will be deleted
-pins_cleanlinked_current_disabled: Linked channel post deletion is currently <b>disabled</b> in %s.
-pins_no_pinned_message: No message has been pinned in the current chat!
-pins_here_is_pinned: <a href='%s'>Here</a> is the pinned message.
-pins_pinned_message_button: Pinned Message
-pins_input_not_recognized: "Your input was not recognised as one of: yes/no/on/off"
+pins_unpin_not_pinned: پیام ریپلای‌شده پیام پین‌شده نیست.
+pins_unpinned_message: این پیام از حالت پین خارج شد.
+pins_unpinned_last: آخرین پیام پین‌شده از حالت پین خارج شد.
+pins_unpin_all_confirm: مطمئنی می‌خواهی همه پیام‌های پین‌شده را از پین خارج کنی؟
+pins_unpin_all_success: همه پیام‌های پین‌شده این چت از پین خارج شدند!
+pins_unpin_all_cancelled: عملیات خارج‌کردن از پین لغو شد!
+pins_permapin_reply_or_text: لطفاً روی یک پیام ریپلای کن یا متنی برای پین کردن بده.
+pins_permapin_unsupported: پرماپین برای این نوع داده پشتیبانی نمی‌شود!
+pins_pinned_message: من <a href='%s'>این پیام</a> را پین کردم
+pins_reply_to_pin: برای پین کردن باید روی یک پیام ریپلای کنید
+pins_pinned_message_loud: من <a href='%s'>این پیام</a> را با اعلان پین کردم!
+pins_antichannelpin_enabled: پین‌های ضدکانال <b>فعال</b> شد. پین‌های خودکار کانال از این پس با پین قبلی جایگزین می‌شوند.
+pins_antichannelpin_disabled: پین‌های ضدکانال <b>غیرفعال</b> شد. پین‌های خودکار کانال حذف نخواهند شد.
+pins_antichannelpin_current_enabled: پین‌های ضدکانال در %s در حال حاضر <b>فعال</b> هستند. همه پست‌های کانال که به‌صورت خودکار توسط تلگرام پین می‌شوند با پین قبلی جایگزین خواهند شد.
+pins_antichannelpin_current_disabled: پین‌های ضدکانال در %s در حال حاضر <b>غیرفعال</b> هستند.
+pins_cleanlinked_enabled: حذف پیام‌های کانال لینک‌شده در لاگ <b>فعال</b> شد. پیام‌های ارسال‌شده از کانال لینک‌شده حذف خواهند شد.
+pins_cleanlinked_disabled: حذف پیام‌های کانال لینک‌شده در لاگ <b>غیرفعال</b> شد.
+pins_cleanlinked_current_enabled: حذف پیام‌های کانال لینک‌شده در %s در حال حاضر <b>فعال</b> است. پیام‌های ارسال‌شده از کانال لینک‌شده حذف خواهند شد
+pins_cleanlinked_current_disabled: حذف پیام‌های کانال لینک‌شده در %s در حال حاضر <b>غیرفعال</b> است.
+pins_no_pinned_message: در این چت هیچ پیامی پین نشده است!
+pins_here_is_pinned: پیام پین‌شده <a href='%s'>اینجاست</a>.
+pins_pinned_message_button: پیام پین‌شده
+pins_input_not_recognized: "ورودی شما به‌عنوان یکی از گزینه‌های yes/no/on/off شناخته نشد"
 
 # Purges module strings
-purges_cannot_delete_old: You cannot delete messages over two days old. Please choose a more recent message.
-purges_purged_messages: Purged %d messages.
-purges_purged_with_reason: "Purged %d messages.\n*Reason*:\n%s"
-purges_reply_to_purge: Reply to a message to select where to start purging from.
-purges_reply_to_delete: Reply to a message to delete it!
-purges_message_marked: This message is already marked for purging!
-purges_marked_for_deletion: Message marked for deletion. Reply to another message with /purgeto to delete all messages in between; within 30s!
-purges_reply_to_purgefrom: Reply to a message to select where to start purging from.
-purges_need_purgefrom: You can only use this command after having used the /purgefrom command!
-purges_use_del_single: Use /del command to delete one message!
-purges_reply_to_purgeto: Reply to a message to show me till where to purge.
-purges_limit_exceeded: "Cannot purge more than %d messages at once! Please select a smaller range."
-purges_invalid_button_data: "Invalid button data."
-purges_invalid_message_id: "Invalid message ID."
+purges_cannot_delete_old: نمی‌توانی پیام‌های قدیمی‌تر از دو روز را حذف کنی. لطفاً یک پیام جدیدتر انتخاب کن.
+purges_purged_messages: %d پیام پاک شد.
+purges_purged_with_reason: "%d پیام پاک شد.\n*دلیل*:\n%s"
+purges_reply_to_purge: روی یک پیام ریپلای کن تا نقطه شروع پاکسازی مشخص شود.
+purges_reply_to_delete: برای حذف پیام باید روی آن ریپلای کنی!
+purges_message_marked: این پیام از قبل برای پاکسازی علامت‌گذاری شده است!
+purges_marked_for_deletion: پیام برای حذف علامت‌گذاری شد. ظرف 30 ثانیه روی پیام دیگری با /purgeto ریپلای کن تا همه پیام‌های بینشان حذف شوند!
+purges_reply_to_purgefrom: روی یک پیام ریپلای کن تا نقطه شروع پاکسازی مشخص شود.
+purges_need_purgefrom: فقط بعد از استفاده از دستور /purgefrom می‌توانی از این دستور استفاده کنی!
+purges_use_del_single: برای حذف یک پیام از دستور /del استفاده کن!
+purges_reply_to_purgeto: روی یک پیام ریپلای کن تا انتهای پاکسازی را مشخص کنم.
+purges_limit_exceeded: "نمی‌توان بیش از %d پیام را یک‌جا پاک کرد! لطفاً بازه کوچک‌تری انتخاب کن."
+purges_invalid_button_data: "داده دکمه نامعتبر است."
+purges_invalid_message_id: "شناسه پیام نامعتبر است."
 
 # Rules module strings
-rules_cleared_successfully: Successfully cleared rules!
-rules_private_pm_usage: Use of /rules will send the rules to the user's PM.
-rules_private_group_usage: All /rules commands will send the rules to %s.
-rules_private_current_pm: Use of /rules will send the rules to the user's PM.
-rules_private_current_group: All /rules commands will send the rules to %s.
-rules_for_chat_header: "The rules for <b>%s</b> are:"
+rules_cleared_successfully: قوانین با موفقیت پاک شد!
+rules_private_pm_usage: استفاده از /rules باعث ارسال قوانین به پیام خصوصی کاربر می‌شود.
+rules_private_group_usage: همه دستورات /rules قوانین را به %s می‌فرستند.
+rules_private_current_pm: استفاده از /rules باعث ارسال قوانین به پیام خصوصی کاربر می‌شود.
+rules_private_current_group: همه دستورات /rules قوانین را به %s می‌فرستند.
+rules_for_chat_header: "قوانین <b>%s</b> به این صورت است:"
 
-rules_no_rules_set: This chat doesn't seem to have had any rules set yet... I wouldn't take that as an invitation though.
-rules_click_for_rules: Click on the button to see the chat rules!
-rules_set_successfully: Successfully set rules for this group!
-rules_button_too_long: The custom button name you entered is too long. Please enter a text with less than 30 characters.
-rules_button_set_successfully: "Successfully set the rules button to: <b>%s</b>"
-rules_button_not_set: 'You haven''t set a custom rules button yet. The default text "%s" will be used.'
-rules_button_current: "The rules button is currently set to the following text:\n%s"
-rules_button_cleared: Successfully cleared custom rules button text!
+rules_no_rules_set: به نظر می‌رسد هنوز قانونی برای این چت تنظیم نشده... البته این یعنی آزاد بودن کامل نیست.
+rules_click_for_rules: برای دیدن قوانین چت روی دکمه بزن!
+rules_set_successfully: قوانین این گروه با موفقیت تنظیم شد!
+rules_button_too_long: نام دکمه سفارشی که وارد کردی خیلی طولانی است. لطفاً متنی کمتر از 30 کاراکتر وارد کن.
+rules_button_set_successfully: "دکمه قوانین با موفقیت روی این متن تنظیم شد: <b>%s</b>"
+rules_button_not_set: 'هنوز دکمه سفارشی قوانین تنظیم نکرده‌ای. متن پیش‌فرض "%s" استفاده می‌شود.'
+rules_button_current: "دکمه قوانین در حال حاضر روی متن زیر تنظیم شده است:\n%s"
+rules_button_cleared: متن سفارشی دکمه قوانین با موفقیت پاک شد!
 
 # Disabling module strings
-disabling_disabled_successfully: "Disabled the use of the following in this chat:%s"
-disabling_unknown_command: "Unknown command to disable:\n-%s\nCheck /disableable!"
-disabling_no_command_specified: You haven't specified a command to disable.
-disabling_disableable_commands: "The following commands can be disabled:"
-disabling_no_disabled_commands: There are no disabled commands in this chat.
-disabling_disabled_commands: "The following commands are disabled in this chat:"
-disabling_delete_enabled: Disabled messages will now be deleted.
-disabling_delete_disabled: Disabled messages will no longer be deleted.
-disabling_delete_current_enabled: Disabled Command deleting is *enabled*, disabled commands from users will be deleted!
-disabling_delete_current_disabled: Disabled Command deleting is *disabled*, disabled commands from users will *not* be deleted!
-disabling_enabled_successfully: "Re-Enabled the use of the following in this chat:%s"
-disabling_unknown_reenable: "Unknown command to Re-Enable:\n-%s\nCheck /disableable!"
-disabling_no_command_reenable: You haven't specified a command to disable.
-disabling_invalid_option: "I only understand an option from: `yes`/`no`/`on`/`off`"
+disabling_disabled_successfully: "استفاده از موارد زیر در این چت غیرفعال شد:%s"
+disabling_unknown_command: "دستور ناشناخته برای غیرفعال‌سازی:\n-%s\n/disableable را بررسی کن!"
+disabling_no_command_specified: هیچ دستوری برای غیرفعال‌سازی مشخص نکردی.
+disabling_disableable_commands: "دستورات زیر قابل غیرفعال‌سازی هستند:"
+disabling_no_disabled_commands: در این چت هیچ دستور غیرفعالی وجود ندارد.
+disabling_disabled_commands: "دستورات زیر در این چت غیرفعال هستند:"
+disabling_delete_enabled: از این به بعد پیام‌های دستورات غیرفعال حذف می‌شوند.
+disabling_delete_disabled: از این به بعد پیام‌های دستورات غیرفعال حذف نمی‌شوند.
+disabling_delete_current_enabled: حذف دستورهای غیرفعال *فعال* است و دستورهای غیرفعال کاربران حذف می‌شوند!
+disabling_delete_current_disabled: حذف دستورهای غیرفعال *غیرفعال* است و دستورهای غیرفعال کاربران حذف *نمی‌شوند*!
+disabling_enabled_successfully: "استفاده از موارد زیر در این چت دوباره فعال شد:%s"
+disabling_unknown_reenable: "دستور ناشناخته برای فعال‌سازی مجدد:\n-%s\n/disableable را بررسی کن!"
+disabling_no_command_reenable: هیچ دستوری برای فعال‌سازی مجدد مشخص نکردی.
+disabling_invalid_option: "فقط این گزینه‌ها را می‌فهمم: `yes`/`no`/`on`/`off`"
 
 # Misc module strings
-misc_reply_to_someone: Reply to someone.
-misc_provide_content: Provide some content to reply!
-misc_could_not_find_user: Could not find the any information about this user.
-misc_user_not_found: Could not find any information about this user.
-misc_channel_info: "<b>Channel Info:</b>\nID: <code>%d</code>\nChannel Name: %s"
-misc_channel_username: "Username: @%s"
-misc_user_info: "<b>User Info:</b>\nID: <code>%d</code>\nName: %s"
-misc_user_username: "Username: @%s"
-misc_user_link: "User link: %s"
-misc_owner_tag: "He is my owner!"
-misc_dev_user_tag: "He is one of my dev users!"
-misc_pinging: "<code>Pinging</code>"
-misc_pinged_in: Pinged in %d ms
-misc_ping_response: "🏓 Pong! <b>%dms</b>"
-misc_thread_id: "Thread Id: <code>%d</code>"
-misc_chat_id: "<b>Chat ID:</b> <code>%d</code>"
-misc_user_id: "<b>%s's ID:</b> <code>%d</code>"
-misc_forwarded_from_user: "<b>Forwarded from %s's ID:</b> <code>%d</code>"
-misc_forwarded_from_chat: "<b>Forwarded from chat %s's ID:</b> <code>%d</code>"
-misc_gif_id: "<b>GIF ID:</b> <code>%s</code>"
-misc_sticker_id: "<b>Sticker ID:</b> <code>%s</code>"
-misc_user_id_is: "%s's ID is <code>%d</code>"
-misc_your_id_private: "Your ID is <code>%d</code>"
-misc_your_id_group: "Your ID is <code>%d</code>\nThis group's ID is <code>%d</code>"
-misc_need_text_and_lang: I need some text and a language code to translate.
-misc_no_text_to_translate: The replied message does not contain any text to translate.
-misc_provide_text_translate: Please provide some text to translate.
-misc_detected_translation: "<b>Detected Language:</b> <code>%s</code>\n<b>Translation:</b> <code>%s</code>"
-misc_removing_keyboard: Removing the stuck bot keyboard...
-misc_total_messages: "Total Messages in %s are: %d"
-misc_channel_info_header: "<b>Channel Info:</b>\n\nID: <code>%d</code>\n\nChannel Name: %s"
-misc_username: "Username: @%s"
-misc_channel_link: "Channel link: @%s"
-misc_user_info_header: "<b>User Info:</b>\n\nID: <code>%d</code>\n\nName: %s"
-misc_owner_info: He is my owner!
-misc_dev_info: He is one of my dev users!
-misc_translate_read_error: Reading Error
-misc_translate_result: "<b>Detected Language:</b> <code>%s</code>\n\n<b>Translation:</b> <code>%s</code>"
+misc_reply_to_someone: روی یک نفر ریپلای کنید.
+misc_provide_content: محتوایی برای پاسخ بده!
+misc_could_not_find_user: هیچ اطلاعاتی از این کاربر پیدا نشد.
+misc_user_not_found: هیچ اطلاعاتی از این کاربر پیدا نشد.
+misc_channel_info: "<b>اطلاعات کانال:</b>\nشناسه: <code>%d</code>\nنام کانال: %s"
+misc_channel_username: "نام کاربری: @%s"
+misc_user_info: "<b>اطلاعات کاربر:</b>\nشناسه: <code>%d</code>\nنام: %s"
+misc_user_username: "نام کاربری: @%s"
+misc_user_link: "لینک کاربر: %s"
+misc_owner_tag: "او صاحب من است!"
+misc_dev_user_tag: "او یکی از کاربران توسعه‌دهنده من است!"
+misc_pinging: "<code>در حال پینگ</code>"
+misc_pinged_in: در %d میلی‌ثانیه پینگ شد
+misc_ping_response: "🏓 پونگ! <b>%dms</b>"
+misc_thread_id: "شناسه Thread: <code>%d</code>"
+misc_chat_id: "<b>شناسه چت:</b> <code>%d</code>"
+misc_user_id: "<b>شناسه %s:</b> <code>%d</code>"
+misc_forwarded_from_user: "<b>فرواردشده از شناسه %s:</b> <code>%d</code>"
+misc_forwarded_from_chat: "<b>فرواردشده از شناسه چت %s:</b> <code>%d</code>"
+misc_gif_id: "<b>شناسه GIF:</b> <code>%s</code>"
+misc_sticker_id: "<b>شناسه استیکر:</b> <code>%s</code>"
+misc_user_id_is: "شناسه %s برابر است با <code>%d</code>"
+misc_your_id_private: "شناسه شما <code>%d</code> است"
+misc_your_id_group: "شناسه شما <code>%d</code> است\nشناسه این گروه <code>%d</code> است"
+misc_need_text_and_lang: برای ترجمه به متن و کد زبان نیاز دارم.
+misc_no_text_to_translate: پیام ریپلای‌شده متنی برای ترجمه ندارد.
+misc_provide_text_translate: لطفاً متنی برای ترجمه بده.
+misc_detected_translation: "<b>زبان شناسایی‌شده:</b> <code>%s</code>\n<b>ترجمه:</b> <code>%s</code>"
+misc_removing_keyboard: در حال حذف کیبورد گیرکرده ربات...
+misc_total_messages: "تعداد کل پیام‌ها در %s: %d"
+misc_channel_info_header: "<b>اطلاعات کانال:</b>\n\nشناسه: <code>%d</code>\n\nنام کانال: %s"
+misc_username: "نام کاربری: @%s"
+misc_channel_link: "لینک کانال: @%s"
+misc_user_info_header: "<b>اطلاعات کاربر:</b>\n\nشناسه: <code>%d</code>\n\nنام: %s"
+misc_owner_info: او صاحب من است!
+misc_dev_info: او یکی از کاربران توسعه‌دهنده من است!
+misc_translate_read_error: خطای خواندن
+misc_translate_result: "<b>زبان شناسایی‌شده:</b> <code>%s</code>\n\n<b>ترجمه:</b> <code>%s</code>"
 
 # Devs module strings
-devs_chat_info: "<b>Name:</b> %s\n<b>Chat ID</b>: %d\n<b>Users Count:</b> %d\n<b>Link:</b> %s"
-devs_getting_chat_list: Getting list of chats I'm in...
-devs_chat_list_caption: Here is the list of chats in my Database!
-devs_left_chat: Okay, I left the chat!
-devs_user_already_sudo: User is already Sudo!
-devs_added_to_sudo: Added %s to Sudo List!
-devs_user_already_dev: User is already Dev!
-devs_added_to_dev: Added %s to Dev List!
-devs_user_not_sudo: User is not Sudo!
-devs_removed_from_sudo: Removed %s from Sudo List!
-devs_user_not_dev: User is not Dev!
-devs_removed_from_dev: Removed %s from Dev List!
-devs_no_team_users: No users are added in Team!
-devs_dev_users_header: "<b>Dev Users:</b>"
-devs_sudo_users_header: "<b>Sudo Users:</b>"
-devs_no_users: "No Users"
-devs_fetching_stats: "<code>Fetching bot stats...</code>"
-devs_failed_to_add_sudo: "Failed to add user to Sudo list. Please try again."
-devs_failed_to_add_dev: "Failed to add user to Dev list. Please try again."
-devs_failed_to_remove_sudo: "Failed to remove user from Sudo list. Please try again."
-devs_failed_to_remove_dev: "Failed to remove user from Dev list. Please try again."
+devs_chat_info: "<b>نام:</b> %s\n<b>شناسه چت</b>: %d\n<b>تعداد کاربران:</b> %d\n<b>لینک:</b> %s"
+devs_getting_chat_list: در حال دریافت لیست چت‌هایی که داخلشان هستم...
+devs_chat_list_caption: این هم لیست چت‌ها در دیتابیس من!
+devs_left_chat: باشه، از چت خارج شدم!
+devs_user_already_sudo: کاربر از قبل Sudo است!
+devs_added_to_sudo: %s به لیست Sudo اضافه شد!
+devs_user_already_dev: کاربر از قبل Dev است!
+devs_added_to_dev: %s به لیست Dev اضافه شد!
+devs_user_not_sudo: کاربر Sudo نیست!
+devs_removed_from_sudo: %s از لیست Sudo حذف شد!
+devs_user_not_dev: کاربر Dev نیست!
+devs_removed_from_dev: %s از لیست Dev حذف شد!
+devs_no_team_users: هیچ کاربری در تیم اضافه نشده است!
+devs_dev_users_header: "<b>کاربران Dev:</b>"
+devs_sudo_users_header: "<b>کاربران Sudo:</b>"
+devs_no_users: "کاربری وجود ندارد"
+devs_fetching_stats: "<code>در حال دریافت آمار ربات...</code>"
+devs_failed_to_add_sudo: "افزودن کاربر به لیست Sudo انجام نشد. لطفاً دوباره تلاش کنید."
+devs_failed_to_add_dev: "افزودن کاربر به لیست Dev انجام نشد. لطفاً دوباره تلاش کنید."
+devs_failed_to_remove_sudo: "حذف کاربر از لیست Sudo انجام نشد. لطفاً دوباره تلاش کنید."
+devs_failed_to_remove_dev: "حذف کاربر از لیست Dev انجام نشد. لطفاً دوباره تلاش کنید."
 
 # Additional hardcoded strings from modules
-bans_anonymous_ban_only_error: This command cannot be used on anonymous user, these user can only be banned/unbanned.
+bans_anonymous_ban_only_error: این دستور روی کاربر ناشناس قابل استفاده نیست؛ این کاربران فقط می‌توانند بن/آن‌بن شوند.
 
 
 # Greetings module strings
 greetings_welcome_status: |
-  I am currently welcoming users: <code>%s</code>
-  I am currently deleting old welcomes: <code>%s</code>
-  I am currently deleting service messages: <code>%s</code>
-  The welcome message not filling the {} is:
-greetings_welcome_enabled: "I'll welcome users from now on."
-greetings_welcome_disabled: "I'll not welcome users from now on."
-greetings_welcome_invalid_option: "I understand 'on/yes' or 'off/no' only!"
-greetings_welcome_set_success: "Successfully set custom welcome message!"
-greetings_welcome_reset_success: "Successfully reset custom welcome message to default!"
+  در حال حاضر به کاربران خوش‌آمد می‌گویم: <code>%s</code>
+  در حال حاضر خوش‌آمدهای قدیمی را حذف می‌کنم: <code>%s</code>
+  در حال حاضر پیام‌های سیستمی را حذف می‌کنم: <code>%s</code>
+  متن خوش‌آمدگویی بدون جایگزینی {} این است:
+greetings_welcome_enabled: "از این به بعد به کاربران خوش‌آمد می‌گویم."
+greetings_welcome_disabled: "از این به بعد به کاربران خوش‌آمد نمی‌گویم."
+greetings_welcome_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_welcome_set_success: "پیام خوش‌آمدگویی سفارشی با موفقیت تنظیم شد!"
+greetings_welcome_reset_success: "پیام خوش‌آمدگویی سفارشی با موفقیت به حالت پیش‌فرض بازنشانی شد!"
 greetings_goodbye_status: |
-  I am currently goodbying users: <code>%s</code>
-  I am currently deleting old goodbyes: <code>%s</code>
-  I am currently deleting service messages: <code>%s</code>
-  The goodbye message not filling the {} is:
-greetings_goodbye_enabled: "I'll goodbye users from now on."
-greetings_goodbye_disabled: "I'll not goodbye users from now on."
-greetings_goodbye_invalid_option: "I understand 'on/yes' or 'off/no' only!"
-greetings_goodbye_set_success: "Successfully set custom goodbye message!"
-greetings_goodbye_reset_success: "Successfully reset custom goodbye message to default!"
-greetings_clean_welcome_status_should: "I should be deleting welcome messages up to two days old."
-greetings_clean_welcome_status_not: "I'm currently not deleting old welcome messages!"
-greetings_clean_welcome_disabled: "I'll not delete old welcome messages!"
-greetings_clean_welcome_enabled: "I'll try to delete old welcome messages!"
-greetings_clean_welcome_invalid_option: "I understand 'on/yes' or 'off/no' only!"
-greetings_clean_goodbye_status_should: "I should be deleting goodbye messages up to two days old."
-greetings_clean_goodbye_status_not: "I'm currently not deleting old goodbye messages!"
-greetings_clean_goodbye_disabled: "I'll not delete old goodbye messages!"
-greetings_clean_goodbye_enabled: "I'll try to delete old goodbye messages!"
-greetings_clean_goodbye_invalid_option: "I understand 'on/yes' or 'off/no' only!"
-greetings_clean_service_enabled: "I should be deleting `user` joined the chat messages now."
-greetings_clean_service_disabled: "I'm currently not deleting joined messages."
-greetings_clean_service_disable: "I won't delete joined messages."
-greetings_clean_service_enable: "I'll try to delete joined messages!"
-greetings_clean_service_invalid_option: "I understand 'on/yes' or 'off/no' only!"
-greetings_captcha_verified_success: "✅ %s has been verified and can now chat!"
-greetings_join_request_new: "A new user has requested to join chat!"
-greetings_join_request_approve_btn: "✅ Approve"
-greetings_join_request_decline_btn: "❌ Decline"
-greetings_join_request_ban_btn: "✅ Ban"
-greetings_join_request_accepted: "Accepted %s in Chat ✅"
-greetings_join_request_declined: "Declined %s to join chat ❌"
-greetings_join_request_banned: "✅ Successfully Banned! %s"
-greetings_auto_approve_enabled: "I'm auto-approving new chat join requests now."
-greetings_auto_approve_disabled: "I'm not auto-approving new chat join requests now.."
-greetings_auto_approve_disable: "I won't auto-approve new join requests!"
-greetings_auto_approve_enable: "I'll try to auto-approve new join requests!"
-greetings_auto_approve_invalid_option: "I understand 'on/yes' or 'off/no' only!"
+  در حال حاضر با کاربران خداحافظی می‌کنم: <code>%s</code>
+  در حال حاضر پیام‌های خداحافظی قدیمی را حذف می‌کنم: <code>%s</code>
+  در حال حاضر پیام‌های سیستمی را حذف می‌کنم: <code>%s</code>
+  متن خداحافظی بدون جایگزینی {} این است:
+greetings_goodbye_enabled: "از این به بعد با کاربران خداحافظی می‌کنم."
+greetings_goodbye_disabled: "از این به بعد با کاربران خداحافظی نمی‌کنم."
+greetings_goodbye_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_goodbye_set_success: "پیام خداحافظی سفارشی با موفقیت تنظیم شد!"
+greetings_goodbye_reset_success: "پیام خداحافظی سفارشی با موفقیت به حالت پیش‌فرض بازنشانی شد!"
+greetings_clean_welcome_status_should: "باید پیام‌های خوش‌آمدگویی تا دو روز گذشته را حذف کنم."
+greetings_clean_welcome_status_not: "در حال حاضر پیام‌های خوش‌آمدگویی قدیمی را حذف نمی‌کنم!"
+greetings_clean_welcome_disabled: "پیام‌های خوش‌آمدگویی قدیمی را حذف نخواهم کرد!"
+greetings_clean_welcome_enabled: "تلاش می‌کنم پیام‌های خوش‌آمدگویی قدیمی را حذف کنم!"
+greetings_clean_welcome_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_clean_goodbye_status_should: "باید پیام‌های خداحافظی تا دو روز گذشته را حذف کنم."
+greetings_clean_goodbye_status_not: "در حال حاضر پیام‌های خداحافظی قدیمی را حذف نمی‌کنم!"
+greetings_clean_goodbye_disabled: "پیام‌های خداحافظی قدیمی را حذف نخواهم کرد!"
+greetings_clean_goodbye_enabled: "تلاش می‌کنم پیام‌های خداحافظی قدیمی را حذف کنم!"
+greetings_clean_goodbye_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_clean_service_enabled: "از این به بعد باید پیام‌های 'کاربر به چت پیوست' را حذف کنم."
+greetings_clean_service_disabled: "در حال حاضر پیام‌های جوین را حذف نمی‌کنم."
+greetings_clean_service_disable: "پیام‌های جوین را حذف نخواهم کرد."
+greetings_clean_service_enable: "تلاش می‌کنم پیام‌های جوین را حذف کنم!"
+greetings_clean_service_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_captcha_verified_success: "✅ %s تایید شد و حالا می‌تواند چت کند!"
+greetings_join_request_new: "یک کاربر جدید درخواست عضویت در چت داده است!"
+greetings_join_request_approve_btn: "✅ تایید"
+greetings_join_request_decline_btn: "❌ رد"
+greetings_join_request_ban_btn: "✅ بن"
+greetings_join_request_accepted: "%s در چت پذیرفته شد ✅"
+greetings_join_request_declined: "درخواست عضویت %s رد شد ❌"
+greetings_join_request_banned: "✅ با موفقیت بن شد! %s"
+greetings_auto_approve_enabled: "از حالا درخواست‌های عضویت جدید را خودکار تایید می‌کنم."
+greetings_auto_approve_disabled: "در حال حاضر درخواست‌های عضویت جدید را خودکار تایید نمی‌کنم.."
+greetings_auto_approve_disable: "درخواست‌های عضویت جدید را خودکار تایید نخواهم کرد!"
+greetings_auto_approve_enable: "تلاش می‌کنم درخواست‌های عضویت جدید را خودکار تایید کنم!"
+greetings_auto_approve_invalid_option: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
 
 # Captcha module strings (additional)
-captcha_enabled_success: "✅ Captcha verification has been <b>enabled</b>. New members will need to complete a captcha to join."
-captcha_disabled_success: "❌ Captcha verification has been <b>disabled</b>."
-captcha_mode_set_success: "✅ Captcha mode set to <b>%s</b> (%s)"
-captcha_timeout_set_success: "✅ Captcha timeout set to <b>%d minutes</b>"
-captcha_action_set_success: "✅ Captcha failure action set to <b>%s</b>"
-captcha_refresh_button: "🔄 New Image"
-captcha_verified_success_msg: "✅ Verified successfully!"
-captcha_wrong_answer_final: "❌ Wrong answer! You have been %s."
-captcha_wrong_answer_remaining: "❌ Wrong answer! %d attempts remaining."
-captcha_action_kicked: "kicked"
-captcha_action_banned: "banned"
-captcha_action_muted: "muted permanently"
-captcha_refresh_success: "🔄 New captcha sent!"
-captcha_timeout_failure_kicked: "❌ %s failed to complete captcha verification and has been kicked."
-captcha_timeout_failure_banned: "❌ %s failed to complete captcha verification and has been banned."
-captcha_timeout_failure_muted: "❌ %s failed to complete captcha verification and has been muted."
-captcha_timeout_with_messages: "❌ %s failed to complete captcha verification and has been %s.\n\n📝 %d message(s) were attempted but deleted due to incomplete verification."
-captcha_stored_messages_summary: "📝 %s tried to send %d message(s) (%s) before verification"
-captcha_pending_usage: "Usage: <code>/captchapending @user</code> or <code>/captchapending user_id</code>"
-captcha_no_pending_messages: "No pending messages found for this user."
-captcha_clear_usage: "Usage: <code>/captchaclear @user</code> or <code>/captchaclear user_id</code>"
-captcha_clear_failed: "Failed to clear stored messages. Please try again."
-captcha_clear_success: "✅ Cleared all stored messages for user %d"
+captcha_enabled_success: "✅ تایید کپچا <b>فعال</b> شد. اعضای جدید برای ورود باید کپچا را کامل کنند."
+captcha_disabled_success: "❌ تایید کپچا <b>غیرفعال</b> شد."
+captcha_mode_set_success: "✅ حالت کپچا روی <b>%s</b> (%s) تنظیم شد"
+captcha_timeout_set_success: "✅ زمان کپچا روی <b>%d دقیقه</b> تنظیم شد"
+captcha_action_set_success: "✅ اقدام در صورت شکست کپچا روی <b>%s</b> تنظیم شد"
+captcha_refresh_button: "🔄 تصویر جدید"
+captcha_verified_success_msg: "✅ با موفقیت تایید شد!"
+captcha_wrong_answer_final: "❌ پاسخ اشتباه! شما %s شدید."
+captcha_wrong_answer_remaining: "❌ پاسخ اشتباه! %d تلاش باقی مانده است."
+captcha_action_kicked: "کیک"
+captcha_action_banned: "بن"
+captcha_action_muted: "به‌صورت دائمی بی‌صدا"
+captcha_refresh_success: "🔄 کپچای جدید ارسال شد!"
+captcha_timeout_failure_kicked: "❌ %s نتوانست تایید کپچا را کامل کند و کیک شد."
+captcha_timeout_failure_banned: "❌ %s نتوانست تایید کپچا را کامل کند و بن شد."
+captcha_timeout_failure_muted: "❌ %s نتوانست تایید کپچا را کامل کند و بی‌صدا شد."
+captcha_timeout_with_messages: "❌ %s نتوانست تایید کپچا را کامل کند و %s شد.\n\n📝 %d پیام تلاش شد ارسال شود اما به‌دلیل کامل‌نشدن تایید حذف شد."
+captcha_stored_messages_summary: "📝 %s قبل از تایید، تلاش کرد %d پیام (%s) ارسال کند"
+captcha_pending_usage: "نحوه استفاده: <code>/captchapending @user</code> یا <code>/captchapending user_id</code>"
+captcha_no_pending_messages: "برای این کاربر پیام در انتظاری پیدا نشد."
+captcha_clear_usage: "نحوه استفاده: <code>/captchaclear @user</code> یا <code>/captchaclear user_id</code>"
+captcha_clear_failed: "پاک‌کردن پیام‌های ذخیره‌شده انجام نشد. لطفاً دوباره تلاش کنید."
+captcha_clear_success: "✅ همه پیام‌های ذخیره‌شده کاربر %d پاک شد"
 captcha_refresh_time_remaining: |
-  👋 Welcome %s!
+  👋 %s خوش آمدی!
 
-  Please select the text shown in the image to verify you're human:
+  برای تایید انسان‌بودن، متنی که در تصویر می‌بینی را انتخاب کن:
 
-  ⏱ You have <b>%d minutes</b> to answer.
+  ⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری.
 captcha_math_time_remaining: |
-  👋 Welcome %s!
+  👋 %s خوش آمدی!
 
-  Please solve the problem shown in the image and select the correct answer:
+  مسئله‌ای که در تصویر می‌بینی را حل کن و پاسخ درست را انتخاب کن:
 
-  ⏱ You have <b>%d minutes</b> to answer.
+  ⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری.
 
 # Notes module strings
-notes_save_success: "Saved Note <b>%s</b>!\nGet it with <code>#%s</code> or <code>/get %s</code>."
-notes_save_failed: "Failed to save note. Please try again later."
-notes_keyword_required: "Please give a keyword to reply to!"
-notes_overwrite_confirm: "Note already exists!\nDo you want to overwrite it?"
-notes_remove_keyword_required: "Please give a keyword to remove!"
-notes_not_exists: "Note does not exists!"
-notes_removed_success: "Removed note <b>%s</b>."
-notes_private_enabled: "Turned on Private Notes.\nNow users will get the notes as a private message."
-notes_private_disabled: "Turned off Private Notes.\nNow all the notes will be sent to Group Chat."
-notes_private_invalid_option: "I only understand an option from <on/off/yes/no>"
-notes_private_status_on: "Private Notes are currently turned on!"
-notes_private_status_off: "Private Notes are currently turned off!"
-notes_none_in_chat: "There are no notes in this chat!"
-notes_list_for_chat: "These are the current notes in <b>%s</b>:"
-notes_check_button: "Check on the button below to get Notes!"
-notes_click_me_btn: "Click Me!"
-notes_current_in_chat: "These are the current notes in this Chat:\n"
-notes_get_instruction: "\nYou can get a note by <code>#notename</code> or <code>/get notename</code>"
-notes_clear_all_confirm: "Are you sure you want to remove all Notes from this chat?"
-notes_creator_only: "Only Chat Creator can use this command."
-notes_overwrite_cancelled: "Cancelled overwriting of note ❌"
-notes_overwrite_success: "Note has been overwritten successfully ✅"
-notes_clear_all_success: "Removed all Notes from this Chat ✅"
-notes_clear_all_cancelled: "Cancelled removing all notes from this Chat ❌"
-notes_parsing_error: "There's some error parsing the note, please report this in support chat."
-notes_admin_only: "This note can only be accessed by a admin!"
-notes_click_for_private: "Click on the button below to get the note *%s*"
-notes_get_insufficient_args: "Not enough arguments."
-notes_does_not_exist: "Note doesn't exists!"
-notes_parsing_error_support: "There's some error parsing the note, please report this to support chat."
-notes_admin_only_access: "This note can only be accessed by a admin!"
-notes_private_conflict_warning: "\n\n<b>Note:</b> This note will be sent to default setting of group notes, because it has both <code>{private}</code> and <code>{noprivate}</code>."
+notes_save_success: "یادداشت <b>%s</b> ذخیره شد!\nمی‌تونی با <code>#%s</code> یا <code>/get %s</code> بگیریش."
+notes_save_failed: "ذخیره یادداشت انجام نشد. لطفاً بعداً دوباره تلاش کنید."
+notes_keyword_required: "لطفاً یک کلیدواژه بده!"
+notes_overwrite_confirm: "یادداشت از قبل وجود دارد!\nمی‌خواهی جایگزینش کنی؟"
+notes_remove_keyword_required: "لطفاً یک کلیدواژه برای حذف بده!"
+notes_not_exists: "یادداشت وجود ندارد!"
+notes_removed_success: "یادداشت <b>%s</b> حذف شد."
+notes_private_enabled: "یادداشت خصوصی روشن شد.\nاز این به بعد کاربران یادداشت‌ها را در پیام خصوصی دریافت می‌کنند."
+notes_private_disabled: "یادداشت خصوصی خاموش شد.\nاز این به بعد همه یادداشت‌ها در چت گروه ارسال می‌شوند."
+notes_private_invalid_option: "فقط گزینه‌ای از <on/off/yes/no> را می‌فهمم"
+notes_private_status_on: "یادداشت خصوصی در حال حاضر روشن است!"
+notes_private_status_off: "یادداشت خصوصی در حال حاضر خاموش است!"
+notes_none_in_chat: "در این چت هیچ یادداشتی وجود ندارد!"
+notes_list_for_chat: "یادداشت‌های فعلی در <b>%s</b>:"
+notes_check_button: "برای دریافت یادداشت‌ها روی دکمه زیر بزن!"
+notes_click_me_btn: "کلیک کن!"
+notes_current_in_chat: "یادداشت‌های فعلی این چت:\n"
+notes_get_instruction: "\nمی‌تونی یادداشت را با <code>#notename</code> یا <code>/get notename</code> بگیری"
+notes_clear_all_confirm: "مطمئنی می‌خواهی همه یادداشت‌های این چت را حذف کنی؟"
+notes_creator_only: "فقط سازنده چت می‌تواند از این دستور استفاده کند."
+notes_overwrite_cancelled: "جایگزینی یادداشت لغو شد ❌"
+notes_overwrite_success: "یادداشت با موفقیت جایگزین شد ✅"
+notes_clear_all_success: "همه یادداشت‌های این چت حذف شد ✅"
+notes_clear_all_cancelled: "حذف همه یادداشت‌های این چت لغو شد ❌"
+notes_parsing_error: "در پردازش یادداشت خطایی رخ داد، لطفاً آن را در چت پشتیبانی گزارش کنید."
+notes_admin_only: "این یادداشت فقط برای ادمین قابل دسترسی است!"
+notes_click_for_private: "برای دریافت یادداشت *%s* روی دکمه زیر بزن"
+notes_get_insufficient_args: "آرگومان‌ها کافی نیستند."
+notes_does_not_exist: "یادداشت وجود ندارد!"
+notes_parsing_error_support: "در پردازش یادداشت خطایی رخ داد، لطفاً به پشتیبانی گزارش دهید."
+notes_admin_only_access: "این یادداشت فقط برای ادمین قابل دسترسی است!"
+notes_private_conflict_warning: "\n\n<b>نکته:</b> این یادداشت با تنظیم پیش‌فرض یادداشت‌های گروه ارسال می‌شود، چون هر دو <code>{private}</code> و <code>{noprivate}</code> را دارد."
 
 # Filters module strings
 filters_limit_exceeded: |
-  Filters limit exceeded, a group can only have maximum 150 filters!
-  This limitation is due to bot running free without any donations by users.
-filters_keyword_required: "Please give a keyword to reply to!"
-filters_keyword_too_long: "Filter keyword is too long! Maximum 100 characters allowed."
-filters_overwrite_confirm: "Filter already exists!\nDo you want to overwrite it?"
-filters_added_success: "Added reply for filter word <code>%s</code>"
-filters_remove_keyword_required: "Please give a filter word to remove!"
-filters_not_exists: "Filter does not exist!"
-filters_removed_success: "Ok!\nI will no longer reply to <code>%s</code>"
-filters_none_in_chat: "There are no filters in this chat!"
-filters_current_in_chat: "These are the current filters in this Chat:"
-filters_clear_all_confirm: "Are you sure you want to remove all Filters from this chat?"
-filters_clear_all_success: "Removed all Filters from this Chat ✅"
-filters_clear_all_cancelled: "Cancelled removing all Filters from this Chat ❌"
-filters_overwrite_success: "Filter has been overwritten successfully ✅"
-filters_overwrite_cancelled: "Cancelled overwriting of filter ❌"
-filters_overwrite_expired: "⏰ Confirmation expired! Please try again."
+  از سقف فیلترها عبور کردی؛ هر گروه حداکثر می‌تواند 150 فیلتر داشته باشد!
+  این محدودیت به‌خاطر اجرای رایگان ربات بدون حمایت مالی کاربران است.
+filters_keyword_required: "لطفاً یک کلیدواژه بده!"
+filters_keyword_too_long: "کلیدواژه فیلتر خیلی طولانی است! حداکثر 100 کاراکتر مجاز است."
+filters_overwrite_confirm: "فیلتر از قبل وجود دارد!\nمی‌خواهی جایگزینش کنی؟"
+filters_added_success: "پاسخ برای کلمه فیلتر <code>%s</code> اضافه شد"
+filters_remove_keyword_required: "لطفاً یک کلمه فیلتر برای حذف بده!"
+filters_not_exists: "فیلتر وجود ندارد!"
+filters_removed_success: "باشه!\nدیگر به <code>%s</code> پاسخ نمی‌دهم"
+filters_none_in_chat: "در این چت هیچ فیلتری وجود ندارد!"
+filters_current_in_chat: "فیلترهای فعلی در این چت:"
+filters_clear_all_confirm: "مطمئنی می‌خواهی همه فیلترهای این چت را حذف کنی؟"
+filters_clear_all_success: "همه فیلترهای این چت حذف شد ✅"
+filters_clear_all_cancelled: "حذف همه فیلترهای این چت لغو شد ❌"
+filters_overwrite_success: "فیلتر با موفقیت جایگزین شد ✅"
+filters_overwrite_cancelled: "جایگزینی فیلتر لغو شد ❌"
+filters_overwrite_expired: "⏰ زمان تایید تمام شد! لطفاً دوباره تلاش کنید."
 
 # Helpers module strings
 helpers_back_button: "« Back"
-helpers_connection_success: "You have been connected to %s!"
-helpers_note_not_exist: "This note does not exist!"
-helpers_note_admin_only: "This note can only be accessed by a admin!"
-helpers_connected_to_chat: "You have been connected to %s!"
+helpers_connection_success: "شما به %s متصل شدید!"
+helpers_note_not_exist: "این یادداشت وجود ندارد!"
+helpers_note_admin_only: "این یادداشت فقط توسط ادمین قابل دسترسی است!"
+helpers_connected_to_chat: "شما به %s متصل شدید!"
 
 # Common/Shared strings
-common_yes: "Yes"
-common_no: "No"
-common_back: "Back"
+common_yes: "بله"
+common_no: "خیر"
+common_back: "بازگشت"
 common_back_arrow: "« Back"
 common_back_arrow_alt: "⬅ Back"
-common_done: "Done ✅"
-common_continue: "✅ Continue ✅"
-common_home: "Home"
-common_formatting_button: "Formatting"
-common_rules_button: "Rules"
-common_rules_button_emoji: "Rules 📝"
+common_done: "انجام شد ✅"
+common_continue: "✅ ادامه ✅"
+common_home: "خانه"
+common_formatting_button: "قالب‌بندی"
+common_rules_button: "قوانین"
+common_rules_button_emoji: "قوانین 📝"
 
 # Main module strings
-main_bot_command_start: "Starts the Bot"
-main_bot_command_help: "Check Help section of bot"
+main_bot_command_start: "ربات را شروع می‌کند"
+main_bot_command_help: "بخش راهنمای ربات را بررسی کن"
 
 # Help module strings
-help_info_about_header: "Info & About\n\nHere are some of the FAQs about Alita."
-help_news_channel_text: "Join my <a href='https://t.me/AlitaRobotUpdates'>News Channel</a> to get information on all the latest updates."
-help_all_commands_usage: "All commands can be used with the following: / or !"
-help_button_about_me: "About me 👨‍💻"
-help_button_news_channel: "News Channel 📢"
-help_button_support_group: "Support Group 👥"
-help_button_configuration: "Configuration ⚙️"
-help_button_about: "About ✨"
-help_button_add_to_chat: "➕ Add me to chat!"
-help_button_add_alita: "➕ Add Alita to chat!"
-help_button_commands_help: "📚 Commands & Help"
-help_button_language: "Language 🌏"
-help_click_button_info: "Click on the button below to get info about me!"
-help_click_here: "Click here for help!"
-help_contact_pm: "Contact me in PM for help!"
-help_markdown_help_button: "Markdown Help"
-help_markdown_formatting_button: "Markdown Formatting"
-help_fillings_button: "Fillings"
-help_random_content_button: "Random Content"
+help_info_about_header: "اطلاعات و درباره\n\nاینجا چند سوال متداول درباره Jarvis را می‌بینی."
+help_news_channel_text: "برای اطلاع از جدیدترین آپدیت‌ها به <a href='https://t.me/AlitaRobotUpdates'>کانال اخبار</a> من بپیوندید."
+help_all_commands_usage: "همه دستورات با / یا ! قابل استفاده هستند"
+help_button_about_me: "درباره من 👨‍💻"
+help_button_news_channel: "کانال اخبار 📢"
+help_button_support_group: "گروه پشتیبانی 👥"
+help_button_configuration: "پیکربندی ⚙️"
+help_button_about: "درباره ✨"
+help_button_add_to_chat: "➕ من را به چت اضافه کن!"
+help_button_add_alita: "➕ Jarvis را به چت اضافه کن!"
+help_button_commands_help: "📚 دستورات و راهنما"
+help_button_language: "زبان 🌏"
+help_click_button_info: "برای دریافت اطلاعات درباره من روی دکمه زیر بزن!"
+help_click_here: "برای راهنما اینجا کلیک کن!"
+help_contact_pm: "برای راهنما در پیام خصوصی با من تماس بگیر!"
+help_markdown_help_button: "راهنمای Markdown"
+help_markdown_formatting_button: "قالب‌بندی Markdown"
+help_fillings_button: "جایگزین‌ها"
+help_random_content_button: "محتوای تصادفی"
 
 # Chat status permission strings
-chat_status_change_info_button_error: "You don't have permissions to change info!!"
-chat_status_change_info_cmd_error: "You don't have permission to change info in this group!"
-chat_status_restrict_button_error: "You don't have permissions to restrict members!!"
-chat_status_restrict_cmd_error: "You don't have permission to restrict users in this group!"
-chat_status_bot_restrict_error: "I don't have permissions to restrict members!!"
-chat_status_bot_restrict_group_error: "I can't restrict people here! Make sure I'm admin and can restrict other members."
-chat_status_promote_button_error: "You don't have permissions to promote/demote members!!"
-chat_status_promote_cmd_error: "You can't promote/demote people here! Make sure you have appropriate rights!"
-chat_status_bot_promote_error: "I can't promote/demote people here! Make sure I'm admin and can appoint new admins."
-chat_status_pin_user_error: "You can't pin messages here! Make sure you're admin and can pin messages."
-chat_status_pin_bot_error: "I can't pin messages here! Make sure I'm admin and can pin messages."
-chat_status_invite_link_bot_error: "I don't have access to invite links! Make sure I'm admin and can invite users."
-chat_status_invite_link_user_error: "You don't have access to invite links; You need to be admin to get this!"
-chat_status_delete_button_error: "You don't have permissions to delete messages!!"
-chat_status_delete_cmd_error: "You don't have Permissions to Delete Messages!"
-chat_status_bot_delete_error: "I don't have Permissions to Delete Messages!"
-chat_status_bot_not_admin: "I'm not admin!"
-chat_status_user_admin_button_error: "You need to be an admin to do this!"
-chat_status_user_admin_cmd_error: "Only admins can execute this command!"
-chat_status_owner_button_error: "You need to be the group creator to do this!"
-chat_status_owner_cmd_error: "Only group creator to do this!"
-chat_status_pm_only_error: "This command is made for PM, not group chat!"
-chat_status_group_only_error: "This command is made to be used in group chats, not in PM!"
-chat_status_anon_confirm: "It looks like you're anonymous. Tap this button to confirm your identity."
-chat_status_anon_prove_admin: "Click to prove admin"
+chat_status_change_info_button_error: "شما اجازه تغییر اطلاعات را ندارید!!"
+chat_status_change_info_cmd_error: "شما اجازه تغییر اطلاعات در این گروه را ندارید!"
+chat_status_restrict_button_error: "شما اجازه محدود کردن اعضا را ندارید!!"
+chat_status_restrict_cmd_error: "شما اجازه محدود کردن کاربران در این گروه را ندارید!"
+chat_status_bot_restrict_error: "من اجازه محدود کردن اعضا را ندارم!!"
+chat_status_bot_restrict_group_error: "اینجا نمی‌توانم افراد را محدود کنم! مطمئن شو ادمین هستم و اجازه محدودکردن اعضا را دارم."
+chat_status_promote_button_error: "شما اجازه ارتقا/تنزل اعضا را ندارید!!"
+chat_status_promote_cmd_error: "اینجا نمی‌توانی افراد را ارتقا/تنزل بدهی! مطمئن شو دسترسی لازم را داری!"
+chat_status_bot_promote_error: "اینجا نمی‌توانم افراد را ارتقا/تنزل بدهم! مطمئن شو ادمین هستم و اجازه انتخاب ادمین جدید را دارم."
+chat_status_pin_user_error: "اینجا نمی‌توانی پیام پین کنی! مطمئن شو ادمین هستی و اجازه پین پیام داری."
+chat_status_pin_bot_error: "اینجا نمی‌توانم پیام پین کنم! مطمئن شو ادمین هستم و اجازه پین پیام دارم."
+chat_status_invite_link_bot_error: "به لینک دعوت دسترسی ندارم! مطمئن شو ادمین هستم و اجازه دعوت کاربران را دارم."
+chat_status_invite_link_user_error: "به لینک دعوت دسترسی نداری؛ برای این کار باید ادمین باشی!"
+chat_status_delete_button_error: "شما اجازه حذف پیام‌ها را ندارید!!"
+chat_status_delete_cmd_error: "شما اجازه حذف پیام‌ها را ندارید!"
+chat_status_bot_delete_error: "من اجازه حذف پیام‌ها را ندارم!"
+chat_status_bot_not_admin: "من ادمین نیستم!"
+chat_status_user_admin_button_error: "برای انجام این کار باید ادمین باشی!"
+chat_status_user_admin_cmd_error: "فقط ادمین‌ها می‌توانند این دستور را اجرا کنند!"
+chat_status_owner_button_error: "برای انجام این کار باید سازنده گروه باشی!"
+chat_status_owner_cmd_error: "فقط سازنده گروه می‌تواند این کار را انجام دهد!"
+chat_status_pm_only_error: "این دستور برای پیام خصوصی است، نه چت گروهی!"
+chat_status_group_only_error: "این دستور برای استفاده در گروه‌هاست، نه پیام خصوصی!"
+chat_status_anon_confirm: "به نظر می‌رسد ناشناس هستی. برای تایید هویت روی این دکمه بزن."
+chat_status_anon_prove_admin: "برای اثبات ادمین بودن کلیک کن"
 
 # Extraction module strings
-extraction_chat_not_found: "failed to connect to chat: failed to get chat: unable to getChat: Bad Request: chat not found"
-extraction_need_chat_id: "I need a chat id to connect to!"
-extraction_user_not_found: "Could not find a user by this name; are you sure I've seen them before?"
-extraction_get_chat_member_failed: "Failed to get user: unable to getChatMember: Bad Request: chat not found"
-extraction_invalid_time_amount: "Invalid time amount specified."
-extraction_time_limit_exceeded: "Cannot set time to more than 1 year!"
-extraction_no_time_specified: "Please specify a time duration (e.g., 1m, 1h, 1d, 1w)."
-extraction_invalid_time_type: "Invalid time type specified. Expected m, h, d or w got: %s"
-extraction_invalid_time_format: "Invalid time format specified."
+extraction_chat_not_found: "اتصال به چت انجام نشد: دریافت چت انجام نشد: getChat ناموفق بود: Bad Request: chat not found"
+extraction_need_chat_id: "برای اتصال به شناسه چت نیاز دارم!"
+extraction_user_not_found: "کاربری با این نام پیدا نشد؛ مطمئنی قبلاً او را دیده‌ام؟"
+extraction_get_chat_member_failed: "دریافت کاربر انجام نشد: getChatMember ناموفق بود: Bad Request: chat not found"
+extraction_invalid_time_amount: "مقدار زمان نامعتبر است."
+extraction_time_limit_exceeded: "زمان بیشتر از 1 سال قابل تنظیم نیست!"
+extraction_no_time_specified: "لطفاً یک مدت زمان مشخص کن (مثلاً 1m، 1h، 1d، 1w)."
+extraction_invalid_time_type: "نوع زمان نامعتبر است. انتظار می‌رفت m، h، d یا w باشد اما دریافت شد: %s"
+extraction_invalid_time_format: "فرمت زمان نامعتبر است."
 
 # Database default strings
-db_default_welcome: "Hey {first}, how are you?"
-db_default_goodbye: "Sad to see you leaving {first}"
-db_warn_no_reason: "No Reason"
-db_not_initialized: "database not initialized"
+db_default_welcome: "سلام {first}، چطوری؟"
+db_default_goodbye: "از رفتنت ناراحت شدیم {first}"
+db_warn_no_reason: "بدون دلیل"
+db_not_initialized: "دیتابیس مقداردهی اولیه نشده است"
 
 # Captcha validation strings
-captcha_invalid_mode_error: "invalid captcha mode: must be 'math' or 'text'"
-captcha_timeout_range_error: "timeout must be between 1 and 10 minutes"
-captcha_invalid_action_error: "invalid failure action: must be 'kick', 'ban', or 'mute'"
-captcha_attempts_range_error: "max attempts must be between 1 and 10"
-captcha_status_usage: "Use <code>/captcha on</code> or <code>/captcha off</code> to change status."
-captcha_not_for_you: "This captcha is not for you!"
-captcha_expired_or_not_found: "Captcha expired or not found"
-captcha_attempt_not_valid: "This captcha attempt is no longer valid."
-captcha_refresh_limit_reached: "Refresh limit reached for this captcha."
-captcha_internal_update_error: "Internal error updating captcha."
-captcha_internal_error: "An internal error occurred while updating captcha settings. Please try again."
+captcha_invalid_mode_error: "حالت کپچا نامعتبر است: باید 'math' یا 'text' باشد"
+captcha_timeout_range_error: "زمان انتظار باید بین 1 تا 10 دقیقه باشد"
+captcha_invalid_action_error: "اقدام نامعتبر در صورت شکست: باید 'kick'، 'ban' یا 'mute' باشد"
+captcha_attempts_range_error: "حداکثر تلاش باید بین 1 تا 10 باشد"
+captcha_status_usage: "برای تغییر وضعیت از <code>/captcha on</code> یا <code>/captcha off</code> استفاده کنید."
+captcha_not_for_you: "این کپچا برای شما نیست!"
+captcha_expired_or_not_found: "کپچا منقضی شده یا پیدا نشد"
+captcha_attempt_not_valid: "این تلاش کپچا دیگر معتبر نیست."
+captcha_refresh_limit_reached: "حداکثر بازنشانی برای این کپچا رسید."
+captcha_internal_update_error: "خطای داخلی در به‌روزرسانی کپچا."
+captcha_internal_error: "هنگام به‌روزرسانی تنظیمات کپچا خطای داخلی رخ داد. لطفاً دوباره تلاش کنید."
 
 # Greetings additional strings
-greetings_goodbye_enable: "I'll goodbye users from now on."
-greetings_goodbye_disable: "I'll not goodbye users from now on."
-greetings_goodbye_invalid: "I understand 'on/yes' or 'off/no' only!"
-greetings_goodbye_reset: "Successfully reset custom goodbye message to default!"
-greetings_clean_welcome_should: "I should be deleting welcome messages up to two days old."
-greetings_clean_welcome_not: "I'm currently not deleting old welcome messages!"
-greetings_clean_welcome_disable: "I'll not delete old welcome messages!"
-greetings_clean_welcome_enable: "I'll try to delete old welcome messages!"
-greetings_clean_goodbye_should: "I should be deleting goodbye messages up to two days old."
-greetings_clean_goodbye_not: "I'm currently not deleting old goodbye messages!"
-greetings_clean_goodbye_disable: "I'll not delete old goodbye messages!"
-greetings_clean_goodbye_enable: "I'll try to delete old goodbye messages!"
-greetings_clean_service_should: "I should be deleting 'user' joined the chat messages now."
-greetings_clean_service_not: "I'm currently not deleting joined messages."
+greetings_goodbye_enable: "از این به بعد با کاربران خداحافظی می‌کنم."
+greetings_goodbye_disable: "از این به بعد با کاربران خداحافظی نمی‌کنم."
+greetings_goodbye_invalid: "فقط 'on/yes' یا 'off/no' را می‌فهمم!"
+greetings_goodbye_reset: "پیام خداحافظی سفارشی با موفقیت به حالت پیش‌فرض بازنشانی شد!"
+greetings_clean_welcome_should: "باید پیام‌های خوش‌آمدگویی تا دو روز گذشته را حذف کنم."
+greetings_clean_welcome_not: "در حال حاضر پیام‌های خوش‌آمدگویی قدیمی را حذف نمی‌کنم!"
+greetings_clean_welcome_disable: "پیام‌های خوش‌آمدگویی قدیمی را حذف نخواهم کرد!"
+greetings_clean_welcome_enable: "تلاش می‌کنم پیام‌های خوش‌آمدگویی قدیمی را حذف کنم!"
+greetings_clean_goodbye_should: "باید پیام‌های خداحافظی تا دو روز گذشته را حذف کنم."
+greetings_clean_goodbye_not: "در حال حاضر پیام‌های خداحافظی قدیمی را حذف نمی‌کنم!"
+greetings_clean_goodbye_disable: "پیام‌های خداحافظی قدیمی را حذف نخواهم کرد!"
+greetings_clean_goodbye_enable: "تلاش می‌کنم پیام‌های خداحافظی قدیمی را حذف کنم!"
+greetings_clean_service_should: "از حالا باید پیام‌های 'کاربر به چت پیوست' را حذف کنم."
+greetings_clean_service_not: "در حال حاضر پیام‌های جوین را حذف نمی‌کنم."
 
 # Helpers utility strings
-helpers_admin_commands: "Admin commands"
-helpers_user_commands: "User commands"
-helpers_person_no_name: "PersonWithNoName"
-helpers_need_filter_content: "You need to give the filter some content!"
-helpers_need_note_content: "You need to give the note some content!"
-helpers_need_content: "You need to give me some content to %s users!"
-helpers_text_too_long: "Your message text is %d characters long. The maximum length for text is 4096; please trim it to a smaller size. Note that markdown characters may take more space than expected."
-helpers_caption_too_long: "Your message caption is %d characters long. The maximum caption length is 1024; please trim it to a smaller size. Note that markdown characters may take more space than expected."
-helpers_module_help_header: "Here is the help for the *%s* module:\n\n"
-helpers_invalid_deep_link: "Invalid or malformed deep link. Please check the URL and try again."
-helpers_chat_not_found: "Could not find the chat associated with this link. The chat may no longer exist or I may not have access to it."
+helpers_admin_commands: "دستورات ادمین"
+helpers_user_commands: "دستورات کاربر"
+helpers_person_no_name: "کاربر_بدون_نام"
+helpers_need_filter_content: "باید برای فیلتر مقداری محتوا بدهی!"
+helpers_need_note_content: "باید برای یادداشت مقداری محتوا بدهی!"
+helpers_need_content: "باید مقداری محتوا برای کاربران %s به من بدهی!"
+helpers_text_too_long: "متن پیام شما %d کاراکتر است. حداکثر طول متن 4096 است؛ لطفاً آن را کوتاه‌تر کن. توجه داشته باش کاراکترهای مارک‌داون ممکن است بیشتر از حد انتظار فضا بگیرند."
+helpers_caption_too_long: "کپشن پیام شما %d کاراکتر است. حداکثر طول کپشن 1024 است؛ لطفاً آن را کوتاه‌تر کن. توجه داشته باش کاراکترهای مارک‌داون ممکن است بیشتر از حد انتظار فضا بگیرند."
+helpers_module_help_header: "راهنمای ماژول *%s*:\n\n"
+helpers_invalid_deep_link: "دیپ‌لینک نامعتبر یا خراب است. لطفاً آدرس را بررسی کرده و دوباره تلاش کن."
+helpers_chat_not_found: "چت مربوط به این لینک پیدا نشد. ممکن است چت دیگر وجود نداشته باشد یا من به آن دسترسی نداشته باشم."
 
 # Repository validation errors
-repo_user_nil_error: "user cannot be nil"
-repo_user_id_zero_error: "user ID cannot be zero"
-repo_username_empty_error: "username cannot be empty"
-repo_user_not_found: "user %d not found"
-repo_user_at_index_nil: "user at index %d cannot be nil"
-repo_user_at_index_zero_id: "user at index %d has zero ID"
-repo_chat_nil_error: "chat cannot be nil"
-repo_chat_id_zero_error: "chat ID cannot be zero"
-repo_chat_not_found: "chat %d not found"
+repo_user_nil_error: "کاربر نمی‌تواند nil باشد"
+repo_user_id_zero_error: "شناسه کاربر نمی‌تواند صفر باشد"
+repo_username_empty_error: "نام کاربری نمی‌تواند خالی باشد"
+repo_user_not_found: "کاربر %d پیدا نشد"
+repo_user_at_index_nil: "کاربر در ایندکس %d نمی‌تواند nil باشد"
+repo_user_at_index_zero_id: "کاربر در ایندکس %d دارای شناسه صفر است"
+repo_chat_nil_error: "چت نمی‌تواند nil باشد"
+repo_chat_id_zero_error: "شناسه چت نمی‌تواند صفر باشد"
+repo_chat_not_found: "چت %d پیدا نشد"
 
 # Formatting strings
-format_user_info: "User: %s"
-format_user_id: "User ID: %d"
+format_user_info: "کاربر: %s"
+format_user_id: "شناسه کاربر: %d"
 format_list_item: " - %s"
 format_bullet_item: "• %s"
 format_list_item_code: " - <code>%s</code>"
 
 # System messages
-system_safety_shutdown: "safety manager is shutting down"
-system_timeout_worker: "timeout acquiring worker slot for %s"
-system_shutdown_acquisition: "safety manager shutdown during slot acquisition"
-pipeline_no_processor: "no processor registered for stage: %s"
-pipeline_shutting_down: "pipeline shutting down, skipping stage: %s"
-pipeline_processor_timeout: "processor timeout for stage: %s"
-pipeline_results_timeout: "timeout waiting for processing results"
+system_safety_shutdown: "مدیر ایمنی در حال خاموش شدن است"
+system_timeout_worker: "زمان دریافت اسلات worker برای %s تمام شد"
+system_shutdown_acquisition: "مدیر ایمنی هنگام دریافت اسلات خاموش شد"
+pipeline_no_processor: "برای مرحله %s هیچ پردازشگری ثبت نشده است"
+pipeline_shutting_down: "خط لوله در حال خاموش شدن است، مرحله %s رد شد"
+pipeline_processor_timeout: "زمان پردازشگر برای مرحله %s تمام شد"
+pipeline_results_timeout: "زمان انتظار برای نتایج پردازش تمام شد"
 
 # Captcha additional validation
-captcha_no_active_attempt: "no active captcha attempt found"
+captcha_no_active_attempt: "هیچ تلاش فعال کپچایی پیدا نشد"
 
 # Math operators (for captcha)
 math_operator_plus: "+"
@@ -1556,641 +1512,641 @@ math_operator_minus: "-"
 math_operator_multiply: "×"
 
 # Reports module additional strings
-reports_cannot_report_channel: "You can't report a channel post."
-reports_cannot_report_self: "You can't report your own message!"
-reports_special_account: "It's a special account of telegram!"
-reports_admin_report: "You're an admin, whom will I report your issues to?"
-reports_why_report_myself: "Why would I report myself?"
-reports_why_report_admin: "Why would I report an admin?"
-reports_turned_on_personal: "Turned on reporting! You'll be notified whenever anyone reports something in groups you are admin."
-reports_turned_on_group: "Users will now be able to report messages."
-reports_turned_off_personal: "Turned off reporting! You'll no longer be notified whenever anyone reports something in groups you are admin."
-reports_turned_off_group: "Users will no longer be able to report via @admin or /report."
-reports_group_only: "This command can only be used in a group!"
-reports_user_blocked: "Blocked user %s from reporting."
-reports_user_unblocked: "Unblocked user %s from reporting."
-reports_no_blocked_users: "No users are currently blocked from using report commands!"
-reports_preference_enabled: "Your current preference is true, You'll be notified whenever anyone reports something in groups you are admin."
-reports_preference_disabled: "You haven't enabled reports, You won't be notified."
-reports_status_enabled: "Reports are currently enabled in this chat.\nUsers can use the /report command, or mention @admin, to tag all admins."
-reports_status_disabled: "Reports are currently disabled in this chat."
-reports_user_kicked: "User kicked!"
-reports_user_banned: "User banned!"
-reports_message_deleted: "Message Deleted!"
+reports_cannot_report_channel: "نمی‌توانی یک پست کانال را گزارش کنی."
+reports_cannot_report_self: "نمی‌توانی پیام خودت را گزارش کنی!"
+reports_special_account: "این یک حساب ویژه تلگرام است!"
+reports_admin_report: "تو ادمین هستی؛ مشکلاتت را به چه کسی گزارش بدهم؟"
+reports_why_report_myself: "چرا باید خودم را گزارش کنم؟"
+reports_why_report_admin: "چرا باید یک ادمین را گزارش کنم؟"
+reports_turned_on_personal: "گزارش‌دهی روشن شد! هر زمان کسی در گروه‌هایی که ادمین هستی گزارشی بدهد به تو اطلاع می‌دهم."
+reports_turned_on_group: "از حالا کاربران می‌توانند پیام‌ها را گزارش کنند."
+reports_turned_off_personal: "گزارش‌دهی خاموش شد! دیگر هنگام گزارش در گروه‌هایی که ادمین هستی به تو اطلاع داده نمی‌شود."
+reports_turned_off_group: "کاربران دیگر نمی‌توانند با @admin یا /report گزارش دهند."
+reports_group_only: "این دستور فقط در گروه قابل استفاده است!"
+reports_user_blocked: "کاربر %s از گزارش‌دهی بلاک شد."
+reports_user_unblocked: "کاربر %s از بلاک گزارش‌دهی خارج شد."
+reports_no_blocked_users: "در حال حاضر هیچ کاربری از دستورات گزارش بلاک نشده است!"
+reports_preference_enabled: "ترجیح فعلی شما true است؛ هر زمان کسی در گروه‌هایی که ادمین هستی گزارشی بدهد مطلع می‌شوی."
+reports_preference_disabled: "گزارش‌ها را فعال نکرده‌ای؛ اعلانی دریافت نخواهی کرد."
+reports_status_enabled: "گزارش‌ها در این چت فعال هستند.\nکاربران می‌توانند از /report یا @admin برای تگ‌کردن همه ادمین‌ها استفاده کنند."
+reports_status_disabled: "گزارش‌ها در این چت غیرفعال هستند."
+reports_user_kicked: "کاربر کیک شد!"
+reports_user_banned: "کاربر بن شد!"
+reports_message_deleted: "پیام حذف شد!"
 
 # Language module additional strings
-language_current_user: "Your Current Language is %s\nChoose a language from keyboard below."
-language_current_group: "This Group's Current Language is %s\nChoose a language from keyboard below."
-language_changed_user: "Your language has been changed to %s"
-language_changed_group: "This group's language has been changed to %s"
-language_admin_required: "You need to be an admin to change the group language."
-language_help_translate: "Help Us Translate 🌎"
-language_invalid_selection: "Invalid language selection."
+language_current_user: "زبان فعلی شما %s است\nاز کیبورد زیر یک زبان انتخاب کنید."
+language_current_group: "زبان فعلی این گروه %s است\nاز کیبورد زیر یک زبان انتخاب کنید."
+language_changed_user: "زبان شما به %s تغییر یافت"
+language_changed_group: "زبان این گروه به %s تغییر یافت"
+language_admin_required: "برای تغییر زبان گروه باید ادمین باشید."
+language_help_translate: "برای ترجمه به ما کمک کنید 🌎"
+language_invalid_selection: "انتخاب زبان نامعتبر است."
 
 # Bot updates module additional strings
-bot_updates_need_supergroup: "Sorry, but to use my all my features, you need to convert this group to supergroup."
-bot_updates_thanks_for_adding: "Thanks for adding me in your group!"
-bot_updates_button_expired: "This button has expired, Please use the command again."
+bot_updates_need_supergroup: "متاسفم، اما برای استفاده از تمام قابلیت‌هایم باید این گروه را به سوپرگروه تبدیل کنید."
+bot_updates_thanks_for_adding: "ممنون که من را به گروهت اضافه کردی!"
+bot_updates_button_expired: "زمان این دکمه تمام شده است، لطفاً دوباره دستور را بزنید."
 
 # Formatting module additional strings
-formatting_press_button: "Press the button below to get Markdown Help!"
-formatting_large_options: "Alita supports a large number of formatting options to make your messages more expressive. Take a look!"
+formatting_press_button: "برای دریافت راهنمای Markdown روی دکمه زیر بزن!"
+formatting_large_options: "Jarvis از گزینه‌های قالب‌بندی زیادی پشتیبانی می‌کند تا پیام‌هایت بیان‌پذیرتر شوند. ببین!"
 
 # Help module additional strings
-help_bot_intro: "Hey there! My name is Alita ✨.\nI'm here to help you manage your groups!\nHit /help to find out more about how to use me to my full potential.\n"
+help_bot_intro: "سلام! اسم من Jarvis ✨ است.\nاینجا هستم تا به مدیریت گروه‌هایت کمک کنم!\nبرای آشنایی کامل‌تر با نحوه استفاده از من، /help را بزن.\n"
 help_pm_intro: |
-  Hey %s!
-  My name is Alita ✨.
+  سلام %s!
+  اسم من Jarvis ✨ است.
 
-  I am a group management bot, here to help you get around and keep the order in your groups!
-  I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
+  من یک ربات مدیریت گروه هستم و اینجا هستم تا کمک کنم نظم گروه‌هایت حفظ شود!
+  قابلیت‌های کاربردی زیادی دارم؛ مثل کنترل فلود، سیستم اخطار، یادداشت‌ها و حتی پاسخ‌های از پیش تعریف‌شده برای کلیدواژه‌ها.
 
-  Helpful commands:
-  - /start: Starts me! You've probably already used this.
-  - /help: Sends this message; I'll tell you more about myself!
-  - /donate: Gives you info on how to support me and my creator.
+  دستورات مفید:
+  - /start: من را شروع می‌کند! احتمالاً قبلاً از آن استفاده کرده‌ای.
+  - /help: این پیام را می‌فرستد و بیشتر درباره من می‌گویم!
+  - /donate: اطلاعات حمایت از من و سازنده‌ام را می‌دهد.
 
-  If you have any bugs or questions on how to use me, have a look at my website, or head to @DivideSupport.
-  All commands can be used with / or !.
+  اگر باگ یا سوالی درباره نحوه استفاده داشتی، وب‌سایت من را ببین یا به @DivideSupport سر بزن.
+  همه دستورات با / یا ! قابل استفاده هستند.
 
 # Captcha module additional strings
-captcha_settings_header: "<b>Captcha Settings:</b>"
-captcha_settings_status: "Status: <code>%s</code>"
-captcha_settings_mode: "Mode: <code>%s</code>"
-captcha_settings_timeout: "Timeout: <code>%d minutes</code>"
-captcha_settings_failure_action: "Failure Action: <code>%s</code>"
-captcha_settings_max_attempts: "Max Attempts: <code>%d</code>"
-captcha_status_enabled: "enabled"
-captcha_status_disabled: "disabled"
+captcha_settings_header: "<b>تنظیمات کپچا:</b>"
+captcha_settings_status: "وضعیت: <code>%s</code>"
+captcha_settings_mode: "حالت: <code>%s</code>"
+captcha_settings_timeout: "زمان انتظار: <code>%d دقیقه</code>"
+captcha_settings_failure_action: "اقدام در صورت شکست: <code>%s</code>"
+captcha_settings_max_attempts: "حداکثر تلاش: <code>%d</code>"
+captcha_status_enabled: "فعال"
+captcha_status_disabled: "غیرفعال"
 
 # Common button texts
-button_yes: "Yes"
-button_no: "No"
-button_back: "Back"
-button_unmute_admin: "Unmute (Admin Only)"
-button_unban_admin: "Unban (Admin Only)"
-button_unmute_admins: "Unmute (Admins Only)"
-button_unban_admins: "Unban (Admins Only)"
-button_connect_to_chat: "Connect to chat"
-button_formatting: "Formatting"
-button_click_me: "Click Me!"
-button_ban: "Ban"
-button_kick: "Kick"
-button_mute: "Mute"
-button_unban: "Unban"
-button_unmute: "Unmute"
+button_yes: "بله"
+button_no: "خیر"
+button_back: "بازگشت"
+button_unmute_admin: "خروج از بی‌صدا (فقط ادمین)"
+button_unban_admin: "آن‌بن (فقط ادمین)"
+button_unmute_admins: "خروج از بی‌صدا (فقط ادمین‌ها)"
+button_unban_admins: "آن‌بن (فقط ادمین‌ها)"
+button_connect_to_chat: "اتصال به چت"
+button_formatting: "قالب‌بندی"
+button_click_me: "کلیک کن!"
+button_ban: "بن"
+button_kick: "کیک"
+button_mute: "بی‌صدا"
+button_unban: "آن‌بن"
+button_unmute: "خروج از بی‌صدا"
 
 # Reports module strings
-reports_button_message: "➡ Message"
-reports_button_kick: "⚠ Kick"
-reports_button_ban: "⛔️ Ban"
-reports_button_delete: "❎ Delete Message"
-reports_button_resolved: "✔️ Mark Resolved"
-reports_blocked_users_header: "Users blocked from using report commands:"
-reports_invalid_input: "Your input was not recognised as one of: <code><yes/on/no/off> or <block/unblock/showblocklist></code>"
-reports_preference_enabled_private: "Your current preference is true. You'll be notified whenever anyone reports something in groups you are admin."
-reports_preference_disabled_private: "You haven't enabled reports. You won't be notified."
-reports_status_enabled_group: "Reports are currently enabled in this chat.\nUsers can use the /report command, or mention @admin, to tag all admins."
-reports_status_disabled_group: "Reports are currently disabled in this chat."
-reports_change_settings_hint: "\n\nTo change this setting, try this command again, with one of the following args: yes/no/on/off"
-reports_success_kick: "✅ Successfully kicked"
-reports_success_ban: "✅ Successfully banned"
-reports_success_delete: "✅ Successfully deleted"
-reports_resolved_success: "✅ Resolved report"
-reports_action_by: "Action taken by %s"
-reports_resolved_by: "<b>Resolved by:</b> %s"
-reports_message_template: "<b>⚠️ Report:</b>\n<b> • Report by:</b> %s\n<b> • Reported user:</b> %s\n<b>Status:</b> <i>Pending...</i>"
-reports_invalid_action: "Invalid action."
+reports_button_message: "➡ پیام"
+reports_button_kick: "⚠ کیک"
+reports_button_ban: "⛔️ بن"
+reports_button_delete: "❎ حذف پیام"
+reports_button_resolved: "✔️ علامت‌گذاری به‌عنوان حل‌شده"
+reports_blocked_users_header: "کاربرانی که از استفاده از دستورات گزارش بلاک شده‌اند:"
+reports_invalid_input: "ورودی شما به‌عنوان یکی از گزینه‌های زیر شناخته نشد: <code><yes/on/no/off> یا <block/unblock/showblocklist></code>"
+reports_preference_enabled_private: "ترجیح فعلی شما true است. هر زمان کسی در گروه‌هایی که ادمین هستی گزارشی بدهد به شما اطلاع داده می‌شود."
+reports_preference_disabled_private: "شما گزارش‌ها را فعال نکرده‌اید. اعلانی دریافت نمی‌کنید."
+reports_status_enabled_group: "گزارش‌ها در این چت فعال هستند.\nکاربران می‌توانند از /report یا @admin برای تگ‌کردن همه ادمین‌ها استفاده کنند."
+reports_status_disabled_group: "گزارش‌ها در این چت غیرفعال هستند."
+reports_change_settings_hint: "\n\nبرای تغییر این تنظیم، همین دستور را دوباره با یکی از این گزینه‌ها بزن: yes/no/on/off"
+reports_success_kick: "✅ با موفقیت کیک شد"
+reports_success_ban: "✅ با موفقیت بن شد"
+reports_success_delete: "✅ با موفقیت حذف شد"
+reports_resolved_success: "✅ گزارش حل‌شده علامت‌گذاری شد"
+reports_action_by: "اقدام توسط %s"
+reports_resolved_by: "<b>حل‌شده توسط:</b> %s"
+reports_message_template: "<b>⚠️ گزارش:</b>\n<b> • گزارش توسط:</b> %s\n<b> • کاربر گزارش‌شده:</b> %s\n<b>وضعیت:</b> <i>در انتظار...</i>"
+reports_invalid_action: "اقدام نامعتبر است."
 
 # Captcha module strings
-captcha_mode_math_desc: "mathematical problems"
-captcha_mode_text_desc: "text recognition from images"
-captcha_mode_set_formatted: "✅ Captcha mode set to <b>%s</b> (%s)"
-captcha_welcome_text_detailed: "👋 Welcome %s!\n\nPlease select the text shown in the image to verify you're human:\n\n⏱ You have <b>%d minutes</b> to answer."
-captcha_welcome_math_detailed: "👋 Welcome %s!\n\nPlease solve the problem shown in the image and select the correct answer:\n\n⏱ You have <b>%d minutes</b> to answer."
-captcha_pending_messages_header: "📋 <b>Pending messages from user %d:</b>\n\n"
-captcha_pending_message_type: "%d. Type: %s\n"
-captcha_pending_message_caption: "   Caption: %s\n"
-captcha_pending_message_content: "   Content: %s\n"
-captcha_pending_message_time: "   Time: %s\n\n"
+captcha_mode_math_desc: "مسائل ریاضی"
+captcha_mode_text_desc: "تشخیص متن از تصویر"
+captcha_mode_set_formatted: "✅ حالت کپچا روی <b>%s</b> (%s) تنظیم شد"
+captcha_welcome_text_detailed: "👋 %s خوش آمدی!\n\nبرای تایید انسان‌بودن، متنی که در تصویر می‌بینی را انتخاب کن:\n\n⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری."
+captcha_welcome_math_detailed: "👋 %s خوش آمدی!\n\nمسئله‌ای که در تصویر می‌بینی را حل کن و پاسخ درست را انتخاب کن:\n\n⏱ برای پاسخ <b>%d دقیقه</b> فرصت داری."
+captcha_pending_messages_header: "📋 <b>پیام‌های در انتظار از کاربر %d:</b>\n\n"
+captcha_pending_message_type: "%d. نوع: %s\n"
+captcha_pending_message_caption: "   کپشن: %s\n"
+captcha_pending_message_content: "   محتوا: %s\n"
+captcha_pending_message_time: "   زمان: %s\n\n"
 
 # Message type strings (shared across modules)
-message_type_text: "text"
-message_type_sticker: "sticker"
-message_type_document: "document"
-message_type_photo: "photo"
-message_type_audio: "audio"
-message_type_voice: "voice"
-message_type_video: "video"
-message_type_video_note: "video note"
-message_type_unknown: "unknown"
+message_type_text: "متن"
+message_type_sticker: "استیکر"
+message_type_document: "سند"
+message_type_photo: "عکس"
+message_type_audio: "صوت"
+message_type_voice: "صدا"
+message_type_video: "ویدیو"
+message_type_video_note: "ویدیو نوت"
+message_type_unknown: "نامشخص"
 
 # Connections module strings
-connections_invalid_option: "Please give me a valid option from <yes/on/no/off>"
-connections_button_connect: "Connect to chat"
+connections_invalid_option: "لطفاً یک گزینه معتبر از <yes/on/no/off> وارد کن"
+connections_button_connect: "اتصال به چت"
 
 # Bot updates module strings
-bot_updates_convert_instruction: "After converting this group to supergroup, you can add me again to use me.\n"
-bot_updates_convert_howto: "To convert this group to a supergroup, please follow the instructions here:\n"
+bot_updates_convert_instruction: "بعد از تبدیل این گروه به سوپرگروه، می‌توانید دوباره من را اضافه کنید تا از من استفاده کنید.\n"
+bot_updates_convert_howto: "برای تبدیل این گروه به سوپرگروه، لطفاً دستورالعمل‌های زیر را دنبال کنید:\n"
 
 # Antiflood module strings
-antiflood_button_unban_admins: "Unban (Admins Only)"
+antiflood_button_unban_admins: "آن‌بن (فقط ادمین‌ها)"
 
 # Helpers module strings
-helpers_notes_current_header: "These are the current notes in this Chat:\n"
+helpers_notes_current_header: "یادداشت‌های فعلی در این چت:\n"
 
 # Validation errors
 
 # Configuration errors
-config_bot_token_required: "BOT_TOKEN is required"
-config_owner_id_required: "OWNER_ID is required and must be greater than 0"
-config_message_dump_required: "MESSAGE_DUMP is required and must be greater than 0"
-config_database_url_required: "DATABASE_URL is required"
-config_redis_address_required: "REDIS_ADDRESS is required"
-config_webhook_domain_required: "WEBHOOK_DOMAIN is required when USE_WEBHOOKS is enabled"
-config_webhook_port_invalid: "WEBHOOK_PORT must be between 1 and 65535"
-config_workers_invalid: "%s must be between %d and %d"
+config_bot_token_required: "BOT_TOKEN الزامی است"
+config_owner_id_required: "OWNER_ID الزامی است و باید بزرگ‌تر از 0 باشد"
+config_message_dump_required: "MESSAGE_DUMP الزامی است و باید بزرگ‌تر از 0 باشد"
+config_database_url_required: "DATABASE_URL الزامی است"
+config_redis_address_required: "REDIS_ADDRESS الزامی است"
+config_webhook_domain_required: "وقتی USE_WEBHOOKS فعال باشد، WEBHOOK_DOMAIN الزامی است"
+config_webhook_port_invalid: "WEBHOOK_PORT باید بین 1 و 65535 باشد"
+config_workers_invalid: "%s باید بین %d و %d باشد"
 
 # System messages
-system_db_connected: "Connected to PostgreSQL database successfully!"
-system_config_loaded: "Configuration loaded and validated successfully"
+system_db_connected: "اتصال به دیتابیس PostgreSQL با موفقیت برقرار شد!"
+system_config_loaded: "پیکربندی با موفقیت بارگذاری و اعتبارسنجی شد"
 
 # Database query errors
-db_lock_queries_not_initialized: "lock queries not initialized"
-db_user_queries_not_initialized: "user queries not initialized"
-db_chat_queries_not_initialized: "chat queries not initialized"
-db_antiflood_queries_not_initialized: "antiflood queries not initialized"
-db_filter_queries_not_initialized: "filter queries not initialized"
-db_blacklist_queries_not_initialized: "blacklist queries not initialized"
-db_channel_queries_not_initialized: "channel queries not initialized"
-db_type_assertion_failed: "type assertion to []byte failed"
+db_lock_queries_not_initialized: "کوئری‌های lock مقداردهی اولیه نشده‌اند"
+db_user_queries_not_initialized: "کوئری‌های user مقداردهی اولیه نشده‌اند"
+db_chat_queries_not_initialized: "کوئری‌های chat مقداردهی اولیه نشده‌اند"
+db_antiflood_queries_not_initialized: "کوئری‌های antiflood مقداردهی اولیه نشده‌اند"
+db_filter_queries_not_initialized: "کوئری‌های filter مقداردهی اولیه نشده‌اند"
+db_blacklist_queries_not_initialized: "کوئری‌های blacklist مقداردهی اولیه نشده‌اند"
+db_channel_queries_not_initialized: "کوئری‌های channel مقداردهی اولیه نشده‌اند"
+db_type_assertion_failed: "تبدیل نوع به []byte ناموفق بود"
 
 # Default button texts
-button_rules_default: "Rules"
+button_rules_default: "قوانین"
 
 # Antispam module strings (no commands - automatic background protection)
 antispam_help_msg: |
-  The antispam module provides automatic, behind-the-scenes spam protection for your groups.
+  ماژول ضداسپم به‌صورت خودکار و پشت‌صحنه از گروه‌های شما در برابر اسپم محافظت می‌کند.
 
-  Unlike other modules, it operates automatically without requiring any user commands.
+  برخلاف سایر ماژول‌ها، این ماژول بدون نیاز به هیچ دستور کاربری به‌صورت خودکار کار می‌کند.
 
-  <b>How It Works:</b>
-  Per-user-per-chat rate limiting prevents spam automatically.
-  • <b>Rate Limit:</b> 18 messages per second per user per chat
-  • <b>Automatic:</b> No configuration required - works out of the box
-  • <b>Transparent:</b> Silently drops excessive messages without disrupting normal users
-  • <b>Per-User Tracking:</b> Busy groups with many legitimate users won't trigger false positives
+  <b>نحوه کار:</b>
+  محدودسازی نرخ برای هر کاربر در هر چت، به‌صورت خودکار جلوی اسپم را می‌گیرد.
+  • <b>محدودیت نرخ:</b> 18 پیام در ثانیه برای هر کاربر در هر چت
+  • <b>خودکار:</b> بدون نیاز به پیکربندی و آماده استفاده
+  • <b>شفاف:</b> پیام‌های بیش‌ازحد را بی‌صدا حذف می‌کند بدون اینکه کاربران عادی مختل شوند
+  • <b>رهگیری per-user:</b> در گروه‌های شلوغ با کاربران واقعی زیاد، خطای مثبت کاذب کاهش می‌یابد
 
 antispam_extended_docs: |
-  <b>Technical Details</b>
+  <b>جزئیات فنی</b>
 
-  <b>Rate Limiting Algorithm:</b>
-  The module uses a sliding window approach:
-  1. <b>First Message:</b> Starts tracking with count = 1
-  2. <b>Subsequent Messages:</b> Increments counter within the time window
-  3. <b>Window Expiry:</b> Counter resets when the time window (1 second) expires
-  4. <b>Threshold Exceeded:</b> Messages beyond 18/second are silently dropped
+  <b>الگوریتم محدودسازی نرخ:</b>
+  این ماژول از رویکرد پنجره لغزان استفاده می‌کند:
+  1. <b>اولین پیام:</b> رهگیری با count = 1 شروع می‌شود
+  2. <b>پیام‌های بعدی:</b> شمارنده در همان بازه زمانی افزایش می‌یابد
+  3. <b>انقضای پنجره:</b> با پایان بازه زمانی (1 ثانیه) شمارنده ریست می‌شود
+  4. <b>عبور از آستانه:</b> پیام‌های بیشتر از 18/ثانیه بی‌صدا حذف می‌شوند
 
-  <b>Memory Management:</b>
-  • Automatic cleanup: Expired tracking entries are removed every 5 minutes
-  • No memory leaks: Background goroutine prevents unbounded memory growth
-  • Efficient storage: Only active users are tracked
+  <b>مدیریت حافظه:</b>
+  • پاکسازی خودکار: ورودی‌های منقضی هر 5 دقیقه حذف می‌شوند
+  • بدون نشت حافظه: goroutine پس‌زمینه از رشد بی‌نهایت حافظه جلوگیری می‌کند
+  • ذخیره‌سازی بهینه: فقط کاربران فعال رهگیری می‌شوند
 
 antispam_notes_docs: |
-  <b>Limitations</b>
-  • <b>No User Commands:</b> Cannot be enabled/disabled per chat
-  • <b>Fixed Threshold:</b> 18 messages/second is hardcoded
-  • <b>No Logging to Chat:</b> Spam events are only logged server-side
+  <b>محدودیت‌ها</b>
+  • <b>بدون دستور کاربری:</b> امکان فعال/غیرفعال‌سازی برای هر چت وجود ندارد
+  • <b>آستانه ثابت:</b> 18 پیام/ثانیه به‌صورت ثابت در کد تعریف شده است
+  • <b>بدون لاگ در چت:</b> رخدادهای اسپم فقط در سمت سرور لاگ می‌شوند
 
-  Use <b>Antispam</b> for automatic background protection and <b>Antiflood</b> for configurable flood control.
+  از <b>Antispam</b> برای محافظت خودکار پس‌زمینه و از <b>Antiflood</b> برای کنترل فلود قابل تنظیم استفاده کنید.
 
 # Admin module extended documentation
 admin_extended_docs: |
-  <b>Anonymous Admin Support</b>
+  <b>پشتیبانی از ادمین ناشناس</b>
 
-  The <code>/anonadmin</code> command allows group owners to toggle anonymous admin recognition:
-  <code>/anonadmin on</code> - Enable anonymous admin checks
-  <code>/anonadmin off</code> - Disable anonymous admin checks
+  دستور <code>/anonadmin</code> به مالک گروه اجازه می‌دهد تشخیص ادمین ناشناس را روشن/خاموش کند:
+  <code>/anonadmin on</code> - فعال‌سازی بررسی ادمین ناشناس
+  <code>/anonadmin off</code> - غیرفعال‌سازی بررسی ادمین ناشناس
 
-  When enabled, the bot will request verification for admin actions from anonymous accounts.
+  وقتی فعال باشد، ربات برای اقدام‌های مدیریتی از حساب‌های ناشناس تایید می‌گیرد.
 
-  <b>How Anonymous Admin Verification Works:</b>
-  1. Bot detects sender is GroupAnonymousBot
-  2. Original message cached with 20-second TTL
-  3. "Verify Admin" button sent to chat
-  4. Clicking user verified as admin, command executed
-  5. Button expires after 20 seconds if not verified
+  <b>نحوه کار تایید ادمین ناشناس:</b>
+  1. ربات تشخیص می‌دهد فرستنده GroupAnonymousBot است
+  2. پیام اصلی با TTL بیست‌ثانیه‌ای کش می‌شود
+  3. دکمه "تایید ادمین" در چت ارسال می‌شود
+  4. با کلیک کاربر، ادمین‌بودن تایید شده و دستور اجرا می‌شود
+  5. اگر تایید نشود، دکمه بعد از 20 ثانیه منقضی می‌شود
 
-  <b>Supported Commands:</b>
-  Admin: /promote, /demote, /title
-  Bans: /ban, /dban, /sban, /tban, /unban
-  Mutes: /mute, /smute, /dmute, /tmute, /unmute
-  Pins: /pin, /unpin, /permapin, /unpinall
-  Purges: /purge, /del
-  Warns: /warn, /swarn, /dwarn
+  <b>دستورات پشتیبانی‌شده:</b>
+  ادمین: /promote, /demote, /title
+  بن‌ها: /ban, /dban, /sban, /tban, /unban
+  بی‌صداها: /mute, /smute, /dmute, /tmute, /unmute
+  پین‌ها: /pin, /unpin, /permapin, /unpinall
+  پاک‌سازی‌ها: /purge, /del
+  اخطارها: /warn, /swarn, /dwarn
 
 admin_notes_docs: |
-  <b>Security Notes</b>
-  • All user-controlled input is HTML-escaped to prevent injection attacks
-  • Admin permission changes run with proper error handling and panic recovery
+  <b>نکات امنیتی</b>
+  • تمام ورودی‌های قابل‌کنترل توسط کاربر با HTML escape ایمن می‌شوند تا از حملات تزریق جلوگیری شود
+  • تغییر دسترسی‌های ادمین با مدیریت خطا و بازیابی خطای panic انجام می‌شود
 
 # Antiflood extended docs
 antiflood_notes_docs: |
-  <b>Default Behavior</b>
-  Antiflood is <b>disabled by default</b>. You must explicitly enable it using <code>/setflood &lt;number&gt;</code>.
+  <b>رفتار پیش‌فرض</b>
+  آنتی‌فلود <b>به‌صورت پیش‌فرض غیرفعال</b> است. باید آن را به‌طور صریح با <code>/setflood &lt;number&gt;</code> فعال کنید.
 
 # Locks module extended documentation
 locks_types_docs: |
-  <b>Permission Locks</b> (16 types)
-  <code>sticker</code> - Block stickers
-  <code>audio</code> - Block audio files
-  <code>voice</code> - Block voice messages
-  <code>document</code> - Block documents
-  <code>video</code> - Block videos
-  <code>videonote</code> - Block video notes
-  <code>contact</code> - Block contacts
-  <code>photo</code> - Block photos
-  <code>gif</code> - Block GIFs
-  <code>url</code> - Block URLs
-  <code>bots</code> - Prevent adding bots
-  <code>forward</code> - Block forwards
-  <code>game</code> - Block games
-  <code>location</code> - Block locations
-  <code>rtl</code> - Block RTL text
-  <code>anonchannel</code> - Block channel messages
+  <b>قفل‌های دسترسی</b> (16 نوع)
+  <code>sticker</code> - مسدود کردن استیکرها
+  <code>audio</code> - مسدود کردن فایل‌های صوتی
+  <code>voice</code> - مسدود کردن پیام‌های صوتی
+  <code>document</code> - مسدود کردن اسناد
+  <code>video</code> - مسدود کردن ویدیوها
+  <code>videonote</code> - مسدود کردن ویدیو نوت
+  <code>contact</code> - مسدود کردن مخاطبین
+  <code>photo</code> - مسدود کردن عکس‌ها
+  <code>gif</code> - مسدود کردن GIFها
+  <code>url</code> - مسدود کردن URLها
+  <code>bots</code> - جلوگیری از افزودن ربات
+  <code>forward</code> - مسدود کردن فوروارد
+  <code>game</code> - مسدود کردن بازی‌ها
+  <code>location</code> - مسدود کردن لوکیشن
+  <code>rtl</code> - مسدود کردن متن راست‌به‌چپ
+  <code>anonchannel</code> - مسدود کردن پیام‌های کانال
 
-  <b>Restriction Locks</b> (6 types)
-  <code>messages</code> - Block all messages
-  <code>comments</code> - Block non-member comments
-  <code>media</code> - Block all media
-  <code>other</code> - Block games/stickers/GIFs
-  <code>previews</code> - Block URL previews
-  <code>all</code> - Block everything
+  <b>قفل‌های محدودسازی</b> (6 نوع)
+  <code>messages</code> - مسدود کردن همه پیام‌ها
+  <code>comments</code> - مسدود کردن کامنت‌های غیرعضو
+  <code>media</code> - مسدود کردن همه رسانه‌ها
+  <code>other</code> - مسدود کردن بازی/استیکر/GIF
+  <code>previews</code> - مسدود کردن پیش‌نمایش URL
+  <code>all</code> - مسدود کردن همه‌چیز
 
 locks_notes_docs: |
-  <b>Technical Notes</b>
-  • Lock enforcement is real-time
-  • Admins are exempt from all locks
-  • Locks persist across bot restarts
-  • Cache invalidated on updates
+  <b>نکات فنی</b>
+  • اعمال قفل‌ها به‌صورت لحظه‌ای انجام می‌شود
+  • ادمین‌ها از همه قفل‌ها مستثنی هستند
+  • قفل‌ها پس از ری‌استارت ربات باقی می‌مانند
+  • کش هنگام به‌روزرسانی نامعتبر می‌شود
 
 # Languages extended docs
 languages_extended_docs: |
-  <b>How It Works</b>
-  • <b>Private Chats:</b> Any user can change their personal language
-  • <b>Group Chats:</b> Only admins can change the group language
+  <b>نحوه کار</b>
+  • <b>چت خصوصی:</b> هر کاربر می‌تواند زبان شخصی خودش را تغییر دهد
+  • <b>چت گروهی:</b> فقط ادمین‌ها می‌توانند زبان گروه را تغییر دهند
 
-  Language preferences are cached for performance and stored separately for users and groups.
+  ترجیحات زبان برای کارایی بهتر کش می‌شوند و برای کاربران و گروه‌ها جداگانه ذخیره می‌گردند.
 
 # Greetings extended docs
 greetings_extended_docs: |
-  <b>Captcha Integration</b>
-  When Captcha module is enabled:
-  1. New members are muted upon joining
-  2. Captcha challenge sent instead of welcome
-  3. After verification, welcome message is sent
-  4. Failed verification applies captcha action
+  <b>یکپارچه‌سازی کپچا</b>
+  وقتی ماژول کپچا فعال باشد:
+  1. اعضای جدید هنگام ورود بی‌صدا می‌شوند
+  2. به‌جای خوش‌آمدگویی، چالش کپچا ارسال می‌شود
+  3. بعد از تایید، پیام خوش‌آمد ارسال می‌شود
+  4. در صورت شکست تایید، اقدام کپچا اعمال می‌شود
 
 # Extended documentation locale keys - Notes module
 notes_extended_docs: |
-  <b>Features:</b>
-  • <b>Text &amp; Media Support</b>: Save text messages, photos, videos, documents, and more
-  • <b>Custom Buttons</b>: Add inline keyboard buttons to notes
-  • <b>Formatting Options</b>: Control note visibility and behavior
-  • <b>Admin-Only Notes</b>: Restrict certain notes to administrators only
-  • <b>Private Notes</b>: Send notes privately to users via DM
-  • <b>Web Preview Control</b>: Enable or disable link previews
-  • <b>Protected Content</b>: Prevent note content from being forwarded
+  <b>قابلیت‌ها:</b>
+  • <b>پشتیبانی متن و رسانه</b>: ذخیره پیام متنی، عکس، ویدیو، سند و بیشتر
+  • <b>دکمه سفارشی</b>: افزودن دکمه‌های شیشه‌ای به یادداشت
+  • <b>گزینه‌های قالب‌بندی</b>: کنترل نمایش و رفتار یادداشت
+  • <b>یادداشت مخصوص ادمین</b>: محدودکردن بعضی یادداشت‌ها به ادمین‌ها
+  • <b>یادداشت خصوصی</b>: ارسال یادداشت به‌صورت DM برای کاربران
+  • <b>کنترل پیش‌نمایش لینک</b>: فعال/غیرفعال کردن وب‌پریویو
+  • <b>محتوای محافظت‌شده</b>: جلوگیری از فوروارد شدن محتوا
 
-  <b>Note Formatting Options:</b>
-  When saving a note, you can use special tags to control its behavior:
-  • <code>{private}</code> - Note will only be sent via DM, never in group
-  • <code>{noprivate}</code> - Note will only be sent in group, never via DM
-  • <code>{admin}</code> - Note can only be accessed by admins
-  • <code>{protect}</code> - Content cannot be forwarded
-  • <code>{nonotif}</code> - Send without notification sound
-  • <code>{nopreview}</code> - Disable link preview
+  <b>گزینه‌های قالب‌بندی یادداشت:</b>
+  هنگام ذخیره یادداشت می‌توانی از تگ‌های ویژه برای کنترل رفتار آن استفاده کنی:
+  • <code>{private}</code> - یادداشت فقط در DM ارسال می‌شود و هرگز در گروه نه
+  • <code>{noprivate}</code> - یادداشت فقط در گروه ارسال می‌شود و هرگز در DM نه
+  • <code>{admin}</code> - فقط ادمین‌ها می‌توانند یادداشت را ببینند
+  • <code>{protect}</code> - محتوا قابل فوروارد نیست
+  • <code>{nonotif}</code> - ارسال بدون صدای اعلان
+  • <code>{nopreview}</code> - غیرفعال‌کردن پیش‌نمایش لینک
 
-  <b>Private Notes Mode:</b>
-  When private notes are enabled (<code>/privatenotes on</code>), all notes are sent to users via DM instead of in the group. This keeps the group chat clean.
+  <b>حالت یادداشت خصوصی:</b>
+  وقتی حالت یادداشت خصوصی فعال باشد (<code>/privatenotes on</code>)، همه یادداشت‌ها به‌جای گروه در DM برای کاربر ارسال می‌شوند. این کار چت گروه را تمیز نگه می‌دارد.
 
-  Individual notes can override this behavior:
-  • <code>{private}</code> - Always send privately
-  • <code>{noprivate}</code> - Always send in group
+  هر یادداشت می‌تواند این رفتار را نادیده بگیرد:
+  • <code>{private}</code> - همیشه خصوصی ارسال شود
+  • <code>{noprivate}</code> - همیشه در گروه ارسال شود
 
-  <b>Raw Note (No Formatting):</b>
-  To see a note's raw content without formatting (for editing):
+  <b>نمایش خام یادداشت (بدون قالب‌بندی):</b>
+  برای دیدن محتوای خام یادداشت بدون قالب‌بندی (برای ویرایش):
   <code>/get notename noformat</code>
 
 notes_permissions_docs: |
-  <b>Required Permissions:</b>
-  • Save/Clear notes: Change Group Info
-  • View admin notes: Admin status
-  • Clear all notes: Chat Owner
-  • Get regular notes: Any user
+  <b>مجوزهای لازم:</b>
+  • ذخیره/حذف یادداشت: مجوز تغییر اطلاعات گروه
+  • دیدن یادداشت‌های ادمینی: ادمین بودن
+  • حذف همه یادداشت‌ها: فقط مالک چت
+  • دریافت یادداشت‌های عادی: همه کاربران
 
 # Extended documentation locale keys - Pins module
 pins_extended_docs: |
-  <b>Features:</b>
+  <b>قابلیت‌ها:</b>
 
-  <b>Anti-Channel Pin:</b>
-  When enabled, the bot will automatically unpin any message that gets auto-pinned by a linked channel. This is useful when you want to maintain control over what gets pinned in your group.
+  <b>ضد پین کانال:</b>
+  وقتی فعال باشد، ربات هر پیامی را که کانال لینک‌شده به‌صورت خودکار پین کند، خودکار آن‌پین می‌کند. این قابلیت وقتی مفید است که بخواهی کنترل کامل روی پین‌های گروه داشته باشی.
 
-  <b>Important:</b> When using anti channel pins, always use the <code>/unpin</code> command instead of unpinning manually through Telegram. Manual unpinning will cause the old message to get re-pinned when the channel sends new messages.
+  <b>مهم:</b> هنگام استفاده از ضد پین کانال، همیشه از دستور <code>/unpin</code> استفاده کن و به‌صورت دستی از تلگرام آن‌پین نکن. آن‌پین دستی باعث می‌شود با ارسال پیام جدید کانال، پیام قبلی دوباره پین شود.
 
-  <b>Clean Linked:</b>
-  When enabled, the bot will automatically delete any messages sent to the group from the linked channel. This keeps your group chat clean from cross-posted channel content.
+  <b>پاک‌سازی لینک‌شده:</b>
+  وقتی فعال باشد، ربات همه پیام‌های ارسالی از کانال لینک‌شده به گروه را خودکار حذف می‌کند. این کار چت گروه را از محتوای کراس‌پست‌شده تمیز نگه می‌دارد.
 
   <b>Permapin:</b>
-  Create custom pinned messages with:
-  • Text with HTML/Markdown formatting
-  • Inline buttons with URLs
-  • Media attachments (photos, documents, stickers, audio, video, voice notes, video notes)
-  • All standard message fillings ({first}, {chatname}, etc.)
+  ساخت پیام پین سفارشی با:
+  • متن با قالب HTML/Markdown
+  • دکمه‌های شیشه‌ای دارای URL
+  • پیوست رسانه (عکس، سند، استیکر، صوت، ویدیو، ویس، ویدیو نوت)
+  • همه جایگذاری‌های استاندارد پیام ({first}، {chatname} و ...)
 
-  <b>Supported via Connection:</b>
-  The following commands work when connected to a chat via <code>/connect</code>:
+  <b>پشتیبانی در حالت اتصال:</b>
+  وقتی با <code>/connect</code> به چت وصل باشی، این دستورات کار می‌کنند:
   • <code>/antichannelpin</code>
   • <code>/cleanlinked</code>
 
 pins_notes_docs: |
-  <b>Notes:</b>
-  • The <code>/unpinall</code> command shows a confirmation dialog before unpinning all messages
-  • Permapin supports all media types that Telegram supports for pinning
-  • Anti-channel pin and clean linked settings are stored per-chat and persist across bot restarts
+  <b>نکته‌ها:</b>
+  • دستور <code>/unpinall</code> قبل از برداشتن همه پین‌ها، تایید می‌گیرد
+  • Permapin از همه انواع رسانه‌ای که تلگرام برای پین پشتیبانی می‌کند، پشتیبانی می‌کند
+  • تنظیمات ضد پین کانال و پاک‌سازی لینک‌شده برای هر چت جدا ذخیره می‌شوند و بعد از ری‌استارت باقی می‌مانند
 
-  <b>Required Permissions:</b>
-  <b>Bot:</b> Must be admin with "Pin Messages" permission
-  <b>User:</b> Most commands require admin with "Pin Messages" permission
+  <b>مجوزهای لازم:</b>
+  <b>ربات:</b> باید ادمین با مجوز "Pin Messages" باشد
+  <b>کاربر:</b> بیشتر دستورها نیاز به ادمین با مجوز "Pin Messages" دارند
 
 # Extended documentation locale keys - Purges module
 purges_extended_docs: |
-  <b>Range Deletion with purgefrom/purgeto:</b>
-  When you need more control over the deletion range:
+  <b>حذف بازه با purgefrom/purgeto:</b>
+  وقتی به کنترل بیشتری روی بازه حذف نیاز داری:
 
-  1. Reply to the <b>first</b> message in the range:
+  1. روی <b>اولین</b> پیام بازه ریپلای کن:
   <code>/purgefrom</code>
-  The bot will confirm the message is marked (expires after 30 seconds).
+  ربات تایید می‌کند که پیام علامت‌گذاری شد (بعد از 30 ثانیه منقضی می‌شود).
 
-  2. Reply to the <b>last</b> message in the range:
+  2. روی <b>آخرین</b> پیام بازه ریپلای کن:
   <code>/purgeto</code>
-  All messages between the two markers (inclusive) will be deleted.
+  همه پیام‌های بین این دو نشانگر (شامل خودشان) حذف می‌شوند.
 
-  This is useful when you can't easily scroll to the starting point or need to verify the range before deletion.
+  این روش وقتی مفید است که پیدا کردن نقطه شروع سخت باشد یا بخواهی قبل از حذف، بازه را دقیق تایید کنی.
 
-  <b>Limits and Restrictions:</b>
-  • <b>Maximum messages per purge:</b> 1000 messages
-  • <b>Message age limit:</b> Messages older than 48 hours may not be deletable (Telegram API restriction)
-  • <b>Permissions required:</b> Both the user and the bot must have "Delete Messages" permission
+  <b>محدودیت‌ها:</b>
+  • <b>حداکثر پیام در هر purge:</b> 1000 پیام
+  • <b>محدودیت سن پیام:</b> پیام‌های قدیمی‌تر از 48 ساعت ممکن است قابل حذف نباشند (محدودیت API تلگرام)
+  • <b>مجوز لازم:</b> هم کاربر و هم ربات باید مجوز "Delete Messages" داشته باشند
 
 purges_notes_docs: |
-  <b>Notes:</b>
-  • The <code>/purgefrom</code> marker expires after 30 seconds if not followed by <code>/purgeto</code>
-  • Deleting large ranges uses concurrent processing for better performance
-  • Status messages (showing how many messages were deleted) auto-delete after 3 seconds
-  • The bot handles already-deleted messages gracefully without errors
+  <b>نکته‌ها:</b>
+  • نشانگر <code>/purgefrom</code> اگر با <code>/purgeto</code> ادامه پیدا نکند، بعد از 30 ثانیه منقضی می‌شود
+  • حذف بازه‌های بزرگ برای کارایی بهتر با پردازش همزمان انجام می‌شود
+  • پیام وضعیت (تعداد پیام حذف‌شده) بعد از 3 ثانیه خودکار حذف می‌شود
+  • ربات پیام‌هایی که قبلاً حذف شده‌اند را بدون خطا مدیریت می‌کند
 
 # Extended documentation locale keys - Reports module
 reports_extended_docs: |
-  <b>How It Works:</b>
+  <b>نحوه کار:</b>
 
-  <b>Reporting a Message:</b>
-  1. <b>Reply to the offending message</b> with <code>/report</code> or mention <code>@admin</code>
-  2. The bot sends a notification mentioning all admins who have reports enabled
-  3. The notification includes action buttons for quick moderation
+  <b>گزارش یک پیام:</b>
+  1. روی <b>پیام مشکل‌دار</b> ریپلای کن و <code>/report</code> بزن یا <code>@admin</code> منشن کن
+  2. ربات برای همه ادمین‌هایی که گزارش را فعال کرده‌اند اعلان می‌فرستد
+  3. اعلان شامل دکمه‌های اقدام سریع برای مدیریت است
 
-  <b>Admin Action Buttons:</b>
-  • <b>📩 Message</b> - Link to the reported message
-  • <b>👢 Kick</b> - Kick the reported user (they can rejoin)
-  • <b>🚫 Ban</b> - Permanently ban the reported user
-  • <b>🗑 Delete</b> - Delete the reported message
-  • <b>✅ Resolved</b> - Mark the report as resolved without action
+  <b>دکمه‌های اقدام ادمین:</b>
+  • <b>📩 Message</b> - لینک پیام گزارش‌شده
+  • <b>👢 Kick</b> - کیک کاربر گزارش‌شده (می‌تواند دوباره برگردد)
+  • <b>🚫 Ban</b> - بن دائمی کاربر گزارش‌شده
+  • <b>🗑 Delete</b> - حذف پیام گزارش‌شده
+  • <b>✅ Resolved</b> - بستن گزارش بدون اقدام
 
-  <b>Personal vs Group Settings:</b>
-  • <b>In PM:</b> <code>/reports on/off</code> toggles whether YOU receive report notifications
-  • <b>In Group:</b> <code>/reports on/off</code> toggles whether reporting is enabled for that group
+  <b>تنظیم شخصی در برابر تنظیم گروه:</b>
+  • <b>در PM:</b> <code>/reports on/off</code> تعیین می‌کند خودت اعلان گزارش بگیری یا نه
+  • <b>در گروه:</b> <code>/reports on/off</code> تعیین می‌کند گزارش برای آن گروه فعال باشد یا نه
 
 reports_permissions_docs: |
-  <b>Who Can Report?</b>
-  ✅ Regular users
-  ❌ Admins (no need to report to themselves)
-  ❌ Blocked users
-  ❌ Anonymous channels / Telegram system accounts
+  <b>چه کسانی می‌توانند گزارش کنند؟</b>
+  ✅ کاربران عادی
+  ❌ ادمین‌ها (نیازی نیست خودشان را گزارش کنند)
+  ❌ کاربران بلاک‌شده
+  ❌ کانال‌های ناشناس / حساب‌های سیستمی تلگرام
 
-  <b>Who Can Be Reported?</b>
-  ✅ Regular users
-  ❌ The bot itself
-  ❌ Admins (protected from reports)
-  ❌ Anonymous channels / Telegram system accounts
+  <b>چه کسانی قابل گزارش هستند؟</b>
+  ✅ کاربران عادی
+  ❌ خود ربات
+  ❌ ادمین‌ها (در برابر گزارش محافظت می‌شوند)
+  ❌ کانال‌های ناشناس / حساب‌های سیستمی تلگرام
 
 # Extended documentation locale keys - Rules module
 rules_extended_docs: |
-  <b>Features:</b>
+  <b>قابلیت‌ها:</b>
 
-  <b>Private Rules:</b>
-  Enable private rules (<code>/privaterules on</code>) to send rules via PM instead of in the group. This keeps the group chat clean.
+  <b>قوانین خصوصی:</b>
+  با فعال‌کردن قوانین خصوصی (<code>/privaterules on</code>)، قوانین به‌جای گروه در PM ارسال می‌شوند. این کار چت گروه را تمیز نگه می‌دارد.
 
-  <b>Custom Rules Button:</b>
-  Set a custom button text (max 30 characters):
-  <code>/rulesbtn View Rules</code>
+  <b>دکمه سفارشی قوانین:</b>
+  متن دکمه سفارشی تنظیم کن (حداکثر 30 کاراکتر):
+  <code>/rulesbtn مشاهده قوانین</code>
 
-  Reset to default:
+  بازگشت به حالت پیش‌فرض:
   <code>/resetrulesbtn</code>
 
-  <b>Setting Rules:</b>
-  You can set rules by providing text directly or by replying to a message:
-  <code>/setrules Please be respectful to all members.</code>
+  <b>تنظیم قوانین:</b>
+  می‌توانی قوانین را مستقیم با متن یا با ریپلای روی یک پیام تنظیم کنی:
+  <code>/setrules لطفاً به همه اعضا احترام بگذارید.</code>
 
-  Or reply to a message:
+  یا روی یک پیام ریپلای کن:
   <code>/setrules</code>
 
-  <b>Required Permissions:</b>
-  • User commands: Available to all users
-  • Admin commands: Require admin permissions in the chat
+  <b>مجوزهای لازم:</b>
+  • دستورات کاربر: برای همه کاربران در دسترس
+  • دستورات ادمین: نیاز به مجوز ادمینی در چت دارد
 
 # Extended documentation locale keys - Warns module
 warns_extended_docs: |
-  <b>Default Settings:</b>
-  • <b>Default warn limit:</b> 3 warnings
-  • <b>Default warn mode:</b> mute
+  <b>تنظیمات پیش‌فرض:</b>
+  • <b>حد پیش‌فرض اخطار:</b> 3 اخطار
+  • <b>حالت پیش‌فرض اخطار:</b> mute
 
-  <b>Available Warn Modes:</b>
-  • <code>ban</code> - Permanently ban the user from the chat
-  • <code>kick</code> - Kick the user (they can rejoin)
-  • <code>mute</code> - Mute the user (cannot send messages)
+  <b>حالت‌های اخطار:</b>
+  • <code>ban</code> - کاربر را به‌صورت دائمی از چت بن می‌کند
+  • <code>kick</code> - کاربر را کیک می‌کند (می‌تواند دوباره برگردد)
+  • <code>mute</code> - کاربر را بی‌صدا می‌کند (نمی‌تواند پیام بفرستد)
 
-  <b>Silent and Delete Warnings:</b>
-  • <code>/swarn</code> - Delete your command and warn silently
-  • <code>/dwarn</code> - Delete the user's message and warn them
+  <b>اخطار بی‌صدا و حذفی:</b>
+  • <code>/swarn</code> - دستور شما را حذف می‌کند و بی‌صدا اخطار می‌دهد
+  • <code>/dwarn</code> - پیام کاربر را حذف می‌کند و به او اخطار می‌دهد
 
 warns_permissions_docs: |
-  <b>Permission Requirements:</b>
-  • <code>/warn</code>, <code>/dwarn</code>, <code>/swarn</code>: Bot admin + User admin with restrict
-  • <code>/rmwarn</code>, <code>/unwarn</code>: Bot admin + User admin
-  • <code>/resetwarn</code>, <code>/resetwarns</code>: Bot admin + User admin
-  • <code>/resetallwarns</code>: Chat owner only
-  • <code>/setwarnmode</code>, <code>/setwarnlimit</code>: Bot admin + User admin
-  • <code>/warnings</code>: Bot admin + User admin
-  • <code>/warns</code>: Any user (disableable)
+  <b>نیازمندی مجوزها:</b>
+  • <code>/warn</code>, <code>/dwarn</code>, <code>/swarn</code>: ربات ادمین + کاربر ادمین با مجوز restrict
+  • <code>/rmwarn</code>, <code>/unwarn</code>: ربات ادمین + کاربر ادمین
+  • <code>/resetwarn</code>, <code>/resetwarns</code>: ربات ادمین + کاربر ادمین
+  • <code>/resetallwarns</code>: فقط مالک چت
+  • <code>/setwarnmode</code>, <code>/setwarnlimit</code>: ربات ادمین + کاربر ادمین
+  • <code>/warnings</code>: ربات ادمین + کاربر ادمین
+  • <code>/warns</code>: همه کاربران (قابل غیرفعال‌سازی)
 
 warns_notes_docs: |
-  <b>Notes:</b>
-  • When a user reaches the warn limit, the configured action (ban/kick/mute) is applied automatically
-  • Warning reasons are stored and displayed when checking a user's warns
-  • The <code>/warns</code> command is the only command in this module that can be disabled by admins
-  • Anonymous channel posts cannot be warned
-  • Admins cannot be warned
+  <b>نکته‌ها:</b>
+  • وقتی کاربر به حد اخطار برسد، اقدام تنظیم‌شده (ban/kick/mute) خودکار اعمال می‌شود
+  • دلیل اخطار ذخیره می‌شود و هنگام بررسی اخطارها نمایش داده می‌شود
+  • دستور <code>/warns</code> تنها دستور این ماژول است که ادمین می‌تواند غیرفعالش کند
+  • پست‌های ناشناس کانال قابل اخطار نیستند
+  • به ادمین‌ها اخطار داده نمی‌شود
 
 # Extended documentation locale keys - Mutes module
 mutes_extended_docs: |
-  <b>Time Format for Temporary Mutes:</b>
+  <b>فرمت زمان برای بی‌صدای موقت:</b>
   • <code>m</code> = minutes (e.g., <code>30m</code>)
   • <code>h</code> = hours (e.g., <code>2h</code>)
   • <code>d</code> = days (e.g., <code>1d</code>)
 
-  <b>Mute Variants:</b>
-  • <code>/mute</code> - Standard mute with optional reason
-  • <code>/smute</code> - Silent mute (deletes your command message)
-  • <code>/dmute</code> - Delete-mute (mutes user and deletes their message)
-  • <code>/tmute</code> - Temporary mute with specified duration
+  <b>انواع بی‌صدا:</b>
+  • <code>/mute</code> - بی‌صدای معمولی با دلیل اختیاری
+  • <code>/smute</code> - بی‌صدای بی‌صدا (پیام دستور شما حذف می‌شود)
+  • <code>/dmute</code> - حذف-بی‌صدا (کاربر بی‌صدا می‌شود و پیامش حذف می‌شود)
+  • <code>/tmute</code> - بی‌صدای موقت با زمان مشخص
 
-  <b>Required Permissions:</b>
-  <b>Admin only commands.</b> Users executing these commands must have:
-  • Admin status in the chat
-  • Permission to restrict members
+  <b>مجوزهای لازم:</b>
+  <b>این دستورات فقط مخصوص ادمین‌هاست.</b> کاربری که اجرا می‌کند باید:
+  • در چت ادمین باشد
+  • مجوز محدودکردن اعضا داشته باشد
 
-  The bot must also have admin privileges with permission to restrict members.
+  ربات هم باید ادمین با مجوز محدودکردن اعضا باشد.
 
 # Extended documentation locale keys - Filters module
 filters_extended_docs: |
-  <b>Advanced Features:</b>
+  <b>قابلیت‌های پیشرفته:</b>
 
-  <b>Random Responses:</b>
-  Use <code>%%%</code> to separate multiple responses. One will be picked randomly:
-  <code>/filter hello Hi there!%%%Hello!%%%Hey, how are you?</code>
+  <b>پاسخ تصادفی:</b>
+  برای جداکردن چند پاسخ از <code>%%%</code> استفاده کن. یکی از آن‌ها تصادفی انتخاب می‌شود:
+  <code>/filter hello سلام!%%%درود!%%%چه خبر؟</code>
 
-  <b>Media Filters:</b>
-  Reply to any media (photo, video, document, sticker, etc.) with <code>/filter trigger</code> to create a filter that sends that media.
+  <b>فیلتر رسانه‌ای:</b>
+  روی هر رسانه‌ای (عکس، ویدیو، سند، استیکر و ...) ریپلای کن و <code>/filter trigger</code> بزن تا فیلتری بسازی که همان رسانه را ارسال کند.
 
-  <b>Noformat Mode:</b>
-  Admins can view the raw filter content (including formatting codes) by adding <code>noformat</code> after the trigger:
+  <b>حالت Noformat:</b>
+  ادمین‌ها می‌توانند با افزودن <code>noformat</code> بعد از تریگر، محتوای خام فیلتر (همراه کدهای قالب‌بندی) را ببینند:
   <code>hello noformat</code>
-  This is useful for debugging filters or seeing button configurations.
+  این حالت برای دیباگ فیلترها یا دیدن تنظیمات دکمه‌ها مفید است.
 
-  <b>Filter Buttons:</b>
-  You can add inline buttons to your filters:
-  <code>/filter hello Hello! Check out these links:
+  <b>دکمه‌های فیلتر:</b>
+  می‌توانی به فیلترها دکمه شیشه‌ای اضافه کنی:
+  <code>/filter hello سلام! این لینک‌ها را ببین:
   [Button 1](buttonurl:https://example.com)
   [Button 2](buttonurl:https://example2.com)</code>
 
 filters_technical_docs: |
-  <b>How Filters Work:</b>
-  1. When a message is received, the bot fetches all filters for the chat using an optimized cached query
-  2. The Aho-Corasick algorithm efficiently matches all filter keywords against the message text
-  3. The first matching filter triggers a response
-  4. Filters support text, media, and button responses
+  <b>نحوه کار فیلترها:</b>
+  1. وقتی پیام دریافت می‌شود، ربات با کوئری بهینه و کش‌شده همه فیلترهای چت را می‌خواند
+  2. الگوریتم Aho-Corasick کل کلیدواژه‌های فیلتر را به‌صورت کارآمد با متن پیام تطبیق می‌دهد
+  3. اولین فیلتر منطبق باعث ارسال پاسخ می‌شود
+  4. فیلترها از پاسخ متنی، رسانه‌ای و دکمه‌ای پشتیبانی می‌کنند
 
-  <b>Overwrite Confirmation:</b>
-  When you try to add a filter that already exists, the bot will ask for confirmation before overwriting. The confirmation expires after 5 minutes.
+  <b>تایید بازنویسی:</b>
+  اگر بخواهی فیلتری که از قبل وجود دارد را اضافه کنی، ربات قبل از جایگزینی تایید می‌گیرد. این تایید بعد از 5 دقیقه منقضی می‌شود.
 
-  <b>Cache Behavior:</b>
-  • Filter lists are cached for 15 minutes per chat
-  • Cache is automatically invalidated when filters are added or removed
+  <b>رفتار کش:</b>
+  • لیست فیلترها برای هر چت 15 دقیقه کش می‌شود
+  • با افزودن یا حذف فیلتر، کش خودکار نامعتبر می‌شود
 
 filters_limits_docs: |
-  <b>Limits:</b>
-  • Maximum 150 filters per chat
-  • Maximum 100 characters per filter keyword
-  • Filter keywords are stored in lowercase
+  <b>محدودیت‌ها:</b>
+  • حداکثر 150 فیلتر در هر چت
+  • حداکثر 100 کاراکتر برای هر کلیدواژه فیلتر
+  • کلیدواژه‌ها با حروف کوچک ذخیره می‌شوند
 
-  <b>Required Permissions:</b>
-  • <code>/filter</code>, <code>/addfilter</code>: Admin with Change Info permission
-  • <code>/stop</code>, <code>/rmfilter</code>, <code>/removefilter</code>: Admin with Change Info permission
-  • <code>/stopall</code>: Chat Owner only
-  • <code>/filters</code>: Available to all users
+  <b>مجوزهای لازم:</b>
+  • <code>/filter</code>, <code>/addfilter</code>: ادمین با مجوز Change Info
+  • <code>/stop</code>, <code>/rmfilter</code>, <code>/removefilter</code>: ادمین با مجوز Change Info
+  • <code>/stopall</code>: فقط مالک چت
+  • <code>/filters</code>: برای همه کاربران در دسترس
 
 # Extended documentation locale keys - Captcha module
 captcha_extended_docs: |
-  <b>How It Works:</b>
-  1. When captcha is enabled, new members are automatically muted upon joining
-  2. A captcha challenge is sent to the new member
-  3. The user must select the correct answer from the provided options
-  4. If successful, the user is unmuted and can participate in the group
-  5. If they fail or timeout, the configured action is taken (kick, ban, or mute)
+  <b>نحوه کار:</b>
+  1. وقتی کپچا فعال باشد، اعضای جدید هنگام ورود خودکار بی‌صدا می‌شوند
+  2. یک چالش کپچا برای عضو جدید ارسال می‌شود
+  3. کاربر باید پاسخ درست را از بین گزینه‌ها انتخاب کند
+  4. اگر موفق شود، از حالت بی‌صدا خارج می‌شود و می‌تواند در گروه فعالیت کند
+  5. اگر شکست بخورد یا زمان تمام شود، اقدام تنظیم‌شده اعمال می‌شود (kick، ban یا mute)
 
-  <b>Captcha Types:</b>
-  • <b>Math</b>: Solve simple arithmetic problems (addition, subtraction, multiplication)
-  • <b>Text</b>: Identify text shown in a distorted image
+  <b>انواع کپچا:</b>
+  • <b>Math</b>: حل مسائل ساده ریاضی (جمع، تفریق، ضرب)
+  • <b>Text</b>: تشخیص متن داخل تصویر مخدوش
 
-  <b>Pending Messages Feature:</b>
-  When a user is completing the captcha, any messages they try to send are stored and deleted. Admins can:
-  • View what messages a user tried to send using <code>/captchapending</code>
-  • Clear stored messages using <code>/captchaclear</code>
+  <b>قابلیت پیام‌های معلق:</b>
+  وقتی کاربر در حال گذراندن کپچاست، پیام‌هایی که می‌خواهد بفرستد ذخیره و حذف می‌شوند. ادمین‌ها می‌توانند:
+  • با <code>/captchapending</code> ببینند کاربر چه پیام‌هایی سعی کرده ارسال کند
+  • با <code>/captchaclear</code> پیام‌های ذخیره‌شده را پاک کنند
 
-  This helps identify potential spam attempts before users complete verification.
+  این کار کمک می‌کند قبل از تکمیل تایید، تلاش‌های احتمالی اسپم شناسایی شود.
 
 captcha_permissions_docs: |
-  <b>Bot Requirements:</b>
-  • Ban users (for kick/ban actions)
-  • Restrict members (for muting during verification)
-  • Delete messages (for cleaning up captcha messages)
+  <b>نیازمندی‌های ربات:</b>
+  • مجوز بن کاربر (برای اقدامات kick/ban)
+  • مجوز محدودکردن اعضا (برای بی‌صداکردن حین تایید)
+  • مجوز حذف پیام (برای پاکسازی پیام‌های کپچا)
 
-  <b>Failure Actions:</b>
-  • <code>kick</code> - Ban then immediately unban (allows user to rejoin)
-  • <code>ban</code> - Permanently ban the user
-  • <code>mute</code> - Keep the user muted for 24 hours
+  <b>اقدام در صورت شکست:</b>
+  • <code>kick</code> - بن و بلافاصله آن‌بن (کاربر می‌تواند دوباره وارد شود)
+  • <code>ban</code> - بن دائمی کاربر
+  • <code>mute</code> - نگه‌داشتن کاربر در حالت بی‌صدا برای 24 ساعت
 
 # Extended documentation locale keys - Blacklists module
 blacklists_extended_docs: |
-  <b>Available Actions:</b>
-  The following actions can be set using <code>/blaction</code>:
-  • <code>none</code> - Just deletes the message without any further action
-  • <code>warn</code> - Deletes message and issues a warning to the user (default)
-  • <code>mute</code> - Deletes message and mutes the user
-  • <code>kick</code> - Deletes message and kicks the user (they can rejoin)
-  • <code>ban</code> - Deletes message and permanently bans the user
+  <b>اقدام‌های قابل انتخاب:</b>
+  اقدام‌های زیر با <code>/blaction</code> قابل تنظیم هستند:
+  • <code>none</code> - فقط پیام را حذف می‌کند و اقدام دیگری انجام نمی‌دهد
+  • <code>warn</code> - پیام را حذف می‌کند و به کاربر اخطار می‌دهد (پیش‌فرض)
+  • <code>mute</code> - پیام را حذف می‌کند و کاربر را بی‌صدا می‌کند
+  • <code>kick</code> - پیام را حذف می‌کند و کاربر را کیک می‌کند (می‌تواند برگردد)
+  • <code>ban</code> - پیام را حذف می‌کند و کاربر را دائمی بن می‌کند
 
-  <b>Note:</b>
-  The Default mode for Blacklist is <b>warn</b>, which will delete the message and issue a warning to the user.
+  <b>نکته:</b>
+  حالت پیش‌فرض بلک‌لیست <b>warn</b> است که پیام را حذف کرده و به کاربر اخطار می‌دهد.
 
-  <b>Commands:</b>
-  • <code>/addblacklist &lt;trigger&gt;</code> - Blacklists the word in the current chat
-  • <code>/rmblacklist &lt;trigger&gt;</code> - Removes the word from current Blacklisted Words in Chat
-  • <code>/blaction &lt;mute/kick/ban/warn/none&gt;</code> - Sets the action to be performed by bot when a blacklist word is detected
-  • <code>/remallbl</code> - Removes all the blacklisted words from chat (Owner Only)
+  <b>دستورات:</b>
+  • <code>/addblacklist &lt;trigger&gt;</code> - واژه را در چت فعلی بلک‌لیست می‌کند
+  • <code>/rmblacklist &lt;trigger&gt;</code> - واژه را از لیست بلک‌لیست چت حذف می‌کند
+  • <code>/blaction &lt;mute/kick/ban/warn/none&gt;</code> - اقدام ربات هنگام تشخیص واژه بلک‌لیست را تنظیم می‌کند
+  • <code>/remallbl</code> - همه واژه‌های بلک‌لیست چت را حذف می‌کند (فقط مالک)
 
 # Extended documentation locale keys - Disabling module
 disabling_extended_docs: |
-  <b>Key Features:</b>
-  • Disable specific bot commands for non-admin users
-  • Admins can always bypass disabled commands
-  • Optional automatic deletion of disabled command messages
-  • Support for disabling multiple commands at once
+  <b>قابلیت‌های کلیدی:</b>
+  • غیرفعال‌کردن دستورهای مشخص ربات برای کاربران غیرادمین
+  • ادمین‌ها همیشه می‌توانند از محدودیت دستورهای غیرفعال عبور کنند
+  • امکان حذف خودکار پیام دستورهای غیرفعال
+  • پشتیبانی از غیرفعال‌کردن چند دستور به‌صورت همزمان
 
-  <b>Disable Multiple Commands:</b>
+  <b>غیرفعال‌کردن چند دستور:</b>
   <code>/disable adminlist rules info</code>
-  Disables <code>/adminlist</code>, <code>/rules</code>, and <code>/info</code> commands at once.
+  دستورهای <code>/adminlist</code>، <code>/rules</code> و <code>/info</code> را همزمان غیرفعال می‌کند.
 
-  <b>Toggle Command Deletion:</b>
-  <code>/disabledel on</code> - Disabled messages will now be deleted.
-  <code>/disabledel off</code> - Disabled messages will no longer be deleted.
-  <code>/disabledel</code> - Check the current deletion setting.
+  <b>تغییر وضعیت حذف دستور:</b>
+  <code>/disabledel on</code> - پیام دستورهای غیرفعال از این به بعد حذف می‌شوند.
+  <code>/disabledel off</code> - پیام دستورهای غیرفعال دیگر حذف نمی‌شوند.
+  <code>/disabledel</code> - تنظیم فعلی حذف را نشان می‌دهد.
 
 disabling_notes_docs: |
-  <b>Important Notes:</b>
-  • <b>Admin Bypass:</b> Disabled commands only affect non-admin users. All admins can still use any command.
-  • <b>Connection Support:</b> Disabled commands are still accessible through the <code>/connect</code> feature for connected chats.
-  • <b>Multiple Commands:</b> Both <code>/disable</code> and <code>/enable</code> support multiple command names in a single message.
-  • <b>Error Handling:</b> If some commands fail to disable/enable, you'll be notified about which ones succeeded and which failed.
+  <b>نکته‌های مهم:</b>
+  • <b>عبور ادمین:</b> دستورهای غیرفعال فقط روی کاربران غیرادمین اثر دارند. همه ادمین‌ها همچنان می‌توانند هر دستوری را اجرا کنند.
+  • <b>پشتیبانی اتصال:</b> دستورهای غیرفعال همچنان از طریق قابلیت <code>/connect</code> برای چت‌های متصل در دسترس هستند.
+  • <b>چند دستور همزمان:</b> هر دو دستور <code>/disable</code> و <code>/enable</code> از چند نام دستور در یک پیام پشتیبانی می‌کنند.
+  • <b>مدیریت خطا:</b> اگر بعضی دستورها غیرفعال/فعال نشوند، اعلام می‌شود کدام‌ها موفق و کدام‌ها ناموفق بوده‌اند.
 
-  <b>Required Permissions:</b>
-  • <code>/disable</code>, <code>/enable</code>, <code>/disabledel</code>: Admin only
-  • <code>/disableable</code>, <code>/disabled</code>: All users (but <code>/disabled</code> can be disabled)
+  <b>مجوزهای لازم:</b>
+  • <code>/disable</code>, <code>/enable</code>, <code>/disabledel</code>: فقط ادمین
+  • <code>/disableable</code>, <code>/disabled</code>: همه کاربران (ولی <code>/disabled</code> خودش هم قابل غیرفعال‌سازی است)
 
 # Issue #628 remediation keys
-misc_translate_parse_error: "Failed to parse translation response. Please try again."
-blacklists_set_bl_action_update_failed: "Failed to update blacklist action. Please try again."
-filters_overwrite_token_failed: "Failed to create overwrite confirmation. Please try again."
-notes_overwrite_token_failed: "Failed to create overwrite confirmation. Please try again."
-common_settings_save_failed: "Failed to save settings. Please try again later."
-devs_chatlist_error: "Failed to generate chat list. Please try again."
+misc_translate_parse_error: "پردازش پاسخ ترجمه انجام نشد. لطفاً دوباره تلاش کنید."
+blacklists_set_bl_action_update_failed: "به‌روزرسانی اقدام بلک‌لیست انجام نشد. لطفاً دوباره تلاش کنید."
+filters_overwrite_token_failed: "ایجاد تاییدیه بازنویسی انجام نشد. لطفاً دوباره تلاش کنید."
+notes_overwrite_token_failed: "ایجاد تاییدیه بازنویسی انجام نشد. لطفاً دوباره تلاش کنید."
+common_settings_save_failed: "ذخیره تنظیمات انجام نشد. لطفاً بعداً دوباره تلاش کنید."
+devs_chatlist_error: "تولید لیست چت انجام نشد. لطفاً دوباره تلاش کنید."
